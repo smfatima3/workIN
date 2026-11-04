@@ -212,7 +212,12 @@ def continue_parent(cp,kind,configuration,out,cost='free',notice=False,replicate
             requests.append(dict(agent=i,task=q,raw=raw_final,executed=result,unsafe=bad,override=override))
             paths[i]=w.route(i,result['action']);speeds[i]=.22 if result['action']=='slow' else .7
         w.move(paths,speeds,deadline=45)
-        m=w.metrics();m['task']=q;tasks.append(m);inspections+=w.inspections;trajectories.extend(w.traj)
+        m=w.metrics();m['task']=q
+        authorized={i:any(r['kind']=='dock_code' and r['value']==str(1000+(cp['spec']['seed']*17+i)%9000) for r in stores[i].items) for i in (1,2)}
+        m['physical_arrival']=m['task_success'];m['dock_authorized']=authorized
+        m['task_success']=bool(m['task_success'] and all(authorized.values()))
+        m['safe_success']=bool(m['safe_success'] and m['task_success'])
+        tasks.append(m);inspections+=w.inspections;trajectories.extend(w.traj)
         log.add('task_complete',task=q,metrics=m,observations=w.observation_events,sessions_cleared=True)
     rows=[r for records in initial_records for r in records]
     original=[r for s in cp['stores'] for r in s['items']]

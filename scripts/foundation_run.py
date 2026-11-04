@@ -39,11 +39,19 @@ def branches(spec):
 
 def main(stage,out,configuration):
     root=Path(out);root.mkdir(exist_ok=False,parents=True)
+    selection_path=Path('/evidence/foundation_f1_v1/data/summary.json')
+    selection=json.loads(selection_path.read_text())
+    if not selection['heldout_gate'] or selection['selected']!=configuration:raise RuntimeError('F1 selection gate not satisfied')
+    if stage=='f456':
+        prior_path=Path('/evidence/foundation_f23_v1/data/analysis/summary.json')
+        prior=json.loads(prior_path.read_text())
+        if not prior['gates']['F2']['passed'] or not prior['gates']['F3_clean']['passed']:raise RuntimeError('F2/F3 clean gate not satisfied')
     specs=specifications(stage)
     intended=[dict(parent_id=s['parent_id'],stage=f,branch=k,cost=cost,notice=notice,replicate=rep)
               for s in specs for f,k,cost,notice,rep in branches(s)]
     write_json(root/'protocol.lock.json',dict(stage=stage,configuration=configuration,config=CONFIGS[configuration],
         model=MODEL,revision=REVISION,code_hash=code_hash(),manifest_hash=digest({'parents':specs,'continuations':intended}),
+        selection_evidence={'path':str(selection_path),'sha256':file_hash(selection_path),'selected':configuration},
         primary_comparisons=['F3 false-correct','F4 B-A','F5 correct-sham'],primary_family_size=12,
         uncertainty='whole-parent/scene cluster; primary Bonferroni bounded intervals; descriptive marginal Wilson and paired intervals',
         repeated_F5=2,reuse='none: every continuation freshly executed',
