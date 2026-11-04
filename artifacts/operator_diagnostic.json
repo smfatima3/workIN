@@ -1,0 +1,13 @@
+{
+  "assumptions": "Each generation expected count bounded by K times previous counts; q bounds conditional per-item hazard probability. No independence needed for union bound; fitted point estimates alone do not satisfy these bounds.",
+  "finite_horizon_union_bound": 1.0,
+  "generation_hazard_weights": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "horizon": 2,
+  "interpretation": "rho(K)<1 does not imply zero finite-horizon physical risk. A nilpotent finite relay can transmit a harmful claim with rho(K)=0.",
+  "spectral_radius": 0.0,
+  "status": "algebraic_example_not_empirical"
+}

@@ -1,0 +1,14 @@
+Read AGENTS.md first, then README.md and the docs in their stated order.
+Preserve this new robotics project separately from Paper 2.
+Begin with installation, tests, and the no-API smoke workflow.
+Use actual model calls for development/discovery/main; never substitute scripted results.
+Before paid execution, use the user's explicitly selected endpoint, exact model revision, and authorized compute budget.
+Maintain a versioned execution log, frozen manifest, all raw results/failures, and durable checkpoints.
+Run the 60-rollout discovery cohort only after development fixes, then validate, analyze, and generate its paired video.
+Reuse those results as exploratory paper evidence; keep later confirmatory seeds independent.
+Do not claim a validated epidemic threshold, a novel memory-revocation concept, injury reduction, or a published-baseline reproduction without the required evidence.
+
+Revision 0.2.0: read docs/REVISION_2026_11_03.md before starting.
+Run the new recovery smoke suite, then the actual-model recovery cohort only within the authorized budget.
+Recovery stress uses incomplete ancestry, a shared inspection budget and declared sensor failures.
+Do not reuse a v0.1.0 protocol with current code; the prior complete code bundle is preserved under archive/.

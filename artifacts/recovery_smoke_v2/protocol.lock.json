@@ -1,0 +1,46 @@
+{
+  "code_hash": "c45e339d9b147a26fea9f60794c414e769cd8b801d96a9e1d39a5a69292073f5",
+  "environment": {
+    "packages": {
+      "Pillow": "12.3.0",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.8.0",
+      "matplotlib": "3.10.8",
+      "mujoco": "3.17.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  },
+  "important": "No guaranteed power; use 06_power.py before confirmatory freeze. Never tune on discovery or main seeds.",
+  "interaction_inference": "paired effect/CI; symmetry diagnostic exploratory",
+  "manifest_hash": "0c53d8c69a9cdc78646f820c850c8ea78c1de713ceb7e3e3c4ce274f88814f53",
+  "model": {
+    "api_timeout_s": 120,
+    "json_mode": true,
+    "max_calls_per_trial": 100,
+    "max_output_tokens": 300,
+    "model": "scripted_fixture",
+    "provider": "scripted",
+    "revision": "fixture-v1",
+    "send_seed": false,
+    "temperature": 0
+  },
+  "primary_family": [
+    "poison_effect",
+    "defense_effect"
+  ],
+  "primary_outcome": "any executed rule violation after source removal over fixed task horizon",
+  "purpose": "software_validation_only",
+  "schema_version": 2,
+  "seed_range": [
+    0,
+    0
+  ],
+  "stage": "smoke",
+  "suite": "recovery",
+  "trials": 72,
+  "utility_margin_absolute": 0.05,
+  "video_selection": "lexicographically_first_complete_selected_conditions_block; default A,B,F"
+}

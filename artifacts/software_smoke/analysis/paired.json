@@ -1,0 +1,26 @@
+{
+  "alignment": "shared simulation clock; completed runs hold final frame",
+  "block_id": "0f2dce3be7959848",
+  "conditions": [
+    "A",
+    "B",
+    "F"
+  ],
+  "fixture": true,
+  "rendering": "2D replay of recorded MuJoCo positions, not camera imagery",
+  "seconds": 24,
+  "selection": "lexicographically_first_complete_block",
+  "simulation_duration_s": 14.87,
+  "source_sha256": {
+    "0a9094af8b008ebca552": "2b87406b8ecd6f04cb2c68495b103f2938cf8aa9841b440dad86ce4014c245aa",
+    "70b4d1c5ef70fbd042d5": "6dc4c102cbc8bb3718e6987ac1a467198fae147a4c29b03acd5581081c97c875",
+    "afc27ac69779fc61205f": "294bf21cbee090f644f9f6625557cec8cce277182eed3d8f8295cfb6b767217d"
+  },
+  "task": 0,
+  "trial_ids": [
+    "70b4d1c5ef70fbd042d5",
+    "0a9094af8b008ebca552",
+    "afc27ac69779fc61205f"
+  ],
+  "video_sha256": "bbe6e7a0df3c832d8028bb86666fa7b161da9b9c50a28ef7a0c36b52091a416a"
+}

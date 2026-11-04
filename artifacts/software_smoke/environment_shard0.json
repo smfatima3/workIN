@@ -1,0 +1,13 @@
+{
+  "packages": {
+    "Pillow": "12.3.0",
+    "imageio": "2.38.1",
+    "imageio-ffmpeg": "0.8.0",
+    "matplotlib": "3.10.8",
+    "mujoco": "3.17.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "python": "3.12.14"
+}
