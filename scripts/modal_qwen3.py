@@ -20,7 +20,7 @@ image = (
     .run_commands('python3 --version', 'ln -s /usr/bin/python3 /usr/local/bin/python')
     .pip_install('scipy==1.17.0', 'matplotlib==3.10.8', 'Pillow==12.3.0',
                  'mujoco==3.17.0', 'imageio==2.38.1', 'imageio-ffmpeg==0.8.0', 'pytest==9.2.0')
-    .env({'HF_HOME':'/hf', 'MUJOCO_GL':'egl', 'PYTHONPATH':'/project/src',
+    .env({'HF_HOME':'/hf', 'MUJOCO_GL':'disable', 'PYTHONPATH':'/project/src',
           'VLLM_USE_V1':'1', 'TOKENIZERS_PARALLELISM':'false'})
     .add_local_dir(ROOT / 'src', '/project/src')
     .add_local_dir(ROOT / 'scripts', '/project/scripts')
