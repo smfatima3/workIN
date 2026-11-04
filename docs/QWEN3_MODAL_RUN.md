@@ -30,7 +30,7 @@ Authenticate with Modal's CLI or environment variables outside the repository.
 Do not commit the token or place it in evidence folders. Launch from repo root:
 
 ```sh
-modal run --detach scripts/modal_qwen3.py --stage development --version v1
+modal run --detach scripts/modal_qwen3.py --stage development --version v3
 ```
 
 The job first runs tests, physics preflight and the 72-rollout scripted recovery
@@ -41,20 +41,31 @@ Schema/HTTP failures remain failures; there is no fixture fallback.
 
 Evidence Volume: `workin-memory-safety-evidence`.
 Weight cache Volume: `workin-qwen3-hf-cache`.
-Evidence path: `/qwen3_8b_development_v1/` (manifest/results under `plan/`).
+Evidence path: `/qwen3_8b_development_v3/` (manifest/results under `plan/`).
 The Volume is committed after each completed trial and each command. Full source,
 environment, GPU details, server log and timestamped execution log are retained.
 The result ZIP contains checksums and all plan attempts. Export the parent run
 directory too, to retain infrastructure logs/source alongside the result ZIP.
 
 ```sh
-modal volume get workin-memory-safety-evidence /qwen3_8b_development_v1 ./exports/development
+mkdir -p ./exports/development
+modal volume get workin-memory-safety-evidence /qwen3_8b_development_v3 ./exports/development
 ```
 
 Use a new version for code/configuration changes. This runner does not silently
 reclaim interrupted workers, discard failed attempts, or alter frozen locks.
 Model sampling changes require a new plan. No dollar cost is asserted without
 charged provider usage; model tokens and measured elapsed time are retained.
+
+Startup history: the first image build required a `python` alias for its existing
+Python 3.12 executable. Development v1 then stopped while archiving mounted files
+whose timestamps precede ZIP's 1980 minimum; the source archiver now clamps those
+timestamps. Development v2 stopped during test collection because the image lacked
+EGL; v3 disables unused graphics rendering, since physics uses CPU MuJoCo and replay
+uses saved states/Pillow. No model trials ran in v1 or v2. Their failure evidence is
+retained on the Volume. V3 passed all 35 tests, physics preflight, and all 72 recovery
+smoke rollouts before loading Qwen. Its Python is 3.12.11 and NumPy is 2.2.6; the
+run environment records this difference from the historical package environment.
 
 ## Imported package provenance
 
