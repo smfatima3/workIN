@@ -72,7 +72,7 @@ def experiment(stage: str = 'development', version: str = 'v1'):
         (root / 'gpu.txt').write_text(subprocess.check_output(['nvidia-smi'],text=True))
         source = root / 'source.zip'
         if not source.exists():
-            with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED) as z:
+            with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED,strict_timestamps=False) as z:
                 for p in Path('/project').rglob('*'):
                     if p.is_file() and '__pycache__' not in str(p):z.write(p,p.relative_to('/project'))
         command(['-m','pytest','-q'], 'tests')
