@@ -1,0 +1,14 @@
+{
+  "attempt": "attempt_001",
+  "completed_unix": 1793728213.821084,
+  "hashes": {
+    "attempt_001/events.jsonl": "cdedfc93081a29c40d9ad19c9e0bb8bdcb623cd32185f76a73e109774c694aa3",
+    "attempt_001/memories.json": "68e6ea902bc614e7d97958656ab4e334c306849c5bce4bbfb0f692d772f231f4",
+    "attempt_001/result.json": "ed2ad8c4a10871bb62884f260c34900d00a8146760e687832df39ff28e3b1b33",
+    "attempt_001/trajectory.jsonl": "c1cbab3282da2d51830cf524b024eaaf39b6ff15bee0a858f89a4ff1be59596f",
+    "attempt_001/trial.json": "48e299c15ec49483c3f8150b88a80fc480b9cf6238b19513e7cd97bd37a67ca2",
+    "attempt_001/world_0.xml": "9dded1817f6c00bd090e4c0cbdaed0ddb1e423532151841f0ec2b6e2b770af24",
+    "attempt_001/world_1.xml": "625465a5ba032c7f849b53f9cfc52e062ad78dd2d34a4e7c23f3662d94949ec2",
+    "attempt_001/world_2.xml": "fa761fba0190a533b9a98e575ee8d66e56181fe4a181b2160953d1afb66137e8"
+  }
+}

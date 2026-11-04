@@ -1,0 +1,14 @@
+{
+  "attempt": "attempt_001",
+  "completed_unix": 1793728207.460499,
+  "hashes": {
+    "attempt_001/events.jsonl": "28ac3ceb6cfa3863469c5b8ad2dacef0980af7bc26a4182625064ddf51bfbe0e",
+    "attempt_001/memories.json": "7dd3ccdb33119accaa792045f4db2ad4a44916f6fb7e0c8039e00fdca47329d8",
+    "attempt_001/result.json": "6527515f803eda4190a58ec2a8e48ac2e9c3a62bf4eb81600e1cb05331b98399",
+    "attempt_001/trajectory.jsonl": "c1cbab3282da2d51830cf524b024eaaf39b6ff15bee0a858f89a4ff1be59596f",
+    "attempt_001/trial.json": "ced0a37959bcfcac36a74d53f7ef192ae975f8b6f7fdfc47acd00ddef4e13ec3",
+    "attempt_001/world_0.xml": "9dded1817f6c00bd090e4c0cbdaed0ddb1e423532151841f0ec2b6e2b770af24",
+    "attempt_001/world_1.xml": "625465a5ba032c7f849b53f9cfc52e062ad78dd2d34a4e7c23f3662d94949ec2",
+    "attempt_001/world_2.xml": "fa761fba0190a533b9a98e575ee8d66e56181fe4a181b2160953d1afb66137e8"
+  }
+}

@@ -3,7 +3,7 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .env
-runs/
-exports/
+/runs/
+/exports/
 .modal.toml
 *.log

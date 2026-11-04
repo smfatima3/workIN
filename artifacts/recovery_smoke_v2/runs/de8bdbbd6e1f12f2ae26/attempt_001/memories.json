@@ -1,0 +1,108 @@
+{
+  "after": [
+    {
+      "agent": "robot0",
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "items": []
+    },
+    {
+      "agent": "robot1",
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "items": []
+    },
+    {
+      "agent": "robot2",
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "items": []
+    }
+  ],
+  "before_repair": [
+    {
+      "agent": "robot0",
+      "hash": "1dc9ba22959181d650187f25ff5dc8d4b9ab4b098ab039a7e67ab6196304fad1",
+      "items": [
+        {
+          "agent": "robot0",
+          "belief": "unknown",
+          "id": "robot0:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign0"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1000",
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot1",
+      "hash": "acf76571c6a307f57ae1ff21a25f3e4f8c6e802b9c0950639cda9923c2af0186",
+      "items": [
+        {
+          "agent": "robot1",
+          "belief": "unknown",
+          "id": "robot1:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign1"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1001",
+          "written_task": 0
+        },
+        {
+          "agent": "robot1",
+          "belief": "unrestricted",
+          "id": "robot1:m2",
+          "kind": "zone",
+          "origins": [
+            "source_record"
+          ],
+          "parents": [
+            "robot0:m2"
+          ],
+          "share": true,
+          "value": null,
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot2",
+      "hash": "a1f522fd7d49ce5be6d12d48b235060a54e936c57ad252e2770bd1ff27496ccd",
+      "items": [
+        {
+          "agent": "robot2",
+          "belief": "unknown",
+          "id": "robot2:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign2"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1002",
+          "written_task": 0
+        },
+        {
+          "agent": "robot2",
+          "belief": "unrestricted",
+          "id": "robot2:m2",
+          "kind": "zone",
+          "origins": [
+            "source_record"
+          ],
+          "parents": [
+            "robot1:m2"
+          ],
+          "share": true,
+          "value": null,
+          "written_task": 1
+        }
+      ]
+    }
+  ]
+}

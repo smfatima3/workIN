@@ -1,0 +1,21 @@
+{
+  "block_id": "5c1b5771f5daf87e",
+  "condition": "B",
+  "deadline_s": 45.0,
+  "delay_tasks": 1,
+  "horizon": 1,
+  "n_robots": 3,
+  "restricted": true,
+  "scenario": "exclusion",
+  "seed": 1,
+  "sensor_fail": false,
+  "setting": {
+    "defense": "none",
+    "persistent": true,
+    "poison": true
+  },
+  "stage": "smoke",
+  "topology": "chain",
+  "trial_id": "f0eb23fd216f4185f3cc",
+  "ttl_tasks": 1
+}

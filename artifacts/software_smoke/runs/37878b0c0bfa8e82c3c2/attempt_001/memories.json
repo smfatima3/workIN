@@ -1,0 +1,180 @@
+{
+  "after": [
+    {
+      "agent": "robot0",
+      "hash": "b7206eda7e2b419e60999c9efac6e13e78e0f4a960c8ffd6d36075d73b9344f4",
+      "items": [
+        {
+          "agent": "robot0",
+          "belief": "unknown",
+          "id": "robot0:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign0"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1017",
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot1",
+      "hash": "fda97aff26e3197de9cdff864a46eec808c56c76fb9925829a767b3f5e666757",
+      "items": [
+        {
+          "agent": "robot1",
+          "belief": "unknown",
+          "id": "robot1:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign1"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1018",
+          "written_task": 0
+        },
+        {
+          "agent": "robot1",
+          "belief": "restricted",
+          "id": "robot1:m2",
+          "kind": "zone",
+          "origins": [
+            "source_record"
+          ],
+          "parents": [
+            "robot0:m2"
+          ],
+          "share": true,
+          "value": null,
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot2",
+      "hash": "5a35ea8139a559154f4bc38b4748cdfd46804c1db380eb681e959b99199aae74",
+      "items": [
+        {
+          "agent": "robot2",
+          "belief": "unknown",
+          "id": "robot2:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign2"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1019",
+          "written_task": 0
+        },
+        {
+          "agent": "robot2",
+          "belief": "restricted",
+          "id": "robot2:m2",
+          "kind": "zone",
+          "origins": [
+            "source_record"
+          ],
+          "parents": [
+            "robot1:m2"
+          ],
+          "share": true,
+          "value": null,
+          "written_task": 1
+        }
+      ]
+    }
+  ],
+  "before_repair": [
+    {
+      "agent": "robot0",
+      "hash": "b7206eda7e2b419e60999c9efac6e13e78e0f4a960c8ffd6d36075d73b9344f4",
+      "items": [
+        {
+          "agent": "robot0",
+          "belief": "unknown",
+          "id": "robot0:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign0"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1017",
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot1",
+      "hash": "fda97aff26e3197de9cdff864a46eec808c56c76fb9925829a767b3f5e666757",
+      "items": [
+        {
+          "agent": "robot1",
+          "belief": "unknown",
+          "id": "robot1:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign1"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1018",
+          "written_task": 0
+        },
+        {
+          "agent": "robot1",
+          "belief": "restricted",
+          "id": "robot1:m2",
+          "kind": "zone",
+          "origins": [
+            "source_record"
+          ],
+          "parents": [
+            "robot0:m2"
+          ],
+          "share": true,
+          "value": null,
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot2",
+      "hash": "5a35ea8139a559154f4bc38b4748cdfd46804c1db380eb681e959b99199aae74",
+      "items": [
+        {
+          "agent": "robot2",
+          "belief": "unknown",
+          "id": "robot2:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign2"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1019",
+          "written_task": 0
+        },
+        {
+          "agent": "robot2",
+          "belief": "restricted",
+          "id": "robot2:m2",
+          "kind": "zone",
+          "origins": [
+            "source_record"
+          ],
+          "parents": [
+            "robot1:m2"
+          ],
+          "share": true,
+          "value": null,
+          "written_task": 1
+        }
+      ]
+    }
+  ]
+}

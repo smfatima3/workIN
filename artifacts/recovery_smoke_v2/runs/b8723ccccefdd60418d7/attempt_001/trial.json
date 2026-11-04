@@ -1,0 +1,24 @@
+{
+  "block_id": "05b2b01ea2a4aa60",
+  "condition": "full_reset_clean",
+  "deadline_s": 45.0,
+  "delay_tasks": 1,
+  "dock_lookup_delay_s": 4.0,
+  "horizon": 3,
+  "inspection_budget": 3,
+  "n_robots": 3,
+  "provenance_coverage": 1.0,
+  "restricted": true,
+  "scenario": "exclusion",
+  "seed": 0,
+  "sensor_fail": false,
+  "setting": {
+    "defense": "full_reset",
+    "persistent": true,
+    "poison": false
+  },
+  "stage": "smoke",
+  "topology": "chain",
+  "trial_id": "b8723ccccefdd60418d7",
+  "ttl_tasks": 1
+}

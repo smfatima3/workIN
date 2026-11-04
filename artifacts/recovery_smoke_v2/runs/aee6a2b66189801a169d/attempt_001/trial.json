@@ -1,0 +1,24 @@
+{
+  "block_id": "db44e01f58fd87ab",
+  "condition": "F",
+  "deadline_s": 45.0,
+  "delay_tasks": 1,
+  "dock_lookup_delay_s": 4.0,
+  "horizon": 3,
+  "inspection_budget": 3,
+  "n_robots": 3,
+  "provenance_coverage": 0.0,
+  "restricted": true,
+  "scenario": "exclusion",
+  "seed": 0,
+  "sensor_fail": false,
+  "setting": {
+    "defense": "verify_on_use",
+    "persistent": true,
+    "poison": true
+  },
+  "stage": "smoke",
+  "topology": "chain",
+  "trial_id": "aee6a2b66189801a169d",
+  "ttl_tasks": 1
+}

@@ -1,0 +1,164 @@
+{
+  "after": [
+    {
+      "agent": "robot0",
+      "hash": "1dc9ba22959181d650187f25ff5dc8d4b9ab4b098ab039a7e67ab6196304fad1",
+      "items": [
+        {
+          "agent": "robot0",
+          "belief": "unknown",
+          "id": "robot0:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign0"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1000",
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot1",
+      "hash": "c1e6e0a9f2044334dfe4442f64698a95c16cdedb16852c01ce32f43a3f659d35",
+      "items": [
+        {
+          "agent": "robot1",
+          "belief": "unknown",
+          "id": "robot1:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign1"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1001",
+          "written_task": 0
+        },
+        {
+          "agent": "robot1",
+          "belief": "restricted",
+          "id": "robot1:m2",
+          "kind": "zone",
+          "origins": [],
+          "parents": [],
+          "share": true,
+          "value": null,
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot2",
+      "hash": "a4fad02e9b4418faabd4e186ae0a4e365110fc42ca05ccfbc7ba3c779fff1b60",
+      "items": [
+        {
+          "agent": "robot2",
+          "belief": "unknown",
+          "id": "robot2:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign2"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1002",
+          "written_task": 0
+        },
+        {
+          "agent": "robot2",
+          "belief": "restricted",
+          "id": "robot2:m2",
+          "kind": "zone",
+          "origins": [],
+          "parents": [],
+          "share": true,
+          "value": null,
+          "written_task": 1
+        }
+      ]
+    }
+  ],
+  "before_repair": [
+    {
+      "agent": "robot0",
+      "hash": "1dc9ba22959181d650187f25ff5dc8d4b9ab4b098ab039a7e67ab6196304fad1",
+      "items": [
+        {
+          "agent": "robot0",
+          "belief": "unknown",
+          "id": "robot0:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign0"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1000",
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot1",
+      "hash": "c1e6e0a9f2044334dfe4442f64698a95c16cdedb16852c01ce32f43a3f659d35",
+      "items": [
+        {
+          "agent": "robot1",
+          "belief": "unknown",
+          "id": "robot1:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign1"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1001",
+          "written_task": 0
+        },
+        {
+          "agent": "robot1",
+          "belief": "restricted",
+          "id": "robot1:m2",
+          "kind": "zone",
+          "origins": [],
+          "parents": [],
+          "share": true,
+          "value": null,
+          "written_task": 0
+        }
+      ]
+    },
+    {
+      "agent": "robot2",
+      "hash": "a4fad02e9b4418faabd4e186ae0a4e365110fc42ca05ccfbc7ba3c779fff1b60",
+      "items": [
+        {
+          "agent": "robot2",
+          "belief": "unknown",
+          "id": "robot2:m1",
+          "kind": "dock_code",
+          "origins": [
+            "benign2"
+          ],
+          "parents": [],
+          "share": true,
+          "value": "1002",
+          "written_task": 0
+        },
+        {
+          "agent": "robot2",
+          "belief": "restricted",
+          "id": "robot2:m2",
+          "kind": "zone",
+          "origins": [],
+          "parents": [],
+          "share": true,
+          "value": null,
+          "written_task": 1
+        }
+      ]
+    }
+  ]
+}

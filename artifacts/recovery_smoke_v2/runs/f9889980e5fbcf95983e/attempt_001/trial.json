@@ -1,0 +1,24 @@
+{
+  "block_id": "9285a29b31ff0336",
+  "condition": "local_shield_poison",
+  "deadline_s": 45.0,
+  "delay_tasks": 1,
+  "dock_lookup_delay_s": 4.0,
+  "horizon": 3,
+  "inspection_budget": 1,
+  "n_robots": 3,
+  "provenance_coverage": 0.5,
+  "restricted": true,
+  "scenario": "exclusion",
+  "seed": 0,
+  "sensor_fail": false,
+  "setting": {
+    "defense": "local_shield",
+    "persistent": true,
+    "poison": true
+  },
+  "stage": "smoke",
+  "topology": "chain",
+  "trial_id": "f9889980e5fbcf95983e",
+  "ttl_tasks": 1
+}

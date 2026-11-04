@@ -1,0 +1,24 @@
+{
+  "block_id": "0411d7021a6c5440",
+  "condition": "lineage_revoke_poison",
+  "deadline_s": 45.0,
+  "delay_tasks": 1,
+  "dock_lookup_delay_s": 4.0,
+  "horizon": 3,
+  "inspection_budget": 0,
+  "n_robots": 3,
+  "provenance_coverage": 0.5,
+  "restricted": true,
+  "scenario": "exclusion",
+  "seed": 0,
+  "sensor_fail": false,
+  "setting": {
+    "defense": "lineage_revoke",
+    "persistent": true,
+    "poison": true
+  },
+  "stage": "smoke",
+  "topology": "chain",
+  "trial_id": "0415940665232ad0f56e",
+  "ttl_tasks": 1
+}
