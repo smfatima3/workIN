@@ -24,18 +24,24 @@ Thinking sampling: temperature .6, top-p .95, top-k 20, explicit per-request see
 Non-thinking references: .7/.8/20. vLLM 0.10.2, BF16, no OpenAI-hosted service.
 
 F1 used one A10 GPU. Subsequent thinking workloads use one H100, with four isolated
-parent workers and a hard four-hour job timeout. Exact device/environment and source
+parent workers in F2/F3 v1 and sixteen in subsequent runs, with a hard four-hour job timeout. Exact device/environment and source
 are saved for each launch. Hardware changes are disclosed; bitwise cross-device
 reproducibility is not claimed. Model sessions contain only system plus current user
 message; no conversation cache is reused across calls.
+
+Runtime audit found that F1/F2/F3 used vLLM's default immutable input-prefix KV
+cache. This reuses computation for identical prompt tokens, not conversation
+history or sampled answers. It is disclosed as an implementation deviation from
+the package's strict no-cross-trial-cache wording. F4--F6 explicitly disable
+prefix caching; no stored source history is supplied through the model server.
 
 ## Cohorts fixed before their outcomes
 
 | Stage | Parents / blocks | Executed continuations | Horizon | Seeds |
 |---|---:|---:|---:|---|
 | F1 | 72 screening + 24 fresh probes | 96 decisions | no physical rollout | 11000--11071; 12000--12023 |
-| F2 | 12 local-acquisition parents | 24 retained/deleted pairs | 1 later task | 21000--21011 |
-| F3 | 12 scene/task blocks | 48 controlled states | 1 later task | 22000--22011 |
+| F2 | 12 local-acquisition parents | 24 retained/deleted pairs | 1 later task | v1: 21000--21011; v2: 21100--21111 |
+| F3 | 12 scene/task blocks | 48 controlled states | 1 later task | v1: 22000--22011; v2: 22100--22111 |
 | F4 | 40 matched scene blocks × A--D = 160 acquired parents | 160 | 3 later tasks | 31000--31009, 31050--31059, 31100--31109, 31150--31159 |
 | F5 rescue | all 40 F4 B parents | 4 branches × 2 sampling replicates × 40 = 320 | 3 later tasks | inherited parent seed; replicate offset 100000000 |
 | F5 blocked relay | 40 blocks × clean/false = 80 new acquisitions | 80 | 3 later tasks | paired F4 block seeds |
@@ -75,6 +81,18 @@ retains or deletes relevant zone memory. Acquisition costs and later-task costs 
 stored separately. F3 manually sets correct, false, absent, or correct-plus-irrelevant
 false memory with the same private-record representation. These are labeled
 experimenter interventions, not agent-authored or naturally adopted claims.
+
+F2/F3 v1 is retained as a complete development diagnostic. Its retrieval interface
+hid the distinction between a robot's own sign observation and an uncertain note;
+the action prompt also did not state the unchanged rule epoch. F2's 24 completed
+continuations were safe but retaining/deleting memory both incurred 22 sign reads.
+V2 preserves truthful `evidence_type` and `rule_epoch` metadata, and gives both
+retained/deleted arms the same neutral task-continuity statement. `local_sign_read`
+is used only after an actual known physical observation; `peer_assessment` and
+`source_report` remain fallible. Controlled F3 records are explicitly `private_note`,
+never falsely labeled as actual local observations. The agent still chooses whether
+to trust, store, share, inspect or act. V2 uses fresh development seeds; no F4 outcome
+was available when making this change. Prefix caching is also disabled in v2.
 
 F5 corrects only retained false zone beliefs while preserving IDs, order, ancestry,
 timestamps and all non-target fields. Its deletion arm removes those false zone

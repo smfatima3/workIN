@@ -6,9 +6,9 @@ if not modal.is_local():sys.path.insert(0,'/project/scripts')
 from modal_qwen3 import image,evidence,weights,MODEL,REVISION
 app=modal.App('workin-foundation-f1-f6')
 
-@app.function(image=image,gpu='H100',cpu=4,memory=32768,
+@app.function(image=image,gpu='H100',cpu=8,memory=32768,
               volumes={'/evidence':evidence,'/hf':weights},timeout=14400,max_containers=1,retries=0)
-def run(stage: str,version: str,configuration: str='explicit'):
+def run(stage: str,version: str,configuration: str='explicit',development_offset: int=0):
     import datetime,json,os,subprocess,sys,time,urllib.request,zipfile,hashlib
     if stage not in ('f1','f23','f456'):raise ValueError(stage)
     if not version.replace('_','').isalnum():raise ValueError(version)
@@ -44,7 +44,7 @@ def run(stage: str,version: str,configuration: str='explicit'):
             server=subprocess.Popen([sys.executable,'-m','vllm.entrypoints.openai.api_server','--model',MODEL,
                 '--revision',REVISION,'--tokenizer-revision',REVISION,'--host','127.0.0.1','--port','8000',
                 '--dtype','bfloat16','--max-model-len','8192','--gpu-memory-utilization','0.9',
-                '--max-num-seqs','4','--enforce-eager','--seed','9217'],stdout=slog,stderr=subprocess.STDOUT)
+                '--max-num-seqs','16','--enforce-eager','--no-enable-prefix-caching','--seed','9217'],stdout=slog,stderr=subprocess.STDOUT)
             deadline=time.monotonic()+900
             while time.monotonic()<deadline:
                 if server.poll() is not None:raise RuntimeError('vLLM startup failed')
@@ -56,6 +56,7 @@ def run(stage: str,version: str,configuration: str='explicit'):
             os.environ['MRS_API_BASE']='http://127.0.0.1:8000/v1'
             args=['scripts/foundation_f1.py','--out',str(root/'data')] if stage=='f1' else [
                 'scripts/foundation_run.py','--stage',stage,'--configuration',configuration,'--out',str(root/'data')]
+            if stage=='f23':args+=['--development-offset',str(development_offset)]
             command(args,stage)
         note(f'Completed {stage}; monotonic elapsed {time.monotonic()-start:.3f}s; charges not estimated.')
     except BaseException as e:
@@ -73,5 +74,5 @@ def run(stage: str,version: str,configuration: str='explicit'):
     return {'status':'complete','path':str(root)}
 
 @app.local_entrypoint()
-def main(stage: str='f1',version: str='v1',configuration: str='explicit'):
-    print(run.remote(stage,version,configuration))
+def main(stage: str='f1',version: str='v1',configuration: str='explicit',development_offset: int=0):
+    print(run.remote(stage,version,configuration,development_offset))

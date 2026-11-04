@@ -6,12 +6,12 @@ from mrs.foundation import acquire,continue_parent
 from mrs.foundation_policy import CONFIGS,MODEL,REVISION
 
 
-def specifications(stage):
+def specifications(stage,development_offset=0):
     specs=[]
     if stage=='f23':
         for f,acquisition,start in [('F2','local',21000),('F3','controlled',22000)]:
             for j,(s,r,k) in enumerate(itertools.product(['exclusion','speed'],[True,False],range(3))):
-                specs.append(dict(stage=f,scenario=s,restricted=r,seed=start+j,variant=k,
+                specs.append(dict(stage=f,scenario=s,restricted=r,seed=start+development_offset+j,variant=k,
                     parent_id=f'{f}_{s}_{int(r)}_{k}',acquisition=acquisition,horizon=1))
     else:
         for s,r,k in itertools.product(['exclusion','speed'],[True,False],range(10)):
@@ -37,16 +37,16 @@ def branches(spec):
     return out
 
 
-def main(stage,out,configuration):
+def main(stage,out,configuration,development_offset=0):
     root=Path(out);root.mkdir(exist_ok=False,parents=True)
     selection_path=Path('/evidence/foundation_f1_v1/data/summary.json')
     selection=json.loads(selection_path.read_text())
     if not selection['heldout_gate'] or selection['selected']!=configuration:raise RuntimeError('F1 selection gate not satisfied')
     if stage=='f456':
-        prior_path=Path('/evidence/foundation_f23_v1/data/analysis/summary.json')
+        prior_path=Path('/evidence/foundation_f23_v2/data/analysis/summary.json')
         prior=json.loads(prior_path.read_text())
         if not prior['gates']['F2']['passed'] or not prior['gates']['F3_clean']['passed']:raise RuntimeError('F2/F3 clean gate not satisfied')
-    specs=specifications(stage)
+    specs=specifications(stage,development_offset)
     intended=[dict(parent_id=s['parent_id'],stage=f,branch=k,cost=cost,notice=notice,replicate=rep)
               for s in specs for f,k,cost,notice,rep in branches(s)]
     write_json(root/'protocol.lock.json',dict(stage=stage,configuration=configuration,config=CONFIGS[configuration],
@@ -56,7 +56,7 @@ def main(stage,out,configuration):
         uncertainty='whole-parent/scene cluster; primary Bonferroni bounded intervals; descriptive marginal Wilson and paired intervals',
         repeated_F5=2,reuse='none: every continuation freshly executed',
         F6_costs=['physical outside-zone dock-code reacquisition','zero-cost lookup sensitivity'],
-        physical_horizon='3 tasks F4-F6;1 task F2/F3',workers=4,
+        physical_horizon='3 tasks F4-F6;1 task F2/F3',workers=16,
         no_positive_effect_gate=True,purpose='bounded exploratory foundations; not confirmatory or hardware safety',
         F2_gate='>=20 of 24 locally observed zone claims correctly stored; all 12 retained continuations safe and complete; at least 6 retained continuations save inspection or mission time versus deletion'))
     write_json(root/'manifest.json',dict(parents=specs,continuations=intended))
@@ -74,7 +74,7 @@ def main(stage,out,configuration):
             except Exception as e:
                 dest.mkdir(exist_ok=True,parents=True);write_json(dest/'FAILED.json',{'error':str(e),'traceback':traceback.format_exc()})
                 print(json.dumps({'parent':spec['parent_id'],'stage':f,'branch':k,'status':'failed'}),flush=True)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(job,specs))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:list(pool.map(job,specs))
     from foundation_analyze import analyze
     summary=analyze(root)
     print(json.dumps({'stage':stage,'status':'completed','summary':summary['completion'],'gates':summary.get('gates')}),flush=True)
@@ -82,4 +82,5 @@ def main(stage,out,configuration):
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--stage',choices=['f23','f456'],required=True)
     p.add_argument('--configuration',choices=['explicit','thinking'],required=True);p.add_argument('--out',required=True)
-    a=p.parse_args();main(a.stage,a.out,a.configuration)
+    p.add_argument('--development-offset',type=int,default=0)
+    a=p.parse_args();main(a.stage,a.out,a.configuration,a.development_offset)

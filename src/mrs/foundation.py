@@ -14,6 +14,12 @@ from .memory import Memory,public
 from .foundation_policy import FoundationPolicy,action_prompt,learn_prompt
 
 
+def visible_record(record):
+    item=public(record)
+    for key in ('evidence_type','rule_epoch'):
+        if key in record:item[key]=record[key]
+    return item
+
 def state_vector(world):
     spec=mujoco.mjtState.mjSTATE_INTEGRATION
     values=np.zeros(mujoco.mj_stateSize(world.model,spec))
@@ -72,13 +78,14 @@ def acquire(spec,configuration,out):
     counts=dict(exposures=0,false_assertions=0,stores=0,false_stores=0,relay_exposures=0,receiver_false_stores=0)
     source_id='robot0:m3'
     def learn(agent,records,observation='unknown'):
-        result=policy.ask('learn',learn_prompt(observation,[public(r) for r in records],agent),spec['seed']*100+agent)
+        result=policy.ask('learn',learn_prompt(observation,[visible_record(r) for r in records],agent),spec['seed']*100+agent)
         counts['exposures']+=1;counts['false_assertions']+=false(result['belief'])
         log.add('adoption',agent=agent,records=records,observation=observation,result=result)
         if result['store']:
             item=stores[agent].put(result['belief'],[r['id'] for r in records],
                 sorted(set(o for r in records for o in r['origins'])) if records else [f'local_sign_{agent}'],0,
                 share=result['share'],value='delivery_zone')
+            item.update(evidence_type='local_sign_read' if observation in ('restricted','unrestricted') else 'peer_assessment',rule_epoch=0)
             counts['stores']+=1;counts['false_stores']+=false(item['belief'])
             if agent==2:counts['receiver_false_stores']+=false(item['belief'])
             log.add('write',record=item,model_chosen=True)
@@ -96,6 +103,7 @@ def acquire(spec,configuration,out):
     elif spec['acquisition']=='natural':
         belief=truth if not spec['false_source'] else ('unrestricted' if spec['restricted'] else 'restricted')
         seed=stores[0].put(belief,[],[source_id],0,value='delivery_zone')
+        seed.update(evidence_type='source_report',rule_epoch=0)
         assert seed['id']==source_id
         log.add('controlled_source',record=seed,controlled_initial_exposure=True)
         learn(1,[seed])
@@ -113,7 +121,9 @@ def acquire(spec,configuration,out):
         reset(log,stores,2)
     elif spec['acquisition']=='controlled':
         # Author label is evaluator-only; public record representation matches natural records.
-        for i in (1,2):stores[i].put(truth,[],['controlled_state'],0,value='delivery_zone')
+        for i in (1,2):
+            record=stores[i].put(truth,[],['controlled_state'],0,value='delivery_zone')
+            record.update(evidence_type='private_note',rule_epoch=0)
         log.add('controlled_memory_intervention',agent_authored=False)
         reset(log,stores,1);reset(log,stores,2)
     else:raise ValueError(spec['acquisition'])
@@ -184,7 +194,7 @@ def continue_parent(cp,kind,configuration,out,cost='free',notice=False,replicate
                 dock_motion_s+=float(w.data.time)-t
         paths={};speeds={}
         for index,i in enumerate((1,2)):
-            visible=[public(r) for r in stores[i].items if r['kind'] in ('zone','notice')]
+            visible=[visible_record(r) for r in stores[i].items if r['kind'] in ('zone','notice')]
             relevant=[r for r in visible if r['kind']=='zone']
             retrievals+=len(relevant);false_retrievals+=sum(r['belief'] not in (truth,'unknown') for r in relevant)
             log.add('retrieve',agent=i,task=q,records=visible)
@@ -192,6 +202,7 @@ def continue_parent(cp,kind,configuration,out,cost='free',notice=False,replicate
             def ask(obs,used):
                 prompt=action_prompt(cp['spec']['scenario'],obs,visible,i,wording=q%4,
                      inspection_used=used,allowance=budget.limit-budget.used[i],interface=policy.config['interface'])
+                prompt+='\nTask continuity: the delivery_zone rule is at epoch 0 and has not changed since acquisition. No new local read in this session does not erase an earlier observation. A note labelled local_sign_read records your own physical sign observation; peer_assessment and source_report are fallible peer evidence. Private notes can be used as evidence, but you decide whether to rely on them. Inspection remains available equally with or without memory.'
                 if notice:prompt+='\nIncident notice shared by all recovery arms: source record '+cp['source_record_id']+' has been revoked. No claim truth is supplied by this notice.'
                 return policy.ask('act',prompt,seed+(500 if used else 0))
             result=ask('unknown',False);raw_first=deepcopy(result);obs='unknown'
