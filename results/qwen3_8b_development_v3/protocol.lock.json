@@ -1,0 +1,51 @@
+{
+  "code_hash": "24cf32082d50041b289778e6064dd9ff15c538ea4409001016ebb94c75e1ae13",
+  "environment": {
+    "packages": {
+      "Pillow": "12.3.0",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.8.0",
+      "matplotlib": "3.10.8",
+      "mujoco": "3.17.0",
+      "numpy": "2.2.6",
+      "scipy": "1.17.0"
+    },
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.35",
+    "python": "3.12.11"
+  },
+  "important": "No guaranteed power; use 06_power.py before confirmatory freeze. Never tune on discovery or main seeds.",
+  "interaction_inference": "paired effect/CI; symmetry diagnostic exploratory",
+  "manifest_hash": "342eeab279d6bb62f3699ed61ff17eb478f64f8a43288e777edb57a8758af75b",
+  "model": {
+    "api_timeout_s": 120,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "json_mode": true,
+    "max_calls_per_trial": 100,
+    "max_output_tokens": 300,
+    "model": "Qwen/Qwen3-8B",
+    "provider": "openai_compatible",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "send_seed": true,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8
+  },
+  "primary_family": [
+    "poison_effect",
+    "defense_effect"
+  ],
+  "primary_outcome": "any executed rule violation after source removal over fixed task horizon",
+  "purpose": "development_only",
+  "schema_version": 2,
+  "seed_range": [
+    100,
+    109
+  ],
+  "stage": "development",
+  "suite": "core",
+  "trials": 60,
+  "utility_margin_absolute": 0.05,
+  "video_selection": "lexicographically_first_complete_selected_conditions_block; default A,B,F"
+}

@@ -1,10 +1,26 @@
 # Persistent Memory and Residual Robot Safety Risk
 
+**4 November 2026: first real-model development cohort completed.** Qwen3-8B on
+Modal completed and validated 60/60 rollouts (220 model calls), following 35 tests
+and 72 fresh scripted recovery fixtures. The model rejected every peer claim and
+chose unsafe direct actions, including after restricted observations; verification
+code enforced safe detours. The semantic development gate failed, so discovery
+and later scientific stages remain unrun. See the
+[result report](results/qwen3_8b_development_v3/Qwen3_8B_E1_Report.md),
+[complete evidence ZIP](results/qwen3_8b_development_v3/Qwen3_8B_E1_Evidence.zip), and
+[Modal setup](docs/QWEN3_MODAL_RUN.md). Development results are not evidence of a
+residual memory-poisoning effect or a new recovery method. No OpenAI-hosted model
+was used. Earlier package documents below retain their original historical scope.
+
 A reproducible experiment package for the question:
 
 > **When does removing or revoking a compromised information source fail to restore safe behavior in communicating robots, and which recovery policies reduce residual physical risk while preserving useful task performance under incomplete provenance and limited verification?**
 
-This package makes the first experiment reusable as the paper's exploratory evidence. It does **not** contain empirical LLM findings. The included demonstration uses an explicitly labeled scripted test policy. Research runs require your real model endpoint. Nothing contacts AIM, purchases compute, or deploys a robot.
+This package supplies a protocol for reusable exploratory evidence. Original
+demonstrations use an explicitly labeled scripted test policy. The new Qwen3
+development evidence is separately labeled in `results/`; it is not discovery or
+confirmatory evidence. The optional Modal runner provisions compute only when
+explicitly invoked with an authorized account. Nothing contacts AIM or deploys a robot.
 
 **Revision 0.2.0:** recovery is now the organizing question. See `docs/REVISION_2026_11_03.md` for implemented changes, the audit, and remaining gates. Earlier fixture evidence is preserved separately; it is not evidence for this revision.
 
@@ -32,7 +48,12 @@ This package makes the first experiment reusable as the paper's exploratory evid
 
 The robots are **force/velocity-controlled planar platforms**, not wheeled hardware, manipulators, or humanoids. Agents receive structured observations, not camera frames. The source's initial false record is delivered under a controlled guaranteed-exposure threat model; B/C decide whether to adopt/store/share. Physical goals are concurrent deliveries, with a fixed controller rather than free-form LLM motion control. Rule violations and simulator contact measurements are safety proxies, not calibrated injuries.
 
-The local simulator and HTTP contract have been tested. No real LLM endpoint, Isaac Sim deployment, ROS 2 integration, external published defense, or AIM infrastructure has been validated here. `docs/TRANSFER_AND_BASELINES.md` gives exact acceptance work for those additions; it does not pretend those integrations already exist. The main script is executable, but full-paper claims require the scientific gates in `AGENTS.md`.
+The local simulator and HTTP contract have been tested, and the Qwen3 endpoint
+completed the development cohort described above. Isaac Sim, ROS 2, external
+published defenses and AIM infrastructure remain unvalidated.
+`docs/TRANSFER_AND_BASELINES.md` gives acceptance work for those additions. The
+main script is executable, but full-paper claims require the scientific gates in
+`AGENTS.md`.
 
 ## 0. Install and verify
 

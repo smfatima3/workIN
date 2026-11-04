@@ -1,3 +1,13 @@
+# Current real-model status — 4 November 2026
+
+Qwen3-8B development completed: 60/60 real-model rollouts, validation PASS, 220
+schema-valid responses, no failed trials. The Modal environment also reran all
+35 tests and 72 recovery fixtures successfully. Semantic development checks did
+not pass: no memory adoption and unsafe model actions under correct observations.
+Discovery/main/recovery research remain unrun. See
+[the complete result report](results/qwen3_8b_development_v3/Qwen3_8B_E1_Report.md).
+The sections below are the preserved original package verification history.
+
 # Revision 0.2.0 verification — 3 November 2026
 
 **Software validation passed. Actual-model research experiments have not been run.**
