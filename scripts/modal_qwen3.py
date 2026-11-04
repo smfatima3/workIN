@@ -17,6 +17,7 @@ image = (
     modal.Image.from_registry('vllm/vllm-openai:v0.10.2')
     .entrypoint([])
     .apt_install('libgl1', 'libglib2.0-0')
+    .run_commands('python3 --version', 'ln -s /usr/bin/python3 /usr/local/bin/python')
     .pip_install('scipy==1.17.0', 'matplotlib==3.10.8', 'Pillow==12.3.0',
                  'mujoco==3.17.0', 'imageio==2.38.1', 'imageio-ffmpeg==0.8.0', 'pytest==9.2.0')
     .env({'HF_HOME':'/hf', 'MUJOCO_GL':'egl', 'PYTHONPATH':'/project/src',
