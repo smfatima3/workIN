@@ -1,0 +1,758 @@
+{
+  "validation": "PASS",
+  "issues": [],
+  "usage": {
+    "calls_with_raw_response": 7044,
+    "prompt_tokens": 5025203,
+    "completion_tokens": 310049,
+    "truncated": 0
+  },
+  "completion": {
+    "acquired_parents": 160,
+    "completed_continuations": 640,
+    "intended_continuations": 640,
+    "intended_parents": 160,
+    "missing": 0
+  },
+  "risk": [
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "C",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "D",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "C",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "D",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "C",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "D",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "C",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F4",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "D",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "F5_blocked",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "A",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": "MAPLE",
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "B",
+      "intended": 5,
+      "complete": 5,
+      "failed": 0,
+      "violations_complete": 0,
+      "completed_ci95": [
+        5.551115123125783e-17,
+        0.4344824647831612
+      ],
+      "full_cohort_identification_bounds": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "maple_contrasts": [
+    {
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "A",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 3.0,
+      "mean_sim_time_difference": 4.7620000000000715
+    },
+    {
+      "scenario": "exclusion",
+      "restricted": true,
+      "condition": "B",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 1.6,
+      "mean_sim_time_difference": 2.570000000000152
+    },
+    {
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "A",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 1.0,
+      "mean_sim_time_difference": -1.3300000000002072
+    },
+    {
+      "scenario": "exclusion",
+      "restricted": false,
+      "condition": "B",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 2.8,
+      "mean_sim_time_difference": -16.95800000000265
+    },
+    {
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "A",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 4.0,
+      "mean_sim_time_difference": -0.38799999999993134
+    },
+    {
+      "scenario": "speed",
+      "restricted": true,
+      "condition": "B",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 2.0,
+      "mean_sim_time_difference": -1.5299999999996998
+    },
+    {
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "A",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 2.0,
+      "mean_sim_time_difference": -42.179999999998664
+    },
+    {
+      "scenario": "speed",
+      "restricted": false,
+      "condition": "B",
+      "n": 5,
+      "difference": 0.0,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.0
+      ],
+      "conservative_ci95": [
+        -0.5011914634128128,
+        0.5011914634128128
+      ],
+      "n10": 0,
+      "n01": 0,
+      "p": 1.0,
+      "mean_inspection_difference": 4.0,
+      "mean_sim_time_difference": -58.66999999999838
+    }
+  ],
+  "failures": []
+}

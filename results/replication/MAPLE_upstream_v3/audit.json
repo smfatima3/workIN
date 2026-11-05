@@ -1,0 +1,26 @@
+{
+  "no_defense_memrl": {
+    "tasks": 20,
+    "overall_task_sr": 0.5,
+    "retrieval_damage_asr": 0.25,
+    "target_hit_task_asr": 0.0,
+    "exit_code": 0,
+    "logged_task_rows": 20,
+    "http": {
+      "/v1/chat/completions 200": 252,
+      "/v1/embeddings 200": 642
+    }
+  },
+  "maple_guard": {
+    "tasks": 20,
+    "overall_task_sr": 0.55,
+    "retrieval_damage_asr": 0.21875,
+    "target_hit_task_asr": 0.0625,
+    "exit_code": 0,
+    "logged_task_rows": 20,
+    "http": {
+      "/v1/chat/completions 200": 252,
+      "/v1/embeddings 200": 580
+    }
+  }
+}
