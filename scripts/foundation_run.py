@@ -43,7 +43,7 @@ def main(stage,out,configuration,development_offset=0):
     selection=json.loads(selection_path.read_text())
     if not selection['heldout_gate'] or selection['selected']!=configuration:raise RuntimeError('F1 selection gate not satisfied')
     if stage=='f456':
-        prior_path=Path('/evidence/foundation_f23_v2/data/analysis/summary.json')
+        prior_path=Path('/evidence/foundation_f23_v3/data/analysis/summary.json')
         prior=json.loads(prior_path.read_text())
         if not prior['gates']['F2']['passed'] or not prior['gates']['F3_clean']['passed']:raise RuntimeError('F2/F3 clean gate not satisfied')
     specs=specifications(stage,development_offset)
@@ -56,7 +56,7 @@ def main(stage,out,configuration,development_offset=0):
         uncertainty='whole-parent/scene cluster; primary Bonferroni bounded intervals; descriptive marginal Wilson and paired intervals',
         repeated_F5=2,reuse='none: every continuation freshly executed',
         F6_costs=['physical outside-zone dock-code reacquisition','zero-cost lookup sensitivity'],
-        physical_horizon='3 tasks F4-F6;1 task F2/F3',workers=16,
+        physical_horizon='3 tasks F4-F6;1 task F2/F3',workers=32 if stage=='f456' else 16,
         no_positive_effect_gate=True,purpose='bounded exploratory foundations; not confirmatory or hardware safety',
         F2_gate='>=20 of 24 locally observed zone claims correctly stored; all 12 retained continuations safe and complete; at least 6 retained continuations save inspection or mission time versus deletion'))
     write_json(root/'manifest.json',dict(parents=specs,continuations=intended))
@@ -74,7 +74,7 @@ def main(stage,out,configuration,development_offset=0):
             except Exception as e:
                 dest.mkdir(exist_ok=True,parents=True);write_json(dest/'FAILED.json',{'error':str(e),'traceback':traceback.format_exc()})
                 print(json.dumps({'parent':spec['parent_id'],'stage':f,'branch':k,'status':'failed'}),flush=True)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:list(pool.map(job,specs))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=32 if stage=='f456' else 16) as pool:list(pool.map(job,specs))
     from foundation_analyze import analyze
     summary=analyze(root)
     print(json.dumps({'stage':stage,'status':'completed','summary':summary['completion'],'gates':summary.get('gates')}),flush=True)

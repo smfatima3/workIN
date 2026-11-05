@@ -24,7 +24,8 @@ Thinking sampling: temperature .6, top-p .95, top-k 20, explicit per-request see
 Non-thinking references: .7/.8/20. vLLM 0.10.2, BF16, no OpenAI-hosted service.
 
 F1 used one A10 GPU. Subsequent thinking workloads use one H100, with four isolated
-parent workers in F2/F3 v1 and sixteen in subsequent runs, with a hard four-hour job timeout. Exact device/environment and source
+parent workers in F2/F3 v1, sixteen in F2/F3 v2, and thirty-two in F4--F6,
+with a hard four-hour job timeout. Exact device/environment and source
 are saved for each launch. Hardware changes are disclosed; bitwise cross-device
 reproducibility is not claimed. Model sessions contain only system plus current user
 message; no conversation cache is reused across calls.
@@ -66,6 +67,22 @@ least six parents save an inspection or simulated mission time relative to targe
 deletion. F3's correct-state branches must safely complete all 12 cases. No positive
 false-memory effect or natural-adoption result is required. F4--F6 launch only after
 these clean gates; once frozen, every intended cell is retained regardless of outcome.
+
+### Development continuation, 5 November 2026
+
+The user-interrupted v2 cohort was resumed from its frozen scientific source and
+manifest. Completed branches were validated/reused; partial attempts were retained
+and restarted with the same seeds. All 72 cells completed, integrity checks passed.
+F2 v2 retained 19/24 correct observations and benefited 9/12 parents, with all 12
+retained cases safe and complete. This improves decision use over v1 but still
+fails the unchanged storage threshold of 20/24. F3 clean passed.
+
+V3 uses fresh seeds 21200--21211 (F2) and 22200--22211 (F3). Only the acquisition
+prompt changes: it explains why reliable observations are useful after reset,
+that observations are not automatically stored, and that storage can be useful
+without a conflicting report. Storage/sharing remain voluntary; no peer claim is
+declared true. Selection and gates are unchanged. No F4 outcome informed this
+development change, and earlier cohorts remain separate.
 
 ## Checkpoint and intervention semantics
 
