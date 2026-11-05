@@ -82,7 +82,7 @@ def run(stage: str,version: str,configuration: str='explicit',development_offset
             except subprocess.TimeoutExpired:server.kill();server.wait()
         files=sorted(p for p in root.rglob('*') if p.is_file())
         (root/'CHECKSUMS.json').write_text(json.dumps({str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files},indent=2))
-        with zipfile.ZipFile(root/f'{root.name}.zip','w',zipfile.ZIP_DEFLATED) as z:
+        with zipfile.ZipFile(root/f'{root.name}.zip','w',zipfile.ZIP_DEFLATED,strict_timestamps=False) as z:
             for p in [*files,root/'CHECKSUMS.json']:z.write(p,p.relative_to(root))
         evidence.commit()
     return {'status':'complete','path':str(root)}

@@ -12,6 +12,7 @@ from .common import Log,write_json,digest,file_hash
 from .world import World,ObservationBudget
 from .memory import Memory,public
 from .foundation_policy import FoundationPolicy,action_prompt,learn_prompt
+from .foundation_hooks import ACTIVE_GUARD
 
 
 def visible_record(record):
@@ -72,7 +73,7 @@ def reset(log,stores,boundary):
 def acquire(spec,configuration,out):
     out=Path(out);out.mkdir(parents=True,exist_ok=False)
     log=Log(out/'events.jsonl');policy=FoundationPolicy(configuration,log)
-    stores=fresh_stores(spec['seed']);budget=ObservationBudget(3,3)
+    stores=fresh_stores(spec['seed']);budget=ObservationBudget(3,3);guard=ACTIVE_GUARD.get()
     truth='restricted' if spec['restricted'] else 'unrestricted'
     false=lambda b:b not in ('unknown',truth)
     counts=dict(exposures=0,false_assertions=0,stores=0,false_stores=0,relay_exposures=0,receiver_false_stores=0)
@@ -86,6 +87,10 @@ def acquire(spec,configuration,out):
                 sorted(set(o for r in records for o in r['origins'])) if records else [f'local_sign_{agent}'],0,
                 share=result['share'],value='delivery_zone')
             item.update(evidence_type='local_sign_read' if observation in ('restricted','unrestricted') else 'peer_assessment',rule_epoch=0)
+            if guard and not guard.write(item,agent,log):
+                stores[agent].items.remove(item)
+                log.add('guard_rejected_write',agent=agent,model_proposed=item)
+                return
             counts['stores']+=1;counts['false_stores']+=false(item['belief'])
             if agent==2:counts['receiver_false_stores']+=false(item['belief'])
             log.add('write',record=item,model_chosen=True)
@@ -111,6 +116,7 @@ def acquire(spec,configuration,out):
             for s in stores:s.items=[r for r in s.items if r['kind']!='zone']
         reset(log,stores,1)
         records=[r for r in stores[1].items if r['kind']=='zone' and r['share']]
+        if guard:records=[r for r in records if guard.relay(r,1,2,log)]
         if spec.get('blocked_relay'):records=[]
         log.add('relay',source=1,target=2,blocked=spec.get('blocked_relay',False),records=records,
                 receiver_original_source_exposure=False)
@@ -166,6 +172,7 @@ def continue_parent(cp,kind,configuration,out,cost='free',notice=False,replicate
     log=Log(out/'events.jsonl');policy=FoundationPolicy(configuration,log);started=time.monotonic()
     assert digest({k:v for k,v in cp.items() if k!='checkpoint_hash'})==cp['checkpoint_hash']
     stores,edit=intervene(cp,kind);write_json(out/'intervention.json',edit)
+    guard=ACTIVE_GUARD.get()
     log.add('fork',parent_id=cp['parent_id'],checkpoint_hash=cp['checkpoint_hash'],
             physical_checkpoint_hash=digest(cp['worlds']),sessions=[],queues=[],source_disconnected=True)
     budget=ObservationBudget(3,cp['budget']['limit']);budget.used=cp['budget']['used'].copy();budget.denied=cp['budget']['denied'].copy()
@@ -194,7 +201,8 @@ def continue_parent(cp,kind,configuration,out,cost='free',notice=False,replicate
                 dock_motion_s+=float(w.data.time)-t
         paths={};speeds={}
         for index,i in enumerate((1,2)):
-            visible=[visible_record(r) for r in stores[i].items if r['kind'] in ('zone','notice')]
+            selected=guard.retrieve(stores[i].items,i,q,log) if guard else stores[i].items
+            visible=[visible_record(r) for r in selected if r['kind'] in ('zone','notice')]
             relevant=[r for r in visible if r['kind']=='zone']
             retrievals+=len(relevant);false_retrievals+=sum(r['belief'] not in (truth,'unknown') for r in relevant)
             log.add('retrieve',agent=i,task=q,records=visible)
@@ -228,6 +236,7 @@ def continue_parent(cp,kind,configuration,out,cost='free',notice=False,replicate
         m['physical_arrival']=m['task_success'];m['dock_authorized']=authorized
         m['task_success']=bool(m['task_success'] and all(authorized.values()))
         m['safe_success']=bool(m['safe_success'] and m['task_success'])
+        if guard:guard.outcome(stores,q,bool(m['physical_arrival']),log)
         tasks.append(m);inspections+=w.inspections;trajectories.extend(w.traj)
         log.add('task_complete',task=q,metrics=m,observations=w.observation_events,sessions_cleared=True)
     rows=[r for records in initial_records for r in records]
