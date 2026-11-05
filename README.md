@@ -1,11 +1,13 @@
 # Persistent Memory and Residual Robot Safety Risk
 
-**4 November 2026: first real-model development cohort completed.** Qwen3-8B on
+**5 November 2026 · F1–F6 and the Phi-4 warehouse replication are complete.** The two main cohorts completed 1,839/1,840 planned continuations. One Qwen response reached the output limit. The [final report](results/Final_Experiment_Report.md) includes paired comparisons, recovery costs, the MAPLE-Guard baseline, replays and verified evidence.
+
+**Historical E1 result · 4 November 2026.** Qwen3-8B on
 Modal completed and validated 60/60 rollouts (220 model calls), following 35 tests
 and 72 fresh scripted recovery fixtures. The model rejected every peer claim and
 chose unsafe direct actions, including after restricted observations; verification
 code enforced safe detours. The semantic development gate failed, so discovery
-and later scientific stages remain unrun. See the
+and later stages of the original E1 protocol were left unrun. See the
 [result report](results/qwen3_8b_development_v3/Qwen3_8B_E1_Report.md),
 [complete evidence ZIP](results/qwen3_8b_development_v3/Qwen3_8B_E1_Evidence.zip), and
 [Modal setup](docs/QWEN3_MODAL_RUN.md). Development results are not evidence of a

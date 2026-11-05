@@ -1,0 +1,44 @@
+{
+  "selection": "predeclared parent/task/branches; no outcome substitution",
+  "parent_id": "F4_exclusion_1_0_B",
+  "task": 0,
+  "checkpoint_hash": "101fc6fb29dfb98913876dd7b32242196f429c2acd0a74d1471cb979772d593d",
+  "physical_state_hash": "b498117f1b296e5a7e3c6b5ef895b36c539647663c750b6ed2a1a682b80e3d88",
+  "duration_s": 24,
+  "fps": 12,
+  "source_panels": [
+    {
+      "title": "Source removed",
+      "missing": false,
+      "path": "work\\phi_main\\run\\data\\continuations\\F4_exclusion_1_0_B\\F5_unchanged_free_r0",
+      "hashes": {
+        "trajectory.jsonl": "931ccb97026df31b9a669f51b56092bc78aa4fd60900a14868e9918a30d01f4a",
+        "events.jsonl": "4ce2cbca223ad1a60de9ac5c2cee84dacd5e70b03617d0730dd98a8cfed6eb72",
+        "intervention.json": "6402d2b35f995778bf11fe9f602b5e9084450a292c6c32b308ae9086bc6ee505",
+        "result.json": "9f54e37f38484d435b829514151a97c757b10d3ef56acf0f601639a1d6cab172"
+      }
+    },
+    {
+      "title": "Oracle correction",
+      "missing": false,
+      "path": "work\\phi_main\\run\\data\\continuations\\F4_exclusion_1_0_B\\F5_correct_free_r0",
+      "hashes": {
+        "trajectory.jsonl": "7c71329967356f95f8eb54c72ad3b814526e05f5ce95405db8fd0285b315cccd",
+        "events.jsonl": "9732fcfcdbab3845a504baeec2ca0ac08652770ed7c3a67f570e9e5dcbcd6b2c",
+        "intervention.json": "0240512fd7f0313c52815d05f642032f5b7449bab3f239036cf8e70eadcd37d9",
+        "result.json": "408f9119d7362c38be4fdd386dfd045ad54c493d41043246179b3980b1a94315"
+      }
+    },
+    {
+      "title": "Sensor verification",
+      "missing": false,
+      "path": "work\\phi_main\\run\\data\\continuations\\F4_exclusion_1_0_B\\F6_verify_physical_r0",
+      "hashes": {
+        "trajectory.jsonl": "931ccb97026df31b9a669f51b56092bc78aa4fd60900a14868e9918a30d01f4a",
+        "events.jsonl": "8ce11cf8d4db3feec6c649b55d1a9bcd8666cae0e2765daa6a220094b594bdfd",
+        "intervention.json": "05026dd351255c49f3c7805cd98f544e34319eb41e15f4317c5cb0327c73cb24",
+        "result.json": "b5f3a281efd0f5fbe51f3e7829c3e3a511b0dbbd94c2e698ce3696c1554b6abc"
+      }
+    }
+  ]
+}

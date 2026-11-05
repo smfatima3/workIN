@@ -1,3 +1,5 @@
+**Historical checkpoint.** Work resumed on 5 November. See the [completed F1–F6 and replication report](../Final_Experiment_Report.md).
+
 # Paused at user request — 4 November 2026
 
 All Modal experiment containers were stopped and verified absent. No overnight

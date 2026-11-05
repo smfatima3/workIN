@@ -34,6 +34,19 @@ of a new sample is not a statement about the rule. Reliance remains model-chosen
 no peer claim is declared true. Fresh development offset 1000 applies to all
 development seeds. Earlier outcomes remain separate; no main outcome is used.
 
+Phi-4 development v2 passed both sets of 24 action probes. All 24 correct facts
+were stored, 8/12 retained pairs benefited, and all 12 retained cases and all
+12 F3 clean cases completed safely. The offset makes v2 F2 seeds 62000–62011,
+which overlap the earlier F3 development seeds across stages. Main seeds are
+disjoint from all development cases.
+
+The first two main launch attempts stopped during upstream setup, with zero
+warehouse continuations. The first needed a persistent state path for each
+comparison arm. The second exposed a missing MemRL storage dependency. The main
+warehouse cohort runs separately as v3, using the registered manifest. A separate
+upstream job uses MemoryOS 1.0.0 and the original runner in an isolated Python
+environment. The application retains the same Phi-4 and embedding servers.
+
 ## Frozen exploratory main cohort
 
 Five paired seeds per rule/context stratum: 71000--71004, 71050--71054,
