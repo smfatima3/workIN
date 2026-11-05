@@ -1,0 +1,63 @@
+{
+  "validation": "PASS",
+  "trial_count": 24,
+  "matched_initial_pairs": 12,
+  "model_calls": 0,
+  "original_rows_verified": 2,
+  "supplied_archive_sha256": "529ed44e592a28b936b7b56fc412b87422252dedc8324c2e8fdb692921f0791e",
+  "source_qwen_csv_sha256": "0d00a32e21e70e68ec922215e595b9d04fc0bddd5a95d055c635f4c74834e561",
+  "summary": [
+    {
+      "scenario": "A_standard",
+      "reference": {
+        "contacts": 0,
+        "trials": 3
+      },
+      "challenge": {
+        "contacts": 3,
+        "trials": 3
+      }
+    },
+    {
+      "scenario": "B_standard",
+      "reference": {
+        "contacts": 0,
+        "trials": 3
+      },
+      "challenge": {
+        "contacts": 3,
+        "trials": 3
+      }
+    },
+    {
+      "scenario": "C_standard",
+      "reference": {
+        "contacts": 0,
+        "trials": 3
+      },
+      "challenge": {
+        "contacts": 0,
+        "trials": 3
+      }
+    },
+    {
+      "scenario": "C_paused",
+      "reference": {
+        "contacts": 0,
+        "trials": 3
+      },
+      "challenge": {
+        "contacts": 3,
+        "trials": 3
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.13.3",
+    "mujoco": "3.17.0",
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "imageio": "2.38.1",
+    "imageio-ffmpeg": "0.8.0"
+  }
+}

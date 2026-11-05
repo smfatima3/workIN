@@ -1,0 +1,78 @@
+[
+  {
+    "scenario": "A_standard",
+    "file": "A_standard.mp4",
+    "duration_s": 8,
+    "fps": 12,
+    "frames": 96,
+    "offsets_m": [
+      -0.02,
+      0,
+      0.02
+    ],
+    "arms": [
+      "reference",
+      "challenge"
+    ],
+    "selection": "all 24 supplied trial specifications",
+    "view": "side",
+    "contact": "MuJoCo moving/person positive normal force"
+  },
+  {
+    "scenario": "B_standard",
+    "file": "B_standard.mp4",
+    "duration_s": 8,
+    "fps": 12,
+    "frames": 96,
+    "offsets_m": [
+      -0.02,
+      0,
+      0.02
+    ],
+    "arms": [
+      "reference",
+      "challenge"
+    ],
+    "selection": "all 24 supplied trial specifications",
+    "view": "top",
+    "contact": "MuJoCo moving/person positive normal force"
+  },
+  {
+    "scenario": "C_standard",
+    "file": "C_standard.mp4",
+    "duration_s": 8,
+    "fps": 12,
+    "frames": 96,
+    "offsets_m": [
+      -0.02,
+      0,
+      0.02
+    ],
+    "arms": [
+      "reference",
+      "challenge"
+    ],
+    "selection": "all 24 supplied trial specifications",
+    "view": "side",
+    "contact": "MuJoCo moving/person positive normal force"
+  },
+  {
+    "scenario": "C_paused",
+    "file": "C_paused.mp4",
+    "duration_s": 8,
+    "fps": 12,
+    "frames": 96,
+    "offsets_m": [
+      -0.02,
+      0,
+      0.02
+    ],
+    "arms": [
+      "reference",
+      "challenge"
+    ],
+    "selection": "all 24 supplied trial specifications",
+    "view": "side",
+    "contact": "MuJoCo moving/person positive normal force"
+  }
+]

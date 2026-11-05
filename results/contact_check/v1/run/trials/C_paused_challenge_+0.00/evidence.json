@@ -1,0 +1,6788 @@
+{
+  "scenario": "C",
+  "action": "challenge",
+  "pause": true,
+  "offset_m": 0.0,
+  "initial_state": {
+    "qpos": [
+      -0.5,
+      0.0,
+      1.05,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mocap_pos": [
+      [
+        -0.5,
+        0.0,
+        1.05
+      ]
+    ],
+    "eq_active": [
+      true
+    ]
+  },
+  "initial_state_hash": "3e8b49dc2acb83eb31e81ec21505ff9c2ac3fb1ea9d84695a1cf567f4b8aa0ec",
+  "person_position_m": [
+    0.0,
+    0.0,
+    0.26
+  ],
+  "geom_ids": {
+    "person": 1,
+    "moving": 2
+  },
+  "steps": 950,
+  "dt_s": 0.002,
+  "max_normal_force_n": 329.7997844127524,
+  "normal_impulse_ns": 10.006200255911708,
+  "contact_steps": [
+    {
+      "step": 596,
+      "time_s": 1.1940000000000008,
+      "original_step_time_s": 1.192,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        0.0,
+        0.0,
+        0.5071183485185271
+      ],
+      "normal_force_n": 329.7997844127524
+    },
+    {
+      "step": 597,
+      "time_s": 1.1960000000000008,
+      "original_step_time_s": 1.194,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.2978519632032403e-08,
+        0.0,
+        0.504697607817099
+      ],
+      "normal_force_n": 277.90553103558017
+    },
+    {
+      "step": 598,
+      "time_s": 1.1980000000000008,
+      "original_step_time_s": 1.196,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.615917427271644e-08,
+        0.0,
+        0.5028130581777825
+      ],
+      "normal_force_n": 233.70917302400824
+    },
+    {
+      "step": 599,
+      "time_s": 1.2000000000000008,
+      "original_step_time_s": 1.198,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.755005413031113e-08,
+        0.0,
+        0.5013763068845398
+      ],
+      "normal_force_n": 196.11309488486327
+    },
+    {
+      "step": 600,
+      "time_s": 1.2020000000000008,
+      "original_step_time_s": 1.2,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.057021035633558e-07,
+        0.0,
+        0.500312161781078
+      ],
+      "normal_force_n": 164.17320142503385
+    },
+    {
+      "step": 601,
+      "time_s": 1.2040000000000008,
+      "original_step_time_s": 1.202,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.4954090277767073e-07,
+        0.0,
+        0.49955674308046316
+      ],
+      "normal_force_n": 137.07765464335444
+    },
+    {
+      "step": 602,
+      "time_s": 1.2060000000000008,
+      "original_step_time_s": 1.204,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.9825034980634812e-07,
+        0.0,
+        0.4990558596891186
+      ],
+      "normal_force_n": 114.12854067219362
+    },
+    {
+      "step": 603,
+      "time_s": 1.2080000000000009,
+      "original_step_time_s": 1.206,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.5119283152536473e-07,
+        0.0,
+        0.4987636133790888
+      ],
+      "normal_force_n": 94.72606408937928
+    },
+    {
+      "step": 604,
+      "time_s": 1.2100000000000009,
+      "original_step_time_s": 1.208,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.078548825245159e-07,
+        0.0,
+        0.4986411991971952
+      ],
+      "normal_force_n": 78.35492217981154
+    },
+    {
+      "step": 605,
+      "time_s": 1.2120000000000009,
+      "original_step_time_s": 1.21,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.673489965585669e-07,
+        1.3115595268580785e-30,
+        0.49865587485961493
+      ],
+      "normal_force_n": 64.57255943291887
+    },
+    {
+      "step": 606,
+      "time_s": 1.2140000000000009,
+      "original_step_time_s": 1.212,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.2939149179033893e-07,
+        3.709168767638867e-30,
+        0.49878007564084464
+      ],
+      "normal_force_n": 52.999043638838124
+    },
+    {
+      "step": 607,
+      "time_s": 1.2160000000000009,
+      "original_step_time_s": 1.214,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.933813655392155e-07,
+        4.070889501073267e-30,
+        0.4989906545092954
+      ],
+      "normal_force_n": 43.30834056942618
+    },
+    {
+      "step": 608,
+      "time_s": 1.2180000000000009,
+      "original_step_time_s": 1.216,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.591517457343296e-07,
+        2.7584254259412747e-30,
+        0.4992682300588214
+      ],
+      "normal_force_n": 35.220794706096584
+    },
+    {
+      "step": 609,
+      "time_s": 1.2200000000000009,
+      "original_step_time_s": 1.218,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.262295293403029e-07,
+        1.498146220956023e-30,
+        0.49959662719769765
+      ],
+      "normal_force_n": 28.49665007010289
+    },
+    {
+      "step": 610,
+      "time_s": 1.2220000000000009,
+      "original_step_time_s": 1.22,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.945215870805965e-07,
+        2.7707552355526864e-31,
+        0.4999623976366481
+      ],
+      "normal_force_n": 22.930467859284057
+    },
+    {
+      "step": 611,
+      "time_s": 1.2240000000000009,
+      "original_step_time_s": 1.222,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.636626531874684e-07,
+        -1.6029291152918132e-30,
+        0.5003544090112534
+      ],
+      "normal_force_n": 18.34631741269223
+    },
+    {
+      "step": 612,
+      "time_s": 1.2260000000000009,
+      "original_step_time_s": 1.224,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.336087118767935e-07,
+        -4.021262707112165e-30,
+        0.5007634930206191
+      ],
+      "normal_force_n": 14.59363388185373
+    },
+    {
+      "step": 613,
+      "time_s": 1.2280000000000009,
+      "original_step_time_s": 1.226,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        9.043085416480702e-07,
+        -6.878628345489374e-30,
+        0.5011821442976815
+      ],
+      "normal_force_n": 11.543650717378306
+    },
+    {
+      "step": 614,
+      "time_s": 1.2300000000000009,
+      "original_step_time_s": 1.228,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        9.753913368890036e-07,
+        -3.303785320616331e-30,
+        0.5016042628761156
+      ],
+      "normal_force_n": 9.086327677494605
+    },
+    {
+      "step": 615,
+      "time_s": 1.2320000000000009,
+      "original_step_time_s": 1.23,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.046862370377234e-06,
+        5.4114183724556506e-30,
+        0.502024934109845
+      ],
+      "normal_force_n": 7.127705969056974
+    },
+    {
+      "step": 616,
+      "time_s": 1.2340000000000009,
+      "original_step_time_s": 1.232,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.1187140370222776e-06,
+        1.8229944619815915e-29,
+        0.5024402407554545
+      ],
+      "normal_force_n": 5.587631542900438
+    },
+    {
+      "step": 617,
+      "time_s": 1.2360000000000009,
+      "original_step_time_s": 1.234,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.1909291160644372e-06,
+        3.4329279699840373e-29,
+        0.5028471026640926
+      ],
+      "normal_force_n": 4.397795690154627
+    },
+    {
+      "step": 618,
+      "time_s": 1.2380000000000009,
+      "original_step_time_s": 1.236,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.2632086520031839e-06,
+        5.122907524478336e-29,
+        0.5032431401640514
+      ],
+      "normal_force_n": 3.5000490455094764
+    },
+    {
+      "step": 619,
+      "time_s": 1.2400000000000009,
+      "original_step_time_s": 1.238,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.3355764108000643e-06,
+        6.87941597900343e-29,
+        0.5036265577620476
+      ],
+      "normal_force_n": 2.844951239920962
+    },
+    {
+      "step": 620,
+      "time_s": 1.2420000000000009,
+      "original_step_time_s": 1.24,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.408038739402817e-06,
+        8.692284152796064e-29,
+        0.5039960452624742
+      ],
+      "normal_force_n": 2.3905234837847464
+    },
+    {
+      "step": 621,
+      "time_s": 1.2440000000000009,
+      "original_step_time_s": 1.242,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.4805881775590717e-06,
+        1.0554165601177937e-28,
+        0.5043506938098207
+      ],
+      "normal_force_n": 2.1011760449024806
+    },
+    {
+      "step": 622,
+      "time_s": 1.2460000000000009,
+      "original_step_time_s": 1.244,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.5532064571765749e-06,
+        1.2460084752452443e-28,
+        0.5046899247092088
+      ],
+      "normal_force_n": 1.9467863343235698
+    },
+    {
+      "step": 623,
+      "time_s": 1.2480000000000009,
+      "original_step_time_s": 1.246,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.625866992492892e-06,
+        1.4407047364684577e-28,
+        0.5050134291812152
+      ],
+      "normal_force_n": 1.9019067053137406
+    },
+    {
+      "step": 624,
+      "time_s": 1.2500000000000009,
+      "original_step_time_s": 1.248,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.6984937124174165e-06,
+        1.6374608045652756e-28,
+        0.505321117466575
+      ],
+      "normal_force_n": 1.945083932031867
+    },
+    {
+      "step": 625,
+      "time_s": 1.252000000000001,
+      "original_step_time_s": 1.25,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.7710934641297306e-06,
+        1.8361281749942215e-28,
+        0.5056130759197422
+      ],
+      "normal_force_n": 2.0582748740910506
+    },
+    {
+      "step": 626,
+      "time_s": 1.254000000000001,
+      "original_step_time_s": 1.252,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.8436724661435783e-06,
+        2.0365588842059373e-28,
+        0.505889530922601
+      ],
+      "normal_force_n": 2.2263448790005365
+    },
+    {
+      "step": 627,
+      "time_s": 1.256000000000001,
+      "original_step_time_s": 1.254,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.9162361695985725e-06,
+        2.23860569760867e-28,
+        0.5061508186151612
+      ],
+      "normal_force_n": 2.4366374341382278
+    },
+    {
+      "step": 628,
+      "time_s": 1.258000000000001,
+      "original_step_time_s": 1.256,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.9887891530049427e-06,
+        2.442122156618015e-28,
+        0.5063973595825332
+      ],
+      "normal_force_n": 2.6786051039043004
+    },
+    {
+      "step": 629,
+      "time_s": 1.260000000000001,
+      "original_step_time_s": 1.258,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.0613350475461777e-06,
+        2.646962525059563e-28,
+        0.5066296377600564
+      ],
+      "normal_force_n": 2.943493188672415
+    },
+    {
+      "step": 630,
+      "time_s": 1.262000000000001,
+      "original_step_time_s": 1.26,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.1338764894438954e-06,
+        2.852981666930099e-28,
+        0.5068481829239009
+      ],
+      "normal_force_n": 3.2240687245917425
+    },
+    {
+      "step": 631,
+      "time_s": 1.264000000000001,
+      "original_step_time_s": 1.262,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.2064150956657425e-06,
+        3.060034880699795e-28,
+        0.5070535562251383
+      ],
+      "normal_force_n": 3.514388466069167
+    },
+    {
+      "step": 632,
+      "time_s": 1.266000000000001,
+      "original_step_time_s": 1.264,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.278951459288307e-06,
+        3.2679777097352994e-28,
+        0.5072463383032517
+      ],
+      "normal_force_n": 3.809600374574508
+    },
+    {
+      "step": 633,
+      "time_s": 1.268000000000001,
+      "original_step_time_s": 1.266,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.3514851610235294e-06,
+        3.4766657438504643e-28,
+        0.5074271195820586
+      ],
+      "normal_force_n": 4.105773897612853
+    },
+    {
+      "step": 634,
+      "time_s": 1.270000000000001,
+      "original_step_time_s": 1.268,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.424014793710874e-06,
+        3.6859544232813505e-28,
+        0.507596492408605
+      ],
+      "normal_force_n": 4.39975497704411
+    },
+    {
+      "step": 635,
+      "time_s": 1.272000000000001,
+      "original_step_time_s": 1.27,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.4965379969214057e-06,
+        3.895698853391872e-28,
+        0.5077550447450501
+      ],
+      "normal_force_n": 4.689042290790216
+    },
+    {
+      "step": 636,
+      "time_s": 1.274000000000001,
+      "original_step_time_s": 1.272,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.5690514991801267e-06,
+        4.1057536360240015e-28,
+        0.507903355166022
+      ],
+      "normal_force_n": 4.971681718847567
+    },
+    {
+      "step": 637,
+      "time_s": 1.276000000000001,
+      "original_step_time_s": 1.274,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.6415511656675027e-06,
+        4.315972721507401e-28,
+        0.5080419889503769
+      ],
+      "normal_force_n": 5.246176444067897
+    },
+    {
+      "step": 638,
+      "time_s": 1.278000000000001,
+      "original_step_time_s": 1.276,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.7140320495954416e-06,
+        4.52620928385035e-28,
+        0.508171495087566
+      ],
+      "normal_force_n": 5.511410459762382
+    },
+    {
+      "step": 639,
+      "time_s": 1.280000000000001,
+      "original_step_time_s": 1.278,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.786488445759346e-06,
+        4.736315620472962e-28,
+        0.508292404045621
+      ],
+      "normal_force_n": 5.7665835676743065
+    },
+    {
+      "step": 640,
+      "time_s": 1.282000000000001,
+      "original_step_time_s": 1.28,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.858913945042013e-06,
+        4.946143076952724e-28,
+        0.5084052261707585
+      ],
+      "normal_force_n": 6.011156218276046
+    },
+    {
+      "step": 641,
+      "time_s": 1.284000000000001,
+      "original_step_time_s": 1.282,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.9313014888858233e-06,
+        5.1555419965805095e-28,
+        0.5085104506082804
+      ],
+      "normal_force_n": 6.244802776519435
+    },
+    {
+      "step": 642,
+      "time_s": 1.286000000000001,
+      "original_step_time_s": 1.284,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.003643422958002e-06,
+        5.364361694029354e-28,
+        0.5086085446513036
+      ],
+      "normal_force_n": 6.467371995287395
+    },
+    {
+      "step": 643,
+      "time_s": 1.288000000000001,
+      "original_step_time_s": 1.286,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.0759315494114726e-06,
+        5.5724504520829255e-28,
+        0.5086999534382668
+      ],
+      "normal_force_n": 6.678853650283255
+    },
+    {
+      "step": 644,
+      "time_s": 1.290000000000001,
+      "original_step_time_s": 1.288,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.1481571772935018e-06,
+        5.77965554012708e-28,
+        0.5087850999324807
+      ],
+      "normal_force_n": 6.87935043770568
+    },
+    {
+      "step": 645,
+      "time_s": 1.292000000000001,
+      "original_step_time_s": 1.29,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.2203111707791424e-06,
+        5.985823252952344e-28,
+        0.5088643851275211
+      ],
+      "normal_force_n": 7.069054363190045
+    },
+    {
+      "step": 646,
+      "time_s": 1.294000000000001,
+      "original_step_time_s": 1.292,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.292383995009261e-06,
+        6.190798968327579e-28,
+        0.5089381884312401
+      ],
+      "normal_force_n": 7.248226959863844
+    },
+    {
+      "step": 647,
+      "time_s": 1.296000000000001,
+      "original_step_time_s": 1.294,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.364365759396595e-06,
+        6.39442722177027e-28,
+        0.5090068681888321
+      ],
+      "normal_force_n": 7.417182767516795
+    },
+    {
+      "step": 648,
+      "time_s": 1.298000000000001,
+      "original_step_time_s": 1.296,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.4362462583305852e-06,
+        6.596551796944217e-28,
+        0.5090707623119136
+      ],
+      "normal_force_n": 7.5762755858709045
+    },
+    {
+      "step": 649,
+      "time_s": 1.300000000000001,
+      "original_step_time_s": 1.298,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.508015009265153e-06,
+        6.797015830149132e-28,
+        0.5091301889861225
+      ],
+      "normal_force_n": 7.725887084597033
+    },
+    {
+      "step": 650,
+      "time_s": 1.302000000000001,
+      "original_step_time_s": 1.3,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.5796612882153835e-06,
+        6.995661927423038e-28,
+        0.5091854474344575
+      ],
+      "normal_force_n": 7.8664174126273325
+    },
+    {
+      "step": 651,
+      "time_s": 1.304000000000001,
+      "original_step_time_s": 1.302,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.6511741627208915e-06,
+        7.19233229284813e-28,
+        0.5092368187175761
+      ],
+      "normal_force_n": 7.9982775008150435
+    },
+    {
+      "step": 652,
+      "time_s": 1.306000000000001,
+      "original_step_time_s": 1.304,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.722542522357812e-06,
+        7.386868866730951e-28,
+        0.5092845665556561
+      ],
+      "normal_force_n": 8.12188279624105
+    },
+    {
+      "step": 653,
+      "time_s": 1.308000000000001,
+      "original_step_time_s": 1.306,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.7937551068985135e-06,
+        7.57911347241303e-28,
+        0.5093289381592898
+      ],
+      "normal_force_n": 8.2376482044975
+    },
+    {
+      "step": 654,
+      "time_s": 1.310000000000001,
+      "original_step_time_s": 1.308,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.864800532230224e-06,
+        7.768907970555833e-28,
+        0.5093701650592954
+      ],
+      "normal_force_n": 8.345984048929578
+    },
+    {
+      "step": 655,
+      "time_s": 1.312000000000001,
+      "original_step_time_s": 1.31,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.935667314151324e-06,
+        7.956094419832029e-28,
+        0.5094084639273633
+      ],
+      "normal_force_n": 8.44729288385209
+    },
+    {
+      "step": 656,
+      "time_s": 1.314000000000001,
+      "original_step_time_s": 1.312,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.006343890168322e-06,
+        8.140515243040716e-28,
+        0.509444037381165
+      ],
+      "normal_force_n": 8.541967022811061
+    },
+    {
+      "step": 657,
+      "time_s": 1.316000000000001,
+      "original_step_time_s": 1.314,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.076818639417961e-06,
+        8.322013397747794e-28,
+        0.5094770747689801
+      ],
+      "normal_force_n": 8.630386663603854
+    },
+    {
+      "step": 658,
+      "time_s": 1.318000000000001,
+      "original_step_time_s": 1.316,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.147079900838304e-06,
+        8.500432550631767e-28,
+        0.5095077529300921
+      ],
+      "normal_force_n": 8.712635702542352
+    },
+    {
+      "step": 659,
+      "time_s": 1.320000000000001,
+      "original_step_time_s": 1.318,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.217115948585294e-06,
+        8.675617194583747e-28,
+        0.5095362363625806
+      ],
+      "normal_force_n": 8.783833114916929
+    },
+    {
+      "step": 660,
+      "time_s": 1.322000000000001,
+      "original_step_time_s": 1.32,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.286914212832408e-06,
+        8.84741163843994e-28,
+        0.5095626674612725
+      ],
+      "normal_force_n": 8.844786590448404
+    },
+    {
+      "step": 661,
+      "time_s": 1.324000000000001,
+      "original_step_time_s": 1.322,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.3564612431882885e-06,
+        9.015659023010293e-28,
+        0.5095871681331207
+      ],
+      "normal_force_n": 8.898427561986344
+    },
+    {
+      "step": 662,
+      "time_s": 1.326000000000001,
+      "original_step_time_s": 1.324,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.425743017806691e-06,
+        9.180200724321934e-28,
+        0.5096098456600704
+      ],
+      "normal_force_n": 8.946920810451548
+    },
+    {
+      "step": 663,
+      "time_s": 1.328000000000001,
+      "original_step_time_s": 1.326,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.494745189270471e-06,
+        9.340876036387542e-28,
+        0.5096307970286207
+      ],
+      "normal_force_n": 8.991838681770847
+    },
+    {
+      "step": 664,
+      "time_s": 1.330000000000001,
+      "original_step_time_s": 1.328,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.5634532784228665e-06,
+        9.497522102689767e-28,
+        0.5096501120745166
+      ],
+      "normal_force_n": 9.034298552850105
+    },
+    {
+      "step": 665,
+      "time_s": 1.332000000000001,
+      "original_step_time_s": 1.33,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.631852825724533e-06,
+        9.649974064205959e-28,
+        0.5096678757175024
+      ],
+      "normal_force_n": 9.075070896271296
+    },
+    {
+      "step": 666,
+      "time_s": 1.334000000000001,
+      "original_step_time_s": 1.332,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.699929508087375e-06,
+        9.798065390828415e-28,
+        0.5096841695022672
+      ],
+      "normal_force_n": 9.114663960135635
+    },
+    {
+      "step": 667,
+      "time_s": 1.336000000000001,
+      "original_step_time_s": 1.334,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.767669227657363e-06,
+        9.94162836274433e-28,
+        0.5096990726149415
+      ],
+      "normal_force_n": 9.153389931381263
+    },
+    {
+      "step": 668,
+      "time_s": 1.338000000000001,
+      "original_step_time_s": 1.336,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.835058177762797e-06,
+        1.008049466889092e-27,
+        0.5097126625074702
+      ],
+      "normal_force_n": 9.191416490809981
+    },
+    {
+      "step": 669,
+      "time_s": 1.340000000000001,
+      "original_step_time_s": 1.338,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.902082890221198e-06,
+        1.0214496091037693e-27,
+        0.5097250152329742
+      ],
+      "normal_force_n": 9.228806877358796
+    },
+    {
+      "step": 670,
+      "time_s": 1.342000000000001,
+      "original_step_time_s": 1.34,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.968730267389938e-06,
+        1.0343465244305277e-27,
+        0.5097362055722297
+      ],
+      "normal_force_n": 9.26555093386821
+    },
+    {
+      "step": 671,
+      "time_s": 1.344000000000001,
+      "original_step_time_s": 1.342,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.0349876017196946e-06,
+        1.0467236347863984e-27,
+        0.5097463070133518
+      ],
+      "normal_force_n": 9.301589083699564
+    },
+    {
+      "step": 672,
+      "time_s": 1.346000000000001,
+      "original_step_time_s": 1.344,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.100842585090478e-06,
+        1.0585646002968863e-27,
+        0.509755391632643
+      ],
+      "normal_force_n": 9.337094915319161
+    },
+    {
+      "step": 673,
+      "time_s": 1.348000000000001,
+      "original_step_time_s": 1.346,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.166283363433257e-06,
+        1.0698534005530155e-27,
+        0.509763530441769
+      ],
+      "normal_force_n": 9.372778726782187
+    },
+    {
+      "step": 674,
+      "time_s": 1.350000000000001,
+      "original_step_time_s": 1.348,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.2312987046200965e-06,
+        1.0805744260968393e-27,
+        0.5097707948083556
+      ],
+      "normal_force_n": 9.408032962372621
+    },
+    {
+      "step": 675,
+      "time_s": 1.352000000000001,
+      "original_step_time_s": 1.35,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.295877904794998e-06,
+        1.0907125547874554e-27,
+        0.5097772552408762
+      ],
+      "normal_force_n": 9.442296184181771
+    },
+    {
+      "step": 676,
+      "time_s": 1.354000000000001,
+      "original_step_time_s": 1.352,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.360010691450139e-06,
+        1.100253217780242e-27,
+        0.5097829802657773
+      ],
+      "normal_force_n": 9.475167156377474
+    },
+    {
+      "step": 677,
+      "time_s": 1.356000000000001,
+      "original_step_time_s": 1.354,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.423687147455923e-06,
+        1.1091824568020333e-27,
+        0.5097880356250059
+      ],
+      "normal_force_n": 9.50637198618072
+    },
+    {
+      "step": 678,
+      "time_s": 1.358000000000001,
+      "original_step_time_s": 1.356,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.486897651677453e-06,
+        1.117486973710995e-27,
+        0.509792483728224
+      ],
+      "normal_force_n": 9.535737073896115
+    },
+    {
+      "step": 679,
+      "time_s": 1.360000000000001,
+      "original_step_time_s": 1.358,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.549632832715476e-06,
+        1.1251541732449405e-27,
+        0.5097963833056101
+      ],
+      "normal_force_n": 9.563166965803568
+    },
+    {
+      "step": 680,
+      "time_s": 1.362000000000001,
+      "original_step_time_s": 1.36,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.611883533019451e-06,
+        1.1321721997745629e-27,
+        0.5097997892169501
+      ],
+      "normal_force_n": 9.58862632265561
+    },
+    {
+      "step": 681,
+      "time_s": 1.364000000000001,
+      "original_step_time_s": 1.362,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.6736407811816214e-06,
+        1.138529968792613e-27,
+        0.509802752380961
+      ],
+      "normal_force_n": 9.612125324778921
+    },
+    {
+      "step": 682,
+      "time_s": 1.366000000000001,
+      "original_step_time_s": 1.364,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.734895770667672e-06,
+        1.1442171937890695e-27,
+        0.5098053197956491
+      ],
+      "normal_force_n": 9.633707932027198
+    },
+    {
+      "step": 683,
+      "time_s": 1.368000000000001,
+      "original_step_time_s": 1.366,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.795639843596568e-06,
+        1.1492244090870963e-27,
+        0.5098075346262321
+      ],
+      "normal_force_n": 9.653442503210462
+    },
+    {
+      "step": 684,
+      "time_s": 1.370000000000001,
+      "original_step_time_s": 1.368,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.85586447846854e-06,
+        1.1535429891456598e-27,
+        0.5098094363418546
+      ],
+      "normal_force_n": 9.671414355681327
+    },
+    {
+      "step": 685,
+      "time_s": 1.372000000000001,
+      "original_step_time_s": 1.37,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.91556128096958e-06,
+        1.157165164772409e-27,
+        0.5098110608862245
+      ],
+      "normal_force_n": 9.687719912209218
+    },
+    {
+      "step": 686,
+      "time_s": 1.374000000000001,
+      "original_step_time_s": 1.372,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.974721977164896e-06,
+        1.1600840366343091e-27,
+        0.5098124408704575
+      ],
+      "normal_force_n": 9.702462139819836
+    },
+    {
+      "step": 687,
+      "time_s": 1.376000000000001,
+      "original_step_time_s": 1.374,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.033338408540852e-06,
+        1.1622935864034305e-27,
+        0.5098136057790114
+      ],
+      "normal_force_n": 9.715747034828414
+    },
+    {
+      "step": 688,
+      "time_s": 1.378000000000001,
+      "original_step_time_s": 1.3760000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.09140252847228e-06,
+        1.1637886858307036e-27,
+        0.509814582181679
+      ],
+      "normal_force_n": 9.727680950560762
+    },
+    {
+      "step": 689,
+      "time_s": 1.380000000000001,
+      "original_step_time_s": 1.3780000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.148906399785103e-06,
+        1.1645651040007345e-27,
+        0.5098153939462943
+      ],
+      "normal_force_n": 9.738368600140541
+    },
+    {
+      "step": 690,
+      "time_s": 1.382000000000001,
+      "original_step_time_s": 1.3800000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.20584219315818e-06,
+        1.1646195129857051e-27,
+        0.5098160624481592
+      ],
+      "normal_force_n": 9.747911596945311
+    },
+    {
+      "step": 691,
+      "time_s": 1.384000000000001,
+      "original_step_time_s": 1.3820000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.262202186165922e-06,
+        1.1639494920852265e-27,
+        0.5098166067732702
+      ],
+      "normal_force_n": 9.756407420624937
+    },
+    {
+      "step": 692,
+      "time_s": 1.386000000000001,
+      "original_step_time_s": 1.3840000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.317978762809043e-06,
+        1.1625535308115995e-27,
+        0.5098170439132771
+      ],
+      "normal_force_n": 9.763948717655438
+    },
+    {
+      "step": 693,
+      "time_s": 1.388000000000001,
+      "original_step_time_s": 1.3860000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.373164413415978e-06,
+        1.1604310307556206e-27,
+        0.5098173889507767
+      ],
+      "normal_force_n": 9.77062286282385
+    },
+    {
+      "step": 694,
+      "time_s": 1.390000000000001,
+      "original_step_time_s": 1.3880000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.427751734824966e-06,
+        1.1575823064468682e-27,
+        0.5098176552340619
+      ],
+      "normal_force_n": 9.776511722399366
+    },
+    {
+      "step": 695,
+      "time_s": 1.392000000000001,
+      "original_step_time_s": 1.3900000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.481733430778105e-06,
+        1.1540085853035427e-27,
+        0.5098178545408545
+      ],
+      "normal_force_n": 9.781691571502968
+    },
+    {
+      "step": 696,
+      "time_s": 1.394000000000001,
+      "original_step_time_s": 1.3920000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.535102312474738e-06,
+        1.1497120067506408e-27,
+        0.5098179972308555
+      ],
+      "normal_force_n": 9.786233127791576
+    },
+    {
+      "step": 697,
+      "time_s": 1.396000000000001,
+      "original_step_time_s": 1.3940000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.587851299243996e-06,
+        1.1446956205708497e-27,
+        0.5098180923871799
+      ],
+      "normal_force_n": 9.79020167134797
+    },
+    {
+      "step": 698,
+      "time_s": 1.398000000000001,
+      "original_step_time_s": 1.3960000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.639973419305786e-06,
+        1.1389633845401201e-27,
+        0.5098181479469177
+      ],
+      "normal_force_n": 9.793657226991336
+    },
+    {
+      "step": 699,
+      "time_s": 1.400000000000001,
+      "original_step_time_s": 1.3980000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.691461810596527e-06,
+        1.132520161389075e-27,
+        0.5098181708211826
+      ],
+      "normal_force_n": 9.796654790271242
+    },
+    {
+      "step": 700,
+      "time_s": 1.402000000000001,
+      "original_step_time_s": 1.4000000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.742309721641495e-06,
+        1.1253717151221212e-27,
+        0.5098181670051037
+      ],
+      "normal_force_n": 9.799244582520135
+    },
+    {
+      "step": 701,
+      "time_s": 1.404000000000001,
+      "original_step_time_s": 1.4020000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.792510512459405e-06,
+        1.1175247067181474e-27,
+        0.5098181416782683
+      ],
+      "normal_force_n": 9.801472323583603
+    },
+    {
+      "step": 702,
+      "time_s": 1.406000000000001,
+      "original_step_time_s": 1.4040000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.842057655488309e-06,
+        1.1089866892299574e-27,
+        0.5098180992961608
+      ],
+      "normal_force_n": 9.80337951344934
+    },
+    {
+      "step": 703,
+      "time_s": 1.408000000000001,
+      "original_step_time_s": 1.4060000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.89094473652376e-06,
+        1.0997661022938266e-27,
+        0.5098180436731639
+      ],
+      "normal_force_n": 9.805003716095912
+    },
+    {
+      "step": 704,
+      "time_s": 1.410000000000001,
+      "original_step_time_s": 1.408,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.939165455662326e-06,
+        1.0898722660558519e-27,
+        0.5098179780576848
+      ],
+      "normal_force_n": 9.80637884048377
+    },
+    {
+      "step": 705,
+      "time_s": 1.412000000000001,
+      "original_step_time_s": 1.41,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.98671362824453e-06,
+        1.0793153745178109e-27,
+        0.5098179051999754
+      ],
+      "normal_force_n": 9.807535414961304
+    },
+    {
+      "step": 706,
+      "time_s": 1.414000000000001,
+      "original_step_time_s": 1.412,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.033583185792641e-06,
+        1.0681064883021012e-27,
+        0.5098178274131868
+      ],
+      "normal_force_n": 9.808500852342563
+    },
+    {
+      "step": 707,
+      "time_s": 1.416000000000001,
+      "original_step_time_s": 1.414,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.079768176939196e-06,
+        1.0562575268327292e-27,
+        0.5098177466281963
+      ],
+      "normal_force_n": 9.809299703749076
+    },
+    {
+      "step": 708,
+      "time_s": 1.418000000000001,
+      "original_step_time_s": 1.416,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.125262768343142e-06,
+        1.0437812599274878e-27,
+        0.5098176644427093
+      ],
+      "normal_force_n": 9.809953899924404
+    },
+    {
+      "step": 709,
+      "time_s": 1.420000000000001,
+      "original_step_time_s": 1.418,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.170061245590691e-06,
+        1.0306912987949186e-27,
+        0.5098175821651203
+      ],
+      "normal_force_n": 9.810482979232628
+    },
+    {
+      "step": 710,
+      "time_s": 1.422000000000001,
+      "original_step_time_s": 1.42,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.2141580140785384e-06,
+        1.0170020864287243e-27,
+        0.5098175008535907
+      ],
+      "normal_force_n": 9.81090430193048
+    },
+    {
+      "step": 711,
+      "time_s": 1.424000000000001,
+      "original_step_time_s": 1.422,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.257547599877487e-06,
+        1.0027288873916528e-27,
+        0.5098174213507677
+      ],
+      "normal_force_n": 9.811233250599024
+    },
+    {
+      "step": 712,
+      "time_s": 1.426000000000001,
+      "original_step_time_s": 1.424,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.3002246505747435e-06,
+        9.878877769806334e-28,
+        0.5098173443145515
+      ],
+      "normal_force_n": 9.811483416850958
+    },
+    {
+      "step": 713,
+      "time_s": 1.428000000000001,
+      "original_step_time_s": 1.426,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.3421839360934505e-06,
+        9.724956297649152e-28,
+        0.5098172702452767
+      ],
+      "normal_force_n": 9.81166677458829
+    },
+    {
+      "step": 714,
+      "time_s": 1.430000000000001,
+      "original_step_time_s": 1.428,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.383420349488286e-06,
+        9.56570107489281e-28,
+        0.509817199509661
+      ],
+      "normal_force_n": 9.81179384022839
+    },
+    {
+      "step": 715,
+      "time_s": 1.432000000000001,
+      "original_step_time_s": 1.43,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.423928907716072e-06,
+        9.401296463348063e-28,
+        0.509817132361838
+      ],
+      "normal_force_n": 9.811873820395574
+    },
+    {
+      "step": 716,
+      "time_s": 1.434000000000001,
+      "original_step_time_s": 1.432,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.463704752380628e-06,
+        9.23193443530353e-28,
+        0.5098170689617704
+      ],
+      "normal_force_n": 9.8119147476438
+    },
+    {
+      "step": 717,
+      "time_s": 1.436000000000001,
+      "original_step_time_s": 1.434,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.502743150451232e-06,
+        9.057814433087252e-28,
+        0.5098170093913146
+      ],
+      "normal_force_n": 9.811923604820379
+    },
+    {
+      "step": 718,
+      "time_s": 1.438000000000001,
+      "original_step_time_s": 1.436,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.5410394949540655e-06,
+        8.879143222023659e-28,
+        0.5098169536681875
+      ],
+      "normal_force_n": 9.811906438704959
+    },
+    {
+      "step": 719,
+      "time_s": 1.440000000000001,
+      "original_step_time_s": 1.438,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.578589305636363e-06,
+        8.696134736744818e-28,
+        0.5098169017580586
+      ],
+      "normal_force_n": 9.811868463565533
+    },
+    {
+      "step": 720,
+      "time_s": 1.442000000000001,
+      "original_step_time_s": 1.44,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.6153882296029675e-06,
+        8.509009920825807e-28,
+        0.50981685358498
+      ],
+      "normal_force_n": 9.81181415528179
+    },
+    {
+      "step": 721,
+      "time_s": 1.444000000000001,
+      "original_step_time_s": 1.442,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.651432041925089e-06,
+        8.31799655972554e-28,
+        0.509816809040337
+      ],
+      "normal_force_n": 9.811747336670763
+    },
+    {
+      "step": 722,
+      "time_s": 1.446000000000001,
+      "original_step_time_s": 1.444,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.686716646221177e-06,
+        8.123329107026556e-28,
+        0.5098167679904945
+      ],
+      "normal_force_n": 9.811671254639712
+    },
+    {
+      "step": 723,
+      "time_s": 1.448000000000001,
+      "original_step_time_s": 1.446,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.721238075209889e-06,
+        7.925248503979746e-28,
+        0.5098167302832903
+      ],
+      "normal_force_n": 9.811588649777065
+    },
+    {
+      "step": 724,
+      "time_s": 1.450000000000001,
+      "original_step_time_s": 1.448,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.754992491235204e-06,
+        7.724001992372294e-28,
+        0.5098166957535168
+      ],
+      "normal_force_n": 9.811501818947225
+    },
+    {
+      "step": 725,
+      "time_s": 1.452000000000001,
+      "original_step_time_s": 1.45,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.787976186763746e-06,
+        7.519842920750227e-28,
+        0.509816664227514
+      ],
+      "normal_force_n": 9.811412671471224
+    },
+    {
+      "step": 726,
+      "time_s": 1.454000000000001,
+      "original_step_time_s": 1.452,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.8201855848545e-06,
+        7.313030544039445e-28,
+        0.5098166355269889
+      ],
+      "normal_force_n": 9.811322779400923
+    },
+    {
+      "step": 727,
+      "time_s": 1.456000000000001,
+      "original_step_time_s": 1.454,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.851617239600993e-06,
+        7.103829816622076e-28,
+        0.5098166094721593
+      ],
+      "normal_force_n": 9.81123342239793
+    },
+    {
+      "step": 728,
+      "time_s": 1.458000000000001,
+      "original_step_time_s": 1.456,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.882267836546294e-06,
+        6.8925111789374006e-28,
+        0.5098165858843129
+      ],
+      "normal_force_n": 9.811145627688086
+    },
+    {
+      "step": 729,
+      "time_s": 1.460000000000001,
+      "original_step_time_s": 1.458,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.912134193070858e-06,
+        6.6793503376895855e-28,
+        0.5098165645878618
+      ],
+      "normal_force_n": 9.811060205533554
+    },
+    {
+      "step": 730,
+      "time_s": 1.462000000000001,
+      "original_step_time_s": 1.46,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.941213258753617e-06,
+        6.46462803975595e-28,
+        0.5098165454119636
+      ],
+      "normal_force_n": 9.810977780637803
+    },
+    {
+      "step": 731,
+      "time_s": 1.464000000000001,
+      "original_step_time_s": 1.462,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.969502115706502e-06,
+        6.248629839902769e-28,
+        0.5098165281917701
+      ],
+      "normal_force_n": 9.810898819864498
+    },
+    {
+      "step": 732,
+      "time_s": 1.466000000000001,
+      "original_step_time_s": 1.464,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.99699797888256e-06,
+        6.031645862426169e-28,
+        0.5098165127693614
+      ],
+      "normal_force_n": 9.810823656633573
+    },
+    {
+      "step": 733,
+      "time_s": 1.468000000000001,
+      "original_step_time_s": 1.466,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.023698196358123e-06,
+        5.813970556848455e-28,
+        0.5098164989944124
+      ],
+      "normal_force_n": 9.81075251231959
+    },
+    {
+      "step": 734,
+      "time_s": 1.470000000000001,
+      "original_step_time_s": 1.468,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.049600249589098e-06,
+        5.595902447810717e-28,
+        0.5098164867246361
+      ],
+      "normal_force_n": 9.810685514961072
+    },
+    {
+      "step": 735,
+      "time_s": 1.472000000000001,
+      "original_step_time_s": 1.47,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.074701753641732e-06,
+        5.377743879313885e-28,
+        0.5098164758260392
+      ],
+      "normal_force_n": 9.810622715557491
+    },
+    {
+      "step": 736,
+      "time_s": 1.474000000000001,
+      "original_step_time_s": 1.472,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.099000457398071e-06,
+        5.159800753471062e-28,
+        0.5098164661730243
+      ],
+      "normal_force_n": 9.810564102215425
+    },
+    {
+      "step": 737,
+      "time_s": 1.476000000000001,
+      "original_step_time_s": 1.474,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.122494243736403e-06,
+        4.942382263944262e-28,
+        0.5098164576483659
+      ],
+      "normal_force_n": 9.810509612370872
+    },
+    {
+      "step": 738,
+      "time_s": 1.478000000000001,
+      "original_step_time_s": 1.476,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.145181129686886e-06,
+        4.725800624248832e-28,
+        0.509816450143086
+      ],
+      "normal_force_n": 9.81045914331206
+    },
+    {
+      "step": 739,
+      "time_s": 1.480000000000001,
+      "original_step_time_s": 1.478,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.167059266562623e-06,
+        4.51037079111827e-28,
+        0.5098164435562473
+      ],
+      "normal_force_n": 9.810412561184073
+    },
+    {
+      "step": 740,
+      "time_s": 1.482000000000001,
+      "original_step_time_s": 1.48,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.188126940066396e-06,
+        4.296410183132105e-28,
+        0.5098164377946871
+      ],
+      "normal_force_n": 9.810369708663556
+    },
+    {
+      "step": 741,
+      "time_s": 1.484000000000001,
+      "original_step_time_s": 1.482,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.208382570373286e-06,
+        4.08423839481763e-28,
+        0.5098164327727014
+      ],
+      "normal_force_n": 9.810330411456091
+    },
+    {
+      "step": 742,
+      "time_s": 1.486000000000001,
+      "original_step_time_s": 1.484,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.227824712189397e-06,
+        3.874176906445942e-28,
+        0.5098164284116967
+      ],
+      "normal_force_n": 9.810294483759773
+    },
+    {
+      "step": 743,
+      "time_s": 1.488000000000001,
+      "original_step_time_s": 1.486,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.24645205478693e-06,
+        3.6665487897504583e-28,
+        0.5098164246398188
+      ],
+      "normal_force_n": 9.810261732826223
+    },
+    {
+      "step": 744,
+      "time_s": 1.490000000000001,
+      "original_step_time_s": 1.488,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.26426342201569e-06,
+        3.461678409804323e-28,
+        0.5098164213915668
+      ],
+      "normal_force_n": 9.81023196273406
+    },
+    {
+      "step": 745,
+      "time_s": 1.492000000000001,
+      "original_step_time_s": 1.49,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.281257772291328e-06,
+        3.2598911233008074e-28,
+        0.5098164186074015
+      ],
+      "normal_force_n": 9.81020497747744
+    },
+    {
+      "step": 746,
+      "time_s": 1.494000000000001,
+      "original_step_time_s": 1.492,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.29743419856047e-06,
+        3.061512973488206e-28,
+        0.509816416233353
+      ],
+      "normal_force_n": 9.810180583463378
+    },
+    {
+      "step": 747,
+      "time_s": 1.496000000000001,
+      "original_step_time_s": 1.494,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.312791928242873e-06,
+        2.866870382017634e-28,
+        0.5098164142206346
+      ],
+      "normal_force_n": 9.810158591498373
+    },
+    {
+      "step": 748,
+      "time_s": 1.498000000000001,
+      "original_step_time_s": 1.496,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.327330323150809e-06,
+        2.6762898379690665e-28,
+        0.5098164125252627
+      ],
+      "normal_force_n": 9.810138818336544
+    },
+    {
+      "step": 749,
+      "time_s": 1.500000000000001,
+      "original_step_time_s": 1.498,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.34104887938586e-06,
+        2.4900975843269386e-28,
+        0.5098164111076918
+      ],
+      "normal_force_n": 9.810121087858292
+    },
+    {
+      "step": 750,
+      "time_s": 1.5020000000000011,
+      "original_step_time_s": 1.5,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.353947227213156e-06,
+        2.3086193021831733e-28,
+        0.5098164099324618
+      ],
+      "normal_force_n": 9.81010523193097
+    },
+    {
+      "step": 751,
+      "time_s": 1.5040000000000011,
+      "original_step_time_s": 1.502,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.366025130913437e-06,
+        2.1321797929507457e-28,
+        0.5098164089678612
+      ],
+      "normal_force_n": 9.810091090999322
+    },
+    {
+      "step": 752,
+      "time_s": 1.5060000000000011,
+      "original_step_time_s": 1.504,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.37728248861284e-06,
+        1.961102658876653e-28,
+        0.5098164081856087
+      ],
+      "normal_force_n": 9.810078514462305
+    },
+    {
+      "step": 753,
+      "time_s": 1.5080000000000011,
+      "original_step_time_s": 1.506,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.387719332090696e-06,
+        1.7957099821479856e-28,
+        0.5098164075605518
+      ],
+      "normal_force_n": 9.81006736085466
+    },
+    {
+      "step": 754,
+      "time_s": 1.5100000000000011,
+      "original_step_time_s": 1.508,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.397335826565444e-06,
+        1.6363220028895794e-28,
+        0.5098164070703839
+      ],
+      "normal_force_n": 9.810057497884777
+    },
+    {
+      "step": 755,
+      "time_s": 1.5120000000000011,
+      "original_step_time_s": 1.51,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.406132270458769e-06,
+        1.4832567963563775e-28,
+        0.5098164066953792
+      ],
+      "normal_force_n": 9.810048802346397
+    },
+    {
+      "step": 756,
+      "time_s": 1.5140000000000011,
+      "original_step_time_s": 1.512,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.414109095138159e-06,
+        1.3368299496270747e-28,
+        0.5098164064181471
+      ],
+      "normal_force_n": 9.810041159932272
+    },
+    {
+      "step": 757,
+      "time_s": 1.5160000000000011,
+      "original_step_time_s": 1.514,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.4212668646379e-06,
+        1.1973542381104468e-28,
+        0.509816406223403
+      ],
+      "normal_force_n": 9.810034464971245
+    },
+    {
+      "step": 758,
+      "time_s": 1.5180000000000011,
+      "original_step_time_s": 1.516,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.42760627535878e-06,
+        1.065139302177969e-28,
+        0.509816406097757
+      ],
+      "normal_force_n": 9.810028620107534
+    },
+    {
+      "step": 759,
+      "time_s": 1.5200000000000011,
+      "original_step_time_s": 1.518,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.433128155746442e-06,
+        9.404913242402938e-29,
+        0.5098164060295199
+      ],
+      "normal_force_n": 9.810023535933606
+    },
+    {
+      "step": 760,
+      "time_s": 1.5220000000000011,
+      "original_step_time_s": 1.52,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.437833465948744e-06,
+        8.237127065877218e-29,
+        0.5098164060085233
+      ],
+      "normal_force_n": 9.810019130596027
+    },
+    {
+      "step": 761,
+      "time_s": 1.5240000000000011,
+      "original_step_time_s": 1.522,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.441723297452018e-06,
+        7.151017503170304e-29,
+        0.5098164060259565
+      ],
+      "normal_force_n": 9.8100153293803
+    },
+    {
+      "step": 762,
+      "time_s": 1.5260000000000011,
+      "original_step_time_s": 1.524,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.444798872696489e-06,
+        6.149523356691057e-29,
+        0.509816406074217
+      ],
+      "normal_force_n": 9.810012064282995
+    },
+    {
+      "step": 763,
+      "time_s": 1.5280000000000011,
+      "original_step_time_s": 1.526,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.447061544670946e-06,
+        5.235536041042618e-29,
+        0.5098164061467747
+      ],
+      "normal_force_n": 9.81000927358587
+    },
+    {
+      "step": 764,
+      "time_s": 1.5300000000000011,
+      "original_step_time_s": 1.528,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.448512796486785e-06,
+        4.411896424424792e-29,
+        0.5098164062380481
+      ],
+      "normal_force_n": 9.810006901425135
+    },
+    {
+      "step": 765,
+      "time_s": 1.5320000000000011,
+      "original_step_time_s": 1.53,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.449154240931469e-06,
+        3.6813916939783587e-29,
+        0.5098164063432926
+      ],
+      "normal_force_n": 9.81000489737833
+    },
+    {
+      "step": 766,
+      "time_s": 1.5340000000000011,
+      "original_step_time_s": 1.532,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.448987620001735e-06,
+        3.046752248366159e-29,
+        0.5098164064585001
+      ],
+      "normal_force_n": 9.810003216054314
+    },
+    {
+      "step": 767,
+      "time_s": 1.5360000000000011,
+      "original_step_time_s": 1.534,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.448014804416398e-06,
+        2.5106486208918386e-29,
+        0.5098164065803075
+      ],
+      "normal_force_n": 9.810001816700463
+    },
+    {
+      "step": 768,
+      "time_s": 1.5380000000000011,
+      "original_step_time_s": 1.536,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.446237793109104e-06,
+        2.0756884364584717e-29,
+        0.5098164067059157
+      ],
+      "normal_force_n": 9.81000066282807
+    },
+    {
+      "step": 769,
+      "time_s": 1.5400000000000011,
+      "original_step_time_s": 1.538,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.443658712701017e-06,
+        1.7444134056671075e-29,
+        0.5098164068330165
+      ],
+      "normal_force_n": 9.809999721855254
+    },
+    {
+      "step": 770,
+      "time_s": 1.5420000000000011,
+      "original_step_time_s": 1.54,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.440279816953673e-06,
+        1.5192963593414456e-29,
+        0.509816406959728
+      ],
+      "normal_force_n": 9.809998964767551
+    },
+    {
+      "step": 771,
+      "time_s": 1.5440000000000011,
+      "original_step_time_s": 1.542,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.436103486201994e-06,
+        1.4027383267720198e-29,
+        0.509816407084535
+      ],
+      "normal_force_n": 9.809998365800071
+    },
+    {
+      "step": 772,
+      "time_s": 1.5460000000000012,
+      "original_step_time_s": 1.544,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.431132226767785e-06,
+        1.397065660942165e-29,
+        0.5098164072062393
+      ],
+      "normal_force_n": 9.809997902139068
+    },
+    {
+      "step": 773,
+      "time_s": 1.5480000000000012,
+      "original_step_time_s": 1.546,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.42536867035363e-06,
+        1.5045272139882535e-29,
+        0.509816407323913
+      ],
+      "normal_force_n": 9.809997553643228
+    },
+    {
+      "step": 774,
+      "time_s": 1.5500000000000012,
+      "original_step_time_s": 1.548,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.418815573417476e-06,
+        1.727291566138823e-29,
+        0.5098164074368583
+      ],
+      "normal_force_n": 9.809997302585417
+    },
+    {
+      "step": 775,
+      "time_s": 1.5520000000000012,
+      "original_step_time_s": 1.55,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.411475816528027e-06,
+        2.0674443113279396e-29,
+        0.5098164075445725
+      ],
+      "normal_force_n": 9.809997133412526
+    },
+    {
+      "step": 776,
+      "time_s": 1.5540000000000012,
+      "original_step_time_s": 1.552,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.403352403700982e-06,
+        2.5269854026758664e-29,
+        0.5098164076467164
+      ],
+      "normal_force_n": 9.809997032525729
+    },
+    {
+      "step": 777,
+      "time_s": 1.5560000000000012,
+      "original_step_time_s": 1.554,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.394448461716357e-06,
+        3.107826560990086e-29,
+        0.5098164077430876
+      ],
+      "normal_force_n": 9.809996988075103
+    },
+    {
+      "step": 778,
+      "time_s": 1.5580000000000012,
+      "original_step_time_s": 1.556,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.384767239417038e-06,
+        3.811788749398713e-29,
+        0.5098164078335963
+      ],
+      "normal_force_n": 9.809996989775154
+    },
+    {
+      "step": 779,
+      "time_s": 1.5600000000000012,
+      "original_step_time_s": 1.558,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.374312106988623e-06,
+        4.6405997172065976e-29,
+        0.5098164079182449
+      ],
+      "normal_force_n": 9.809997028733244
+    },
+    {
+      "step": 780,
+      "time_s": 1.5620000000000012,
+      "original_step_time_s": 1.56,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.363086555220818e-06,
+        5.595891616009355e-29,
+        0.5098164079971105
+      ],
+      "normal_force_n": 9.809997097294977
+    },
+    {
+      "step": 781,
+      "time_s": 1.5640000000000012,
+      "original_step_time_s": 1.562,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.35109419475039e-06,
+        6.679198691065761e-29,
+        0.5098164080703291
+      ],
+      "normal_force_n": 9.809997188903079
+    },
+    {
+      "step": 782,
+      "time_s": 1.5660000000000012,
+      "original_step_time_s": 1.564,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.33833875528601e-06,
+        7.891955050875603e-29,
+        0.5098164081380829
+      ],
+      "normal_force_n": 9.80999729796897
+    },
+    {
+      "step": 783,
+      "time_s": 1.5680000000000012,
+      "original_step_time_s": 1.566,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.32482408481498e-06,
+        9.235492517867861e-29,
+        0.5098164082005892
+      ],
+      "normal_force_n": 9.80999741975799
+    },
+    {
+      "step": 784,
+      "time_s": 1.5700000000000012,
+      "original_step_time_s": 1.568,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.310554148792093e-06,
+        1.0711038563032744e-28,
+        0.5098164082580902
+      ],
+      "normal_force_n": 9.809997550284596
+    },
+    {
+      "step": 785,
+      "time_s": 1.5720000000000012,
+      "original_step_time_s": 1.57,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.295533029310737e-06,
+        1.231971432729521e-28,
+        0.5098164083108457
+      ],
+      "normal_force_n": 9.80999768621863
+    },
+    {
+      "step": 786,
+      "time_s": 1.5740000000000012,
+      "original_step_time_s": 1.572,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.279764924256466e-06,
+        1.4062532732355471e-28,
+        0.5098164083591267
+      ],
+      "normal_force_n": 9.809997824804011
+    },
+    {
+      "step": 787,
+      "time_s": 1.5760000000000012,
+      "original_step_time_s": 1.574,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.263254146443154e-06,
+        1.5940396683646538e-28,
+        0.5098164084032089
+      ],
+      "normal_force_n": 9.809997963778434
+    },
+    {
+      "step": 788,
+      "time_s": 1.5780000000000012,
+      "original_step_time_s": 1.576,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.24600512273186e-06,
+        1.7954097368019887e-28,
+        0.5098164084433688
+      ],
+      "normal_force_n": 9.80999810131163
+    },
+    {
+      "step": 789,
+      "time_s": 1.5800000000000012,
+      "original_step_time_s": 1.578,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.228022393132702e-06,
+        2.0104312648672674e-28,
+        0.5098164084798804
+      ],
+      "normal_force_n": 9.80999823594314
+    },
+    {
+      "step": 790,
+      "time_s": 1.5820000000000012,
+      "original_step_time_s": 1.58,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.209310609889796e-06,
+        2.2391605559769263e-28,
+        0.5098164085130116
+      ],
+      "normal_force_n": 9.80999836652921
+    },
+    {
+      "step": 791,
+      "time_s": 1.5840000000000012,
+      "original_step_time_s": 1.582,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.189874536549456e-06,
+        2.481642290313401e-28,
+        0.5098164085430219
+      ],
+      "normal_force_n": 9.809998492199998
+    },
+    {
+      "step": 792,
+      "time_s": 1.5860000000000012,
+      "original_step_time_s": 1.584,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.16971904701189e-06,
+        2.737909394930479e-28,
+        0.5098164085701613
+      ],
+      "normal_force_n": 9.809998612311658
+    },
+    {
+      "step": 793,
+      "time_s": 1.5880000000000012,
+      "original_step_time_s": 1.586,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.148849124566506e-06,
+        3.0079829245161736e-28,
+        0.5098164085946685
+      ],
+      "normal_force_n": 9.809998726418343
+    },
+    {
+      "step": 794,
+      "time_s": 1.5900000000000012,
+      "original_step_time_s": 1.588,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.127269860911024e-06,
+        3.2918719530254496e-28,
+        0.5098164086167702
+      ],
+      "normal_force_n": 9.80999883423396
+    },
+    {
+      "step": 795,
+      "time_s": 1.5920000000000012,
+      "original_step_time_s": 1.59,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.104986455154641e-06,
+        3.589573476386701e-28,
+        0.5098164086366805
+      ],
+      "normal_force_n": 9.809998935607334
+    },
+    {
+      "step": 796,
+      "time_s": 1.5940000000000012,
+      "original_step_time_s": 1.592,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.08200421280529e-06,
+        3.9010723264762177e-28,
+        0.5098164086546007
+      ],
+      "normal_force_n": 9.809999030499423
+    },
+    {
+      "step": 797,
+      "time_s": 1.5960000000000012,
+      "original_step_time_s": 1.594,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.058328544741414e-06,
+        4.226341096546166e-28,
+        0.5098164086707185
+      ],
+      "normal_force_n": 9.809999118958682
+    },
+    {
+      "step": 798,
+      "time_s": 1.5980000000000012,
+      "original_step_time_s": 1.596,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.033964966168158e-06,
+        4.565340078281088e-28,
+        0.5098164086852095
+      ],
+      "normal_force_n": 9.809999201107933
+    },
+    {
+      "step": 799,
+      "time_s": 1.6000000000000012,
+      "original_step_time_s": 1.598,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        8.008919095558407e-06,
+        4.918017210648678e-28,
+        0.5098164086982362
+      ],
+      "normal_force_n": 9.809999277125645
+    },
+    {
+      "step": 800,
+      "time_s": 1.6020000000000012,
+      "original_step_time_s": 1.6,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.983196653578775e-06,
+        5.284308040700333e-28,
+        0.5098164087099489
+      ],
+      "normal_force_n": 9.80999934723368
+    },
+    {
+      "step": 801,
+      "time_s": 1.6040000000000012,
+      "original_step_time_s": 1.602,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.956803462000744e-06,
+        5.664135696465782e-28,
+        0.5098164087204861
+      ],
+      "normal_force_n": 9.809999411685043
+    },
+    {
+      "step": 802,
+      "time_s": 1.6060000000000012,
+      "original_step_time_s": 1.604,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.929745442597123e-06,
+        6.05741087207659e-28,
+        0.5098164087299748
+      ],
+      "normal_force_n": 9.809999470758635
+    },
+    {
+      "step": 803,
+      "time_s": 1.6080000000000012,
+      "original_step_time_s": 1.606,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.902028616024077e-06,
+        6.464031825241471e-28,
+        0.5098164087385314
+      ],
+      "normal_force_n": 9.809999524745354
+    },
+    {
+      "step": 804,
+      "time_s": 1.6100000000000012,
+      "original_step_time_s": 1.608,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.873659100688997e-06,
+        6.883884387185604e-28,
+        0.509816408746262
+      ],
+      "normal_force_n": 9.80999957394502
+    },
+    {
+      "step": 805,
+      "time_s": 1.6120000000000012,
+      "original_step_time_s": 1.61,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.844643111604164e-06,
+        7.316841985155183e-28,
+        0.5098164087532631
+      ],
+      "normal_force_n": 9.809999618661486
+    },
+    {
+      "step": 806,
+      "time_s": 1.6140000000000012,
+      "original_step_time_s": 1.612,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.814986959226758e-06,
+        7.762765677575909e-28,
+        0.5098164087596224
+      ],
+      "normal_force_n": 9.809999659196757
+    },
+    {
+      "step": 807,
+      "time_s": 1.6160000000000012,
+      "original_step_time_s": 1.614,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.784697048285125e-06,
+        8.221504201943634e-28,
+        0.5098164087654187
+      ],
+      "normal_force_n": 9.809999695847047
+    },
+    {
+      "step": 808,
+      "time_s": 1.6180000000000012,
+      "original_step_time_s": 1.616,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.753779876591723e-06,
+        8.692894035512425e-28,
+        0.5098164087707237
+      ],
+      "normal_force_n": 9.809999728901852
+    },
+    {
+      "step": 809,
+      "time_s": 1.6200000000000012,
+      "original_step_time_s": 1.618,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.722242033842851e-06,
+        9.176759468833827e-28,
+        0.5098164087756014
+      ],
+      "normal_force_n": 9.809999758639982
+    },
+    {
+      "step": 810,
+      "time_s": 1.6220000000000012,
+      "original_step_time_s": 1.62,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.690090200405314e-06,
+        9.672912692188964e-28,
+        0.5098164087801093
+      ],
+      "normal_force_n": 9.809999785328538
+    },
+    {
+      "step": 811,
+      "time_s": 1.6240000000000012,
+      "original_step_time_s": 1.622,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.657331146090492e-06,
+        1.0181153894942321e-27,
+        0.5098164087842987
+      ],
+      "normal_force_n": 9.809999809222333
+    },
+    {
+      "step": 812,
+      "time_s": 1.6260000000000012,
+      "original_step_time_s": 1.624,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.623971728915712e-06,
+        1.0701271377833535e-27,
+        0.5098164087882154
+      ],
+      "normal_force_n": 9.809999830562756
+    },
+    {
+      "step": 813,
+      "time_s": 1.6280000000000012,
+      "original_step_time_s": 1.6260000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.590018893853397e-06,
+        1.1233041678211685e-27,
+        0.5098164087919
+      ],
+      "normal_force_n": 9.809999849576124
+    },
+    {
+      "step": 814,
+      "time_s": 1.6300000000000012,
+      "original_step_time_s": 1.6280000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.555479671568083e-06,
+        1.1776229708202363e-27,
+        0.5098164087953887
+      ],
+      "normal_force_n": 9.809999866476575
+    },
+    {
+      "step": 815,
+      "time_s": 1.6320000000000012,
+      "original_step_time_s": 1.6300000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.5203611771415546e-06,
+        1.233058890578682e-27,
+        0.5098164087987129
+      ],
+      "normal_force_n": 9.80999988146148
+    },
+    {
+      "step": 816,
+      "time_s": 1.6340000000000012,
+      "original_step_time_s": 1.6320000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.484670608786322e-06,
+        1.2895861398757817e-27,
+        0.5098164088019008
+      ],
+      "normal_force_n": 9.809999894716753
+    },
+    {
+      "step": 817,
+      "time_s": 1.6360000000000012,
+      "original_step_time_s": 1.6340000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.448415246547707e-06,
+        1.3471778181504582e-27,
+        0.5098164088049766
+      ],
+      "normal_force_n": 9.809999906413015
+    },
+    {
+      "step": 818,
+      "time_s": 1.6380000000000012,
+      "original_step_time_s": 1.6360000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.411602450994714e-06,
+        1.4058059304566423e-27,
+        0.5098164088079615
+      ],
+      "normal_force_n": 9.809999916708597
+    },
+    {
+      "step": 819,
+      "time_s": 1.6400000000000012,
+      "original_step_time_s": 1.6380000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.374239661899941e-06,
+        1.4654414076881032e-27,
+        0.5098164088108743
+      ],
+      "normal_force_n": 9.809999925749105
+    },
+    {
+      "step": 820,
+      "time_s": 1.6420000000000012,
+      "original_step_time_s": 1.6400000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.336334396908733e-06,
+        1.5260541280639514e-27,
+        0.5098164088137306
+      ],
+      "normal_force_n": 9.809999933666614
+    },
+    {
+      "step": 821,
+      "time_s": 1.6440000000000012,
+      "original_step_time_s": 1.6420000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.2978942501978755e-06,
+        1.587612939864971e-27,
+        0.5098164088165442
+      ],
+      "normal_force_n": 9.809999940585072
+    },
+    {
+      "step": 822,
+      "time_s": 1.6460000000000012,
+      "original_step_time_s": 1.6440000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.258926891124012e-06,
+        1.650085685409218e-27,
+        0.5098164088193269
+      ],
+      "normal_force_n": 9.80999994661414
+    },
+    {
+      "step": 823,
+      "time_s": 1.6480000000000012,
+      "original_step_time_s": 1.6460000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.2194400628619845e-06,
+        1.713439226254324e-27,
+        0.5098164088220885
+      ],
+      "normal_force_n": 9.80999995185527
+    },
+    {
+      "step": 824,
+      "time_s": 1.6500000000000012,
+      "original_step_time_s": 1.6480000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.179441581033444e-06,
+        1.777639469612479e-27,
+        0.5098164088248373
+      ],
+      "normal_force_n": 9.809999956399416
+    },
+    {
+      "step": 825,
+      "time_s": 1.6520000000000012,
+      "original_step_time_s": 1.6500000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.138939332325864e-06,
+        1.8426513959627644e-27,
+        0.5098164088275802
+      ],
+      "normal_force_n": 9.809999960329938
+    },
+    {
+      "step": 826,
+      "time_s": 1.6540000000000012,
+      "original_step_time_s": 1.6520000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.097941273102234e-06,
+        1.9084390878442143e-27,
+        0.509816408830323
+      ],
+      "normal_force_n": 9.80999996372151
+    },
+    {
+      "step": 827,
+      "time_s": 1.6560000000000012,
+      "original_step_time_s": 1.6540000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.056455428001691e-06,
+        1.974965759811627e-27,
+        0.5098164088330702
+      ],
+      "normal_force_n": 9.809999966640728
+    },
+    {
+      "step": 828,
+      "time_s": 1.6580000000000013,
+      "original_step_time_s": 1.6560000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        7.0144898885313184e-06,
+        2.0421937895349097e-27,
+        0.5098164088358257
+      ],
+      "normal_force_n": 9.809999969147684
+    },
+    {
+      "step": 829,
+      "time_s": 1.6600000000000013,
+      "original_step_time_s": 1.6580000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.972052811649316e-06,
+        2.1100847500213637e-27,
+        0.509816408838592
+      ],
+      "normal_force_n": 9.809999971297103
+    },
+    {
+      "step": 830,
+      "time_s": 1.6620000000000013,
+      "original_step_time_s": 1.6600000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.929152418339867e-06,
+        2.1785994429390724e-27,
+        0.5098164088413717
+      ],
+      "normal_force_n": 9.809999973135874
+    },
+    {
+      "step": 831,
+      "time_s": 1.6640000000000013,
+      "original_step_time_s": 1.6620000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.885796992179859e-06,
+        2.24769793301831e-27,
+        0.5098164088441658
+      ],
+      "normal_force_n": 9.809999974706841
+    },
+    {
+      "step": 832,
+      "time_s": 1.6660000000000013,
+      "original_step_time_s": 1.6640000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.84199487789774e-06,
+        2.3173395835065643e-27,
+        0.5098164088469755
+      ],
+      "normal_force_n": 9.809999976047727
+    },
+    {
+      "step": 833,
+      "time_s": 1.6680000000000013,
+      "original_step_time_s": 1.666,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.797754479924802e-06,
+        2.387483092651479e-27,
+        0.5098164088498015
+      ],
+      "normal_force_n": 9.809999977192057
+    },
+    {
+      "step": 834,
+      "time_s": 1.6700000000000013,
+      "original_step_time_s": 1.668,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.753084260939043e-06,
+        2.458086531184937e-27,
+        0.5098164088526436
+      ],
+      "normal_force_n": 9.809999978169134
+    },
+    {
+      "step": 835,
+      "time_s": 1.6720000000000013,
+      "original_step_time_s": 1.67,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.707992740401928e-06,
+        2.5291073807801065e-27,
+        0.5098164088555018
+      ],
+      "normal_force_n": 9.809999979005415
+    },
+    {
+      "step": 836,
+      "time_s": 1.6740000000000013,
+      "original_step_time_s": 1.672,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.6624884930883005e-06,
+        2.6005025734521678e-27,
+        0.5098164088583756
+      ],
+      "normal_force_n": 9.809999979722045
+    },
+    {
+      "step": 837,
+      "time_s": 1.6760000000000013,
+      "original_step_time_s": 1.674,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.6165801476096185e-06,
+        2.672228531872224e-27,
+        0.5098164088612644
+      ],
+      "normal_force_n": 9.809999980339844
+    },
+    {
+      "step": 838,
+      "time_s": 1.6780000000000013,
+      "original_step_time_s": 1.676,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.5702763849308785e-06,
+        2.7442412105627027e-27,
+        0.5098164088641672
+      ],
+      "normal_force_n": 9.809999980875606
+    },
+    {
+      "step": 839,
+      "time_s": 1.6800000000000013,
+      "original_step_time_s": 1.678,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.523585936881332e-06,
+        2.816496137941476e-27,
+        0.5098164088670829
+      ],
+      "normal_force_n": 9.809999981344246
+    },
+    {
+      "step": 840,
+      "time_s": 1.6820000000000013,
+      "original_step_time_s": 1.68,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.4765175846594245e-06,
+        2.8889484591807557e-27,
+        0.5098164088700105
+      ],
+      "normal_force_n": 9.809999981758576
+    },
+    {
+      "step": 841,
+      "time_s": 1.6840000000000013,
+      "original_step_time_s": 1.682,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.429080157332037e-06,
+        2.961552979845715e-27,
+        0.5098164088729487
+      ],
+      "normal_force_n": 9.809999982129519
+    },
+    {
+      "step": 842,
+      "time_s": 1.6860000000000013,
+      "original_step_time_s": 1.684,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.381282530328406e-06,
+        3.0342642102767506e-27,
+        0.5098164088758961
+      ],
+      "normal_force_n": 9.809999982466568
+    },
+    {
+      "step": 843,
+      "time_s": 1.6880000000000013,
+      "original_step_time_s": 1.686,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.333133623928894e-06,
+        3.107036410678157e-27,
+        0.5098164088788514
+      ],
+      "normal_force_n": 9.809999982777446
+    },
+    {
+      "step": 844,
+      "time_s": 1.6900000000000013,
+      "original_step_time_s": 1.688,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.284642401748899e-06,
+        3.1798236368751254e-27,
+        0.5098164088818131
+      ],
+      "normal_force_n": 9.809999983068433
+    },
+    {
+      "step": 845,
+      "time_s": 1.6920000000000013,
+      "original_step_time_s": 1.69,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.235817869218199e-06,
+        3.252579786699897e-27,
+        0.5098164088847805
+      ],
+      "normal_force_n": 9.809999983348801
+    },
+    {
+      "step": 846,
+      "time_s": 1.6940000000000013,
+      "original_step_time_s": 1.692,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.1866690720558695e-06,
+        3.3252586469667086e-27,
+        0.5098164088877508
+      ],
+      "normal_force_n": 9.80999998361571
+    },
+    {
+      "step": 847,
+      "time_s": 1.6960000000000013,
+      "original_step_time_s": 1.694,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.137205094741155e-06,
+        3.397813940994897e-27,
+        0.5098164088907231
+      ],
+      "normal_force_n": 9.809999983877034
+    },
+    {
+      "step": 848,
+      "time_s": 1.6980000000000013,
+      "original_step_time_s": 1.696,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.087435058980448e-06,
+        3.4701993766377324e-27,
+        0.5098164088936961
+      ],
+      "normal_force_n": 9.809999984136029
+    },
+    {
+      "step": 849,
+      "time_s": 1.7000000000000013,
+      "original_step_time_s": 1.698,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        6.037368122170722e-06,
+        3.542368694774496e-27,
+        0.5098164088966683
+      ],
+      "normal_force_n": 9.809999984395198
+    },
+    {
+      "step": 850,
+      "time_s": 1.7020000000000013,
+      "original_step_time_s": 1.7,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.987013475859583e-06,
+        3.614275718221933e-27,
+        0.5098164088996383
+      ],
+      "normal_force_n": 9.809999984655926
+    },
+    {
+      "step": 851,
+      "time_s": 1.7040000000000013,
+      "original_step_time_s": 1.702,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.936380344202265e-06,
+        3.68587440102071e-27,
+        0.5098164089026047
+      ],
+      "normal_force_n": 9.809999984919909
+    },
+    {
+      "step": 852,
+      "time_s": 1.7060000000000013,
+      "original_step_time_s": 1.704,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.885477982415764e-06,
+        3.7571188780517214e-27,
+        0.5098164089055663
+      ],
+      "normal_force_n": 9.809999985188487
+    },
+    {
+      "step": 853,
+      "time_s": 1.7080000000000013,
+      "original_step_time_s": 1.706,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.834315675230428e-06,
+        3.827963514936218e-27,
+        0.5098164089085214
+      ],
+      "normal_force_n": 9.809999985461403
+    },
+    {
+      "step": 854,
+      "time_s": 1.7100000000000013,
+      "original_step_time_s": 1.708,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.782902735339228e-06,
+        3.898362958173171e-27,
+        0.5098164089114691
+      ],
+      "normal_force_n": 9.80999998573965
+    },
+    {
+      "step": 855,
+      "time_s": 1.7120000000000013,
+      "original_step_time_s": 1.71,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.731248501844941e-06,
+        3.968272185466668e-27,
+        0.5098164089144078
+      ],
+      "normal_force_n": 9.809999986023735
+    },
+    {
+      "step": 856,
+      "time_s": 1.7140000000000013,
+      "original_step_time_s": 1.712,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.6793623387055325e-06,
+        4.0376465561954674e-27,
+        0.5098164089173365
+      ],
+      "normal_force_n": 9.80999998631299
+    },
+    {
+      "step": 857,
+      "time_s": 1.7160000000000013,
+      "original_step_time_s": 1.714,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.627253633177994e-06,
+        4.106441861976333e-27,
+        0.5098164089202539
+      ],
+      "normal_force_n": 9.80999998660826
+    },
+    {
+      "step": 858,
+      "time_s": 1.7180000000000013,
+      "original_step_time_s": 1.716,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.574931794260872e-06,
+        4.17461437727218e-27,
+        0.5098164089231589
+      ],
+      "normal_force_n": 9.809999986907911
+    },
+    {
+      "step": 859,
+      "time_s": 1.7200000000000013,
+      "original_step_time_s": 1.718,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.522406251135746e-06,
+        4.2421209099957364e-27,
+        0.5098164089260504
+      ],
+      "normal_force_n": 9.809999987212626
+    },
+    {
+      "step": 860,
+      "time_s": 1.7220000000000013,
+      "original_step_time_s": 1.72,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.46968645160793e-06,
+        4.308918852058836e-27,
+        0.5098164089289272
+      ],
+      "normal_force_n": 9.80999998752179
+    },
+    {
+      "step": 861,
+      "time_s": 1.7240000000000013,
+      "original_step_time_s": 1.722,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.416781860546618e-06,
+        4.374966229817216e-27,
+        0.5098164089317883
+      ],
+      "normal_force_n": 9.809999987834178
+    },
+    {
+      "step": 862,
+      "time_s": 1.7260000000000013,
+      "original_step_time_s": 1.724,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.363701958324761e-06,
+        4.440221754360258e-27,
+        0.5098164089346328
+      ],
+      "normal_force_n": 9.809999988150105
+    },
+    {
+      "step": 863,
+      "time_s": 1.7280000000000013,
+      "original_step_time_s": 1.726,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.310456239258911e-06,
+        4.5046448715949204e-27,
+        0.5098164089374596
+      ],
+      "normal_force_n": 9.80999998846892
+    },
+    {
+      "step": 864,
+      "time_s": 1.7300000000000013,
+      "original_step_time_s": 1.728,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.257054210049265e-06,
+        4.568195812072821e-27,
+        0.5098164089402679
+      ],
+      "normal_force_n": 9.809999988789645
+    },
+    {
+      "step": 865,
+      "time_s": 1.7320000000000013,
+      "original_step_time_s": 1.73,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.203505388220218e-06,
+        4.6308356405091415e-27,
+        0.5098164089430567
+      ],
+      "normal_force_n": 9.809999989112157
+    },
+    {
+      "step": 866,
+      "time_s": 1.7340000000000013,
+      "original_step_time_s": 1.732,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.149819300561606e-06,
+        4.6925263049421865e-27,
+        0.5098164089458251
+      ],
+      "normal_force_n": 9.809999989435841
+    },
+    {
+      "step": 867,
+      "time_s": 1.7360000000000013,
+      "original_step_time_s": 1.734,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.096005481570977e-06,
+        4.753230685481933e-27,
+        0.5098164089485724
+      ],
+      "normal_force_n": 9.809999989760332
+    },
+    {
+      "step": 868,
+      "time_s": 1.7380000000000013,
+      "original_step_time_s": 1.736,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        5.042073471897041e-06,
+        4.812912642596278e-27,
+        0.5098164089512978
+      ],
+      "normal_force_n": 9.80999999008428
+    },
+    {
+      "step": 869,
+      "time_s": 1.7400000000000013,
+      "original_step_time_s": 1.738,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.988032816784584e-06,
+        4.8715370648833276e-27,
+        0.5098164089540003
+      ],
+      "normal_force_n": 9.809999990408333
+    },
+    {
+      "step": 870,
+      "time_s": 1.7420000000000013,
+      "original_step_time_s": 1.74,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.9338930645212045e-06,
+        4.929069916278405e-27,
+        0.5098164089566792
+      ],
+      "normal_force_n": 9.809999990730097
+    },
+    {
+      "step": 871,
+      "time_s": 1.7440000000000013,
+      "original_step_time_s": 1.742,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.879663764885927e-06,
+        4.985478282644493e-27,
+        0.5098164089593341
+      ],
+      "normal_force_n": 9.809999991050882
+    },
+    {
+      "step": 872,
+      "time_s": 1.7460000000000013,
+      "original_step_time_s": 1.744,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.825354467600084e-06,
+        5.04073041769486e-27,
+        0.5098164089619639
+      ],
+      "normal_force_n": 9.80999999136918
+    },
+    {
+      "step": 873,
+      "time_s": 1.7480000000000013,
+      "original_step_time_s": 1.746,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.770974720780677e-06,
+        5.0947957881970774e-27,
+        0.5098164089645683
+      ],
+      "normal_force_n": 9.80999999168526
+    },
+    {
+      "step": 874,
+      "time_s": 1.7500000000000013,
+      "original_step_time_s": 1.748,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.716534069396438e-06,
+        5.1476451184076826e-27,
+        0.5098164089671465
+      ],
+      "normal_force_n": 9.809999991998362
+    },
+    {
+      "step": 875,
+      "time_s": 1.7520000000000013,
+      "original_step_time_s": 1.75,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.662042053726866e-06,
+        5.199250433687228e-27,
+        0.5098164089696979
+      ],
+      "normal_force_n": 9.809999992307677
+    },
+    {
+      "step": 876,
+      "time_s": 1.7540000000000013,
+      "original_step_time_s": 1.752,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.60750820782449e-06,
+        5.249585103245717e-27,
+        0.509816408972222
+      ],
+      "normal_force_n": 9.809999992613877
+    },
+    {
+      "step": 877,
+      "time_s": 1.7560000000000013,
+      "original_step_time_s": 1.754,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.552942057980544e-06,
+        5.298623881968908e-27,
+        0.5098164089747181
+      ],
+      "normal_force_n": 9.80999999291555
+    },
+    {
+      "step": 878,
+      "time_s": 1.7580000000000013,
+      "original_step_time_s": 1.756,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.4983531211943726e-06,
+        5.346342951276484e-27,
+        0.5098164089771859
+      ],
+      "normal_force_n": 9.809999993213225
+    },
+    {
+      "step": 879,
+      "time_s": 1.7600000000000013,
+      "original_step_time_s": 1.758,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.443750903646794e-06,
+        5.3927199589635095e-27,
+        0.5098164089796249
+      ],
+      "normal_force_n": 9.809999993505999
+    },
+    {
+      "step": 880,
+      "time_s": 1.7620000000000013,
+      "original_step_time_s": 1.76,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.3891448991775885e-06,
+        5.437734057977306e-27,
+        0.5098164089820344
+      ],
+      "normal_force_n": 9.809999993794111
+    },
+    {
+      "step": 881,
+      "time_s": 1.7640000000000013,
+      "original_step_time_s": 1.762,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.334544587767449e-06,
+        5.4813659440824146e-27,
+        0.5098164089844142
+      ],
+      "normal_force_n": 9.809999994076515
+    },
+    {
+      "step": 882,
+      "time_s": 1.7660000000000013,
+      "original_step_time_s": 1.764,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.279959434024591e-06,
+        5.523597892367152e-27,
+        0.5098164089867636
+      ],
+      "normal_force_n": 9.809999994354122
+    },
+    {
+      "step": 883,
+      "time_s": 1.7680000000000013,
+      "original_step_time_s": 1.766,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.225398885676232e-06,
+        5.5644137925457664e-27,
+        0.5098164089890825
+      ],
+      "normal_force_n": 9.809999994625903
+    },
+    {
+      "step": 884,
+      "time_s": 1.7700000000000014,
+      "original_step_time_s": 1.768,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.1708723720652456e-06,
+        5.603799183011246e-27,
+        0.5098164089913704
+      ],
+      "normal_force_n": 9.809999994891824
+    },
+    {
+      "step": 885,
+      "time_s": 1.7720000000000014,
+      "original_step_time_s": 1.77,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.116389302652143e-06,
+        5.6417412835945326e-27,
+        0.5098164089936269
+      ],
+      "normal_force_n": 9.809999995151932
+    },
+    {
+      "step": 886,
+      "time_s": 1.7740000000000014,
+      "original_step_time_s": 1.772,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.0619590655227035e-06,
+        5.678229026986866e-27,
+        0.5098164089958519
+      ],
+      "normal_force_n": 9.809999995406104
+    },
+    {
+      "step": 887,
+      "time_s": 1.7760000000000014,
+      "original_step_time_s": 1.774,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        4.007591025901372e-06,
+        5.713253088782847e-27,
+        0.5098164089980448
+      ],
+      "normal_force_n": 9.809999995654316
+    },
+    {
+      "step": 888,
+      "time_s": 1.7780000000000014,
+      "original_step_time_s": 1.776,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.953294524670835e-06,
+        5.746805916102893e-27,
+        0.5098164090002056
+      ],
+      "normal_force_n": 9.809999995895854
+    },
+    {
+      "step": 889,
+      "time_s": 1.7800000000000014,
+      "original_step_time_s": 1.778,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.89907887689777e-06,
+        5.7788817547548025e-27,
+        0.5098164090023339
+      ],
+      "normal_force_n": 9.809999996131639
+    },
+    {
+      "step": 890,
+      "time_s": 1.7820000000000014,
+      "original_step_time_s": 1.78,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.844953370365218e-06,
+        5.809476674895164e-27,
+        0.5098164090044295
+      ],
+      "normal_force_n": 9.809999996360302
+    },
+    {
+      "step": 891,
+      "time_s": 1.7840000000000014,
+      "original_step_time_s": 1.782,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.7909272641116654e-06,
+        5.838588595152552e-27,
+        0.5098164090064923
+      ],
+      "normal_force_n": 9.809999996583205
+    },
+    {
+      "step": 892,
+      "time_s": 1.7860000000000014,
+      "original_step_time_s": 1.784,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.7370097869771077e-06,
+        5.8662173051756984e-27,
+        0.5098164090085219
+      ],
+      "normal_force_n": 9.809999996799345
+    },
+    {
+      "step": 893,
+      "time_s": 1.7880000000000014,
+      "original_step_time_s": 1.786,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.683210136156348e-06,
+        5.892364486570965e-27,
+        0.5098164090105183
+      ],
+      "normal_force_n": 9.80999999700871
+    },
+    {
+      "step": 894,
+      "time_s": 1.7900000000000014,
+      "original_step_time_s": 1.788,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.629537475759694e-06,
+        5.9170337321947344e-27,
+        0.5098164090124813
+      ],
+      "normal_force_n": 9.809999997211994
+    },
+    {
+      "step": 895,
+      "time_s": 1.7920000000000014,
+      "original_step_time_s": 1.79,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.576000935381313e-06,
+        5.940230563767803e-27,
+        0.5098164090144106
+      ],
+      "normal_force_n": 9.809999997408188
+    },
+    {
+      "step": 896,
+      "time_s": 1.7940000000000014,
+      "original_step_time_s": 1.792,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.522609608675461e-06,
+        5.961962447780108e-27,
+        0.5098164090163064
+      ],
+      "normal_force_n": 9.809999997597883
+    },
+    {
+      "step": 897,
+      "time_s": 1.7960000000000014,
+      "original_step_time_s": 1.794,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.469372551940794e-06,
+        5.9822388096555196e-27,
+        0.5098164090181685
+      ],
+      "normal_force_n": 9.809999997780782
+    },
+    {
+      "step": 898,
+      "time_s": 1.7980000000000014,
+      "original_step_time_s": 1.796,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.4162987827129877e-06,
+        6.001071046148074e-27,
+        0.5098164090199966
+      ],
+      "normal_force_n": 9.80999999795674
+    },
+    {
+      "step": 899,
+      "time_s": 1.8000000000000014,
+      "original_step_time_s": 1.798,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.363397278365876e-06,
+        6.01847253594227e-27,
+        0.5098164090217909
+      ],
+      "normal_force_n": 9.809999998126614
+    },
+    {
+      "step": 900,
+      "time_s": 1.8020000000000014,
+      "original_step_time_s": 1.8,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.3106769747213168e-06,
+        6.0344586484318645e-27,
+        0.5098164090235515
+      ],
+      "normal_force_n": 9.809999998289793
+    },
+    {
+      "step": 901,
+      "time_s": 1.8040000000000014,
+      "original_step_time_s": 1.802,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.2581467646680176e-06,
+        6.049046750652914e-27,
+        0.5098164090252784
+      ],
+      "normal_force_n": 9.809999998446933
+    },
+    {
+      "step": 902,
+      "time_s": 1.8060000000000014,
+      "original_step_time_s": 1.804,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.2058154967894887e-06,
+        6.062256212348702e-27,
+        0.5098164090269712
+      ],
+      "normal_force_n": 9.809999998596817
+    },
+    {
+      "step": 903,
+      "time_s": 1.8080000000000014,
+      "original_step_time_s": 1.806,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.153691974001366e-06,
+        6.074108409145642e-27,
+        0.5098164090286302
+      ],
+      "normal_force_n": 9.809999998739713
+    },
+    {
+      "step": 904,
+      "time_s": 1.8100000000000014,
+      "original_step_time_s": 1.808,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.1017849521983215e-06,
+        6.08462672382101e-27,
+        0.5098164090302555
+      ],
+      "normal_force_n": 9.809999998876895
+    },
+    {
+      "step": 905,
+      "time_s": 1.8120000000000014,
+      "original_step_time_s": 1.81,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        3.050103138910722e-06,
+        6.09383654564511e-27,
+        0.5098164090318471
+      ],
+      "normal_force_n": 9.809999999007745
+    },
+    {
+      "step": 906,
+      "time_s": 1.8140000000000014,
+      "original_step_time_s": 1.812,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.9986551919712634e-06,
+        6.1017652677822946e-27,
+        0.5098164090334052
+      ],
+      "normal_force_n": 9.809999999132213
+    },
+    {
+      "step": 907,
+      "time_s": 1.8160000000000014,
+      "original_step_time_s": 1.814,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.9474497181917904e-06,
+        6.108442282736807e-27,
+        0.5098164090349296
+      ],
+      "normal_force_n": 9.809999999249921
+    },
+    {
+      "step": 908,
+      "time_s": 1.8180000000000014,
+      "original_step_time_s": 1.816,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.896495272050466e-06,
+        6.1138989758315186e-27,
+        0.5098164090364208
+      ],
+      "normal_force_n": 9.809999999362077
+    },
+    {
+      "step": 909,
+      "time_s": 1.8200000000000014,
+      "original_step_time_s": 1.818,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.845800354389538e-06,
+        6.1181687167093774e-27,
+        0.5098164090378787
+      ],
+      "normal_force_n": 9.809999999467564
+    },
+    {
+      "step": 910,
+      "time_s": 1.8220000000000014,
+      "original_step_time_s": 1.82,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.795373411123836e-06,
+        6.121286848849122e-27,
+        0.5098164090393036
+      ],
+      "normal_force_n": 9.809999999567074
+    },
+    {
+      "step": 911,
+      "time_s": 1.8240000000000014,
+      "original_step_time_s": 1.822,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.7452228319602515e-06,
+        6.123290677089034e-27,
+        0.5098164090406957
+      ],
+      "normal_force_n": 9.809999999660922
+    },
+    {
+      "step": 912,
+      "time_s": 1.8260000000000014,
+      "original_step_time_s": 1.824,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.695356949128329e-06,
+        6.124219453153948e-27,
+        0.5098164090420549
+      ],
+      "normal_force_n": 9.80999999974868
+    },
+    {
+      "step": 913,
+      "time_s": 1.8280000000000014,
+      "original_step_time_s": 1.826,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.6457840361222318e-06,
+        6.124114359183304e-27,
+        0.5098164090433818
+      ],
+      "normal_force_n": 9.80999999983081
+    },
+    {
+      "step": 914,
+      "time_s": 1.8300000000000014,
+      "original_step_time_s": 1.828,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.5965123064541926e-06,
+        6.1230184892592715e-27,
+        0.5098164090446763
+      ],
+      "normal_force_n": 9.809999999906912
+    },
+    {
+      "step": 915,
+      "time_s": 1.8320000000000014,
+      "original_step_time_s": 1.83,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.547549912419668e-06,
+        6.120976828936619e-27,
+        0.5098164090459388
+      ],
+      "normal_force_n": 9.809999999977734
+    },
+    {
+      "step": 916,
+      "time_s": 1.8340000000000014,
+      "original_step_time_s": 1.832,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.4989049438743952e-06,
+        6.118036232777535e-27,
+        0.5098164090471695
+      ],
+      "normal_force_n": 9.81000000004241
+    },
+    {
+      "step": 917,
+      "time_s": 1.8360000000000014,
+      "original_step_time_s": 1.834,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.4505854270234845e-06,
+        6.11424539989688e-27,
+        0.5098164090483688
+      ],
+      "normal_force_n": 9.810000000102374
+    },
+    {
+      "step": 918,
+      "time_s": 1.8380000000000014,
+      "original_step_time_s": 1.836,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.4025993232227873e-06,
+        6.1096548475252126e-27,
+        0.5098164090495367
+      ],
+      "normal_force_n": 9.810000000156332
+    },
+    {
+      "step": 919,
+      "time_s": 1.8400000000000014,
+      "original_step_time_s": 1.838,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.3549545277926367e-06,
+        6.104316882599105e-27,
+        0.5098164090506737
+      ],
+      "normal_force_n": 9.810000000205733
+    },
+    {
+      "step": 920,
+      "time_s": 1.8420000000000014,
+      "original_step_time_s": 1.84,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.3076588688442e-06,
+        6.098285571390109e-27,
+        0.50981640905178
+      ],
+      "normal_force_n": 9.810000000249039
+    },
+    {
+      "step": 921,
+      "time_s": 1.8440000000000014,
+      "original_step_time_s": 1.842,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.2607201061185923e-06,
+        6.091616707186096e-27,
+        0.5098164090528561
+      ],
+      "normal_force_n": 9.81000000028828
+    },
+    {
+      "step": 922,
+      "time_s": 1.8460000000000014,
+      "original_step_time_s": 1.844,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.2141459298388876e-06,
+        6.084367776040318e-27,
+        0.509816409053902
+      ],
+      "normal_force_n": 9.810000000321871
+    },
+    {
+      "step": 923,
+      "time_s": 1.8480000000000014,
+      "original_step_time_s": 1.846,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.1679439595752535e-06,
+        6.0765979206060345e-27,
+        0.5098164090549184
+      ],
+      "normal_force_n": 9.810000000351181
+    },
+    {
+      "step": 924,
+      "time_s": 1.8500000000000014,
+      "original_step_time_s": 1.848,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.122121743123308e-06,
+        6.068367902076295e-27,
+        0.5098164090559054
+      ],
+      "normal_force_n": 9.810000000375505
+    },
+    {
+      "step": 925,
+      "time_s": 1.8520000000000014,
+      "original_step_time_s": 1.85,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.076686755395916e-06,
+        6.059740060250674e-27,
+        0.5098164090568634
+      ],
+      "normal_force_n": 9.810000000395606
+    },
+    {
+      "step": 926,
+      "time_s": 1.8540000000000014,
+      "original_step_time_s": 1.852,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        2.0316463973285406e-06,
+        6.050778271752648e-27,
+        0.509816409057793
+      ],
+      "normal_force_n": 9.810000000411247
+    },
+    {
+      "step": 927,
+      "time_s": 1.8560000000000014,
+      "original_step_time_s": 1.854,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.987007994798329e-06,
+        6.041547906423626e-27,
+        0.5098164090586943
+      ],
+      "normal_force_n": 9.810000000421912
+    },
+    {
+      "step": 928,
+      "time_s": 1.8580000000000014,
+      "original_step_time_s": 1.856,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.9427787975570787e-06,
+        6.03211578192143e-27,
+        0.5098164090595678
+      ],
+      "normal_force_n": 9.81000000042896
+    },
+    {
+      "step": 929,
+      "time_s": 1.8600000000000014,
+      "original_step_time_s": 1.858,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.8989659781782367e-06,
+        6.0225501165530574e-27,
+        0.509816409060414
+      ],
+      "normal_force_n": 9.810000000431762
+    },
+    {
+      "step": 930,
+      "time_s": 1.8620000000000014,
+      "original_step_time_s": 1.86,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.855576631018072e-06,
+        6.012920480373841e-27,
+        0.5098164090612333
+      ],
+      "normal_force_n": 9.810000000430444
+    },
+    {
+      "step": 931,
+      "time_s": 1.8640000000000014,
+      "original_step_time_s": 1.862,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.8126177711911842e-06,
+        6.0032977445867444e-27,
+        0.509816409062026
+      ],
+      "normal_force_n": 9.810000000425656
+    },
+    {
+      "step": 932,
+      "time_s": 1.8660000000000014,
+      "original_step_time_s": 1.864,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.7700963335604717e-06,
+        5.993754029277831e-27,
+        0.5098164090627925
+      ],
+      "normal_force_n": 9.810000000416286
+    },
+    {
+      "step": 933,
+      "time_s": 1.8680000000000014,
+      "original_step_time_s": 1.866,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.7280191717417175e-06,
+        5.984362649525687e-27,
+        0.5098164090635333
+      ],
+      "normal_force_n": 9.81000000040418
+    },
+    {
+      "step": 934,
+      "time_s": 1.8700000000000014,
+      "original_step_time_s": 1.868,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.6863930571229284e-06,
+        5.975198059924749e-27,
+        0.509816409064249
+      ],
+      "normal_force_n": 9.810000000388397
+    },
+    {
+      "step": 935,
+      "time_s": 1.8720000000000014,
+      "original_step_time_s": 1.87,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.6452246778985285e-06,
+        5.966335797564277e-27,
+        0.5098164090649399
+      ],
+      "normal_force_n": 9.810000000369424
+    },
+    {
+      "step": 936,
+      "time_s": 1.8740000000000014,
+      "original_step_time_s": 1.872,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.604520638118608e-06,
+        5.9578524235063884e-27,
+        0.5098164090656063
+      ],
+      "normal_force_n": 9.810000000346632
+    },
+    {
+      "step": 937,
+      "time_s": 1.8760000000000014,
+      "original_step_time_s": 1.874,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.5642874567532956e-06,
+        5.949825462809069e-27,
+        0.509816409066249
+      ],
+      "normal_force_n": 9.81000000032164
+    },
+    {
+      "step": 938,
+      "time_s": 1.8780000000000014,
+      "original_step_time_s": 1.8760000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.5245315667724016e-06,
+        5.942333343141194e-27,
+        0.5098164090668682
+      ],
+      "normal_force_n": 9.810000000293247
+    },
+    {
+      "step": 939,
+      "time_s": 1.8800000000000014,
+      "original_step_time_s": 1.8780000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.4852593142404686e-06,
+        5.9354553320389934e-27,
+        0.5098164090674646
+      ],
+      "normal_force_n": 9.810000000261365
+    },
+    {
+      "step": 940,
+      "time_s": 1.8820000000000014,
+      "original_step_time_s": 1.8800000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.446476957427358e-06,
+        5.9292714728548066e-27,
+        0.5098164090680384
+      ],
+      "normal_force_n": 9.81000000022702
+    },
+    {
+      "step": 941,
+      "time_s": 1.8840000000000015,
+      "original_step_time_s": 1.8820000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.408190665934438e-06,
+        5.923862519450955e-27,
+        0.5098164090685903
+      ],
+      "normal_force_n": 9.810000000190438
+    },
+    {
+      "step": 942,
+      "time_s": 1.8860000000000015,
+      "original_step_time_s": 1.8840000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.3704065198365576e-06,
+        5.9193098696928654e-27,
+        0.5098164090691206
+      ],
+      "normal_force_n": 9.810000000151135
+    },
+    {
+      "step": 943,
+      "time_s": 1.8880000000000015,
+      "original_step_time_s": 1.8860000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.3331305088398928e-06,
+        5.915695497798043e-27,
+        0.50981640906963
+      ],
+      "normal_force_n": 9.810000000109968
+    },
+    {
+      "step": 944,
+      "time_s": 1.8900000000000015,
+      "original_step_time_s": 1.8880000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.2963685314557652e-06,
+        5.913101885598172e-27,
+        0.5098164090701189
+      ],
+      "normal_force_n": 9.810000000066422
+    },
+    {
+      "step": 945,
+      "time_s": 1.8920000000000015,
+      "original_step_time_s": 1.8900000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.2601263941905403e-06,
+        5.911611952773815e-27,
+        0.5098164090705877
+      ],
+      "normal_force_n": 9.810000000020638
+    },
+    {
+      "step": 946,
+      "time_s": 1.8940000000000015,
+      "original_step_time_s": 1.8920000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.2244098107517541e-06,
+        5.911308986122793e-27,
+        0.5098164090710369
+      ],
+      "normal_force_n": 9.809999999972836
+    },
+    {
+      "step": 947,
+      "time_s": 1.8960000000000015,
+      "original_step_time_s": 1.8940000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.189224401270502e-06,
+        5.912276567924317e-27,
+        0.5098164090714671
+      ],
+      "normal_force_n": 9.809999999923667
+    },
+    {
+      "step": 948,
+      "time_s": 1.8980000000000015,
+      "original_step_time_s": 1.8960000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.154575691540261e-06,
+        5.914598503462742e-27,
+        0.5098164090718788
+      ],
+      "normal_force_n": 9.809999999872705
+    },
+    {
+      "step": 949,
+      "time_s": 1.9000000000000015,
+      "original_step_time_s": 1.8980000000000001,
+      "geom1": "person",
+      "geom2": "moving",
+      "body1": "world",
+      "body2": "load",
+      "position_m": [
+        1.1204691122721757e-06,
+        5.918358747776296e-27,
+        0.5098164090722723
+      ],
+      "normal_force_n": 9.809999999819809
+    }
+  ],
+  "frames": [
+    {
+      "time_s": 0.002,
+      "position_m": [
+        -0.5,
+        0.0,
+        1.05
+      ],
+      "target_m": [
+        -0.5,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.022000000000000006,
+      "position_m": [
+        -0.4971821126277759,
+        0.0,
+        1.0499478437779366
+      ],
+      "target_m": [
+        -0.48333333333333334,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.04200000000000002,
+      "position_m": [
+        -0.4872499423565504,
+        0.0,
+        1.0499135970372955
+      ],
+      "target_m": [
+        -0.4666666666666667,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.06200000000000004,
+      "position_m": [
+        -0.47330683854665434,
+        0.0,
+        1.0498989252707536
+      ],
+      "target_m": [
+        -0.45,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.08200000000000006,
+      "position_m": [
+        -0.45769063758610695,
+        0.0,
+        1.0498931750471903
+      ],
+      "target_m": [
+        -0.43333333333333335,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.10200000000000008,
+      "position_m": [
+        -0.4414234588841947,
+        0.0,
+        1.0498909776019716
+      ],
+      "target_m": [
+        -0.41666666666666663,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.1220000000000001,
+      "position_m": [
+        -0.424908054469632,
+        0.0,
+        1.0498901443000448
+      ],
+      "target_m": [
+        -0.4,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.1420000000000001,
+      "position_m": [
+        -0.4082985835586555,
+        0.0,
+        1.0498898290595704
+      ],
+      "target_m": [
+        -0.3833333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.16200000000000012,
+      "position_m": [
+        -0.3916535346365736,
+        0.0,
+        1.0498897098932651
+      ],
+      "target_m": [
+        -0.3666666666666667,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.18200000000000013,
+      "position_m": [
+        -0.37499503752105584,
+        0.0,
+        1.049889664857066
+      ],
+      "target_m": [
+        -0.35,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.20200000000000015,
+      "position_m": [
+        -0.3583314580738579,
+        0.0,
+        1.0498896478379312
+      ],
+      "target_m": [
+        -0.3333333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.22200000000000017,
+      "position_m": [
+        -0.34166595803139765,
+        0.0,
+        1.0498896414065693
+      ],
+      "target_m": [
+        -0.31666666666666665,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.2420000000000002,
+      "position_m": [
+        -0.32499973221653927,
+        0.0,
+        1.049889638976239
+      ],
+      "target_m": [
+        -0.3,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.2620000000000002,
+      "position_m": [
+        -0.30833323214169955,
+        0.0,
+        1.0498896380578504
+      ],
+      "target_m": [
+        -0.2833333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.2820000000000002,
+      "position_m": [
+        -0.29166662842776364,
+        0.0,
+        1.0498896377108038
+      ],
+      "target_m": [
+        -0.2666666666666666,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.3020000000000002,
+      "position_m": [
+        -0.2749999855500538,
+        0.0,
+        1.0498896375796596
+      ],
+      "target_m": [
+        -0.25,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.32200000000000023,
+      "position_m": [
+        -0.258333327872901,
+        0.0,
+        1.0498896375301023
+      ],
+      "target_m": [
+        -0.23333333333333334,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.34200000000000025,
+      "position_m": [
+        -0.24166666460324573,
+        0.0,
+        1.0498896375113755
+      ],
+      "target_m": [
+        -0.21666666666666662,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.36200000000000027,
+      "position_m": [
+        -0.22499999922026212,
+        0.0,
+        1.0498896375042985
+      ],
+      "target_m": [
+        -0.2,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.3820000000000003,
+      "position_m": [
+        -0.20833333303868132,
+        0.0,
+        1.0498896375016242
+      ],
+      "target_m": [
+        -0.1833333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.4020000000000003,
+      "position_m": [
+        -0.1916666665553218,
+        0.0,
+        1.049889637500614
+      ],
+      "target_m": [
+        -0.16666666666666663,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.4220000000000003,
+      "position_m": [
+        -0.17499999995792434,
+        0.0,
+        1.0498896375002318
+      ],
+      "target_m": [
+        -0.15000000000000002,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.44200000000000034,
+      "position_m": [
+        -0.1583333333174335,
+        0.0,
+        1.0498896375000877
+      ],
+      "target_m": [
+        -0.1333333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.46200000000000035,
+      "position_m": [
+        -0.14166666666065833,
+        0.0,
+        1.0498896375000333
+      ],
+      "target_m": [
+        -0.11666666666666664,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.4820000000000004,
+      "position_m": [
+        -0.12499999999767053,
+        0.0,
+        1.049889637500013
+      ],
+      "target_m": [
+        -0.09999999999999998,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.5020000000000003,
+      "position_m": [
+        -0.10833333333238905,
+        0.0,
+        1.0498896375000055
+      ],
+      "target_m": [
+        -0.08333333333333331,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.5220000000000004,
+      "position_m": [
+        -0.0916666666662738,
+        0.0,
+        1.0498896375000024
+      ],
+      "target_m": [
+        -0.06666666666666665,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.5420000000000004,
+      "position_m": [
+        -0.07499999999986481,
+        0.0,
+        1.049889637500001
+      ],
+      "target_m": [
+        -0.04999999999999993,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.5620000000000004,
+      "position_m": [
+        -0.058333333333230666,
+        0.0,
+        1.049889637500001
+      ],
+      "target_m": [
+        -0.03333333333333327,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.5820000000000004,
+      "position_m": [
+        -0.0416666666666293,
+        0.0,
+        1.0498896375000004
+      ],
+      "target_m": [
+        -0.016666666666666663,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.6020000000000004,
+      "position_m": [
+        -0.02500000000001894,
+        0.0,
+        1.0498896375
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.6220000000000004,
+      "position_m": [
+        -0.011151220705577128,
+        0.0,
+        1.0498896375
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.6420000000000005,
+      "position_m": [
+        -0.004416724310125167,
+        0.0,
+        1.0498896375
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.6620000000000005,
+      "position_m": [
+        -0.001693161453349178,
+        0.0,
+        1.0498896375
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.6820000000000005,
+      "position_m": [
+        -0.0006428318321739634,
+        0.0,
+        1.0498887620890809
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.7020000000000005,
+      "position_m": [
+        -0.0002457639059951775,
+        0.0,
+        1.0498586800911192
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.7220000000000005,
+      "position_m": [
+        -9.548363425914384e-05,
+        0.0,
+        1.049813713957948
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.7420000000000005,
+      "position_m": [
+        -3.7401636524630255e-05,
+        0.0,
+        1.0497870836963867
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.7620000000000006,
+      "position_m": [
+        -1.4691255196014994e-05,
+        0.0,
+        1.0497757926209645
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.7820000000000006,
+      "position_m": [
+        -5.775081118295331e-06,
+        0.0,
+        1.0497717310205192
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.8020000000000006,
+      "position_m": [
+        -2.2705480047710564e-06,
+        0.0,
+        1.0497704008431226
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.8220000000000006,
+      "position_m": [
+        -8.927173000761528e-07,
+        0.0,
+        1.0497699896323993
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.8420000000000006,
+      "position_m": [
+        -3.5099116095440636e-07,
+        0.0,
+        1.0497698671441305
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.8620000000000007,
+      "position_m": [
+        -1.37999216991242e-07,
+        0.0,
+        1.0497698315464281
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": true,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.8820000000000007,
+      "position_m": [
+        -5.425703154104264e-08,
+        0.0,
+        1.049769821372465
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.9020000000000007,
+      "position_m": [
+        -1.1677863839643303e-09,
+        0.0,
+        1.0476116159663498
+      ],
+      "target_m": [
+        1.1102230246251565e-16,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.9220000000000007,
+      "position_m": [
+        5.1921458773113976e-08,
+        0.0,
+        1.0415294105602337
+      ],
+      "target_m": [
+        0.01666666666666683,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.9420000000000007,
+      "position_m": [
+        1.0501070393019228e-07,
+        0.0,
+        1.031523205154117
+      ],
+      "target_m": [
+        0.03333333333333344,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.9620000000000007,
+      "position_m": [
+        1.580999490872706e-07,
+        0.0,
+        1.0175929997480007
+      ],
+      "target_m": [
+        0.04999999999999993,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 0.9820000000000008,
+      "position_m": [
+        2.111891942443489e-07,
+        0.0,
+        0.9997387943418847
+      ],
+      "target_m": [
+        0.06666666666666665,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.0020000000000007,
+      "position_m": [
+        2.642784394014271e-07,
+        0.0,
+        0.9779605889357688
+      ],
+      "target_m": [
+        0.08333333333333337,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.0220000000000007,
+      "position_m": [
+        3.1736768455850516e-07,
+        0.0,
+        0.9522583835296525
+      ],
+      "target_m": [
+        0.09999999999999998,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.0420000000000007,
+      "position_m": [
+        3.704569297155832e-07,
+        0.0,
+        0.9226321781235367
+      ],
+      "target_m": [
+        0.1166666666666667,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.0620000000000007,
+      "position_m": [
+        4.2354617487266125e-07,
+        0.0,
+        0.8890819727174206
+      ],
+      "target_m": [
+        0.13333333333333341,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.0820000000000007,
+      "position_m": [
+        4.766354200297393e-07,
+        0.0,
+        0.8516077673113045
+      ],
+      "target_m": [
+        0.15000000000000002,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.1020000000000008,
+      "position_m": [
+        5.297246651868173e-07,
+        0.0,
+        0.8102095619051888
+      ],
+      "target_m": [
+        0.16666666666666674,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.1220000000000008,
+      "position_m": [
+        5.828139103438954e-07,
+        0.0,
+        0.7648873564990724
+      ],
+      "target_m": [
+        0.18333333333333346,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.1420000000000008,
+      "position_m": [
+        6.359031555009734e-07,
+        0.0,
+        0.7156411510929563
+      ],
+      "target_m": [
+        0.20000000000000007,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.1620000000000008,
+      "position_m": [
+        6.889924006580515e-07,
+        0.0,
+        0.6624709456868402
+      ],
+      "target_m": [
+        0.21666666666666656,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.1820000000000008,
+      "position_m": [
+        7.420816458151295e-07,
+        0.0,
+        0.6053767402807239
+      ],
+      "target_m": [
+        0.23333333333333328,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": false
+    },
+    {
+      "time_s": 1.2020000000000008,
+      "position_m": [
+        8.523148284588651e-07,
+        0.0,
+        0.5556243235613816
+      ],
+      "target_m": [
+        0.25,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.2220000000000009,
+      "position_m": [
+        1.2348335576477768e-06,
+        -4.7808647361559925e-30,
+        0.5549247952734436
+      ],
+      "target_m": [
+        0.2666666666666666,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.2420000000000009,
+      "position_m": [
+        1.7061272571832847e-06,
+        3.004540923549247e-29,
+        0.5629920905376482
+      ],
+      "target_m": [
+        0.2833333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.262000000000001,
+      "position_m": [
+        2.2039818703581574e-06,
+        1.1162346357401108e-28,
+        0.5686963658847776
+      ],
+      "target_m": [
+        0.30000000000000004,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.282000000000001,
+      "position_m": [
+        2.7053658515419917e-06,
+        1.886736366225833e-28,
+        0.5718104524142658
+      ],
+      "target_m": [
+        0.31666666666666665,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.302000000000001,
+      "position_m": [
+        3.1991414801399376e-06,
+        2.626126846795646e-28,
+        0.5733708949890464
+      ],
+      "target_m": [
+        0.33333333333333337,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.322000000000001,
+      "position_m": [
+        3.679010704717344e-06,
+        3.3578965183903637e-28,
+        0.5741253351008598
+      ],
+      "target_m": [
+        0.3500000000000001,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.342000000000001,
+      "position_m": [
+        4.1397095844779625e-06,
+        4.117969741757345e-28,
+        0.574472411389863
+      ],
+      "target_m": [
+        0.3666666666666667,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.362000000000001,
+      "position_m": [
+        4.5767453056727916e-06,
+        4.960402838430479e-28,
+        0.574599578752338
+      ],
+      "target_m": [
+        0.3833333333333334,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.382000000000001,
+      "position_m": [
+        4.9847828295283524e-06,
+        5.946403199335047e-28,
+        0.5746321252904255
+      ],
+      "target_m": [
+        0.40000000000000013,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.402000000000001,
+      "position_m": [
+        5.358246500583656e-06,
+        7.126474066197678e-28,
+        0.5746363344792691
+      ],
+      "target_m": [
+        0.41666666666666674,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.422000000000001,
+      "position_m": [
+        5.692149176614665e-06,
+        8.534738344562162e-28,
+        0.574635002247165
+      ],
+      "target_m": [
+        0.43333333333333324,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.442000000000001,
+      "position_m": [
+        5.982247337906557e-06,
+        1.0188560434577445e-27,
+        0.5746337077737023
+      ],
+      "target_m": [
+        0.44999999999999996,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.462000000000001,
+      "position_m": [
+        6.225090265881811e-06,
+        1.2089393338784302e-27,
+        0.5746330914814815
+      ],
+      "target_m": [
+        0.4666666666666667,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.482000000000001,
+      "position_m": [
+        6.418053383068902e-06,
+        1.4224261280390558e-27,
+        0.5746328762885037
+      ],
+      "target_m": [
+        0.4833333333333333,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.5020000000000011,
+      "position_m": [
+        6.559362571270521e-06,
+        1.6568170679890866e-27,
+        0.5746328205917074
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.5220000000000011,
+      "position_m": [
+        6.64810754027903e-06,
+        1.9087696387991184e-27,
+        0.5746328127565654
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.5420000000000011,
+      "position_m": [
+        6.684242386348608e-06,
+        2.1745733137003237e-27,
+        0.5746328146565111
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.5620000000000012,
+      "position_m": [
+        6.668572649368573e-06,
+        2.450716180003988e-27,
+        0.5746328167140466
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.5820000000000012,
+      "position_m": [
+        6.602728984478011e-06,
+        2.734500267451718e-27,
+        0.5746328177149514
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.6020000000000012,
+      "position_m": [
+        6.489128003288235e-06,
+        3.024651445777557e-27,
+        0.5746328180659382
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.6220000000000012,
+      "position_m": [
+        6.3309211029615394e-06,
+        3.3218645701699424e-27,
+        0.5746328181535236
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.6420000000000012,
+      "position_m": [
+        6.131932295213136e-06,
+        3.6292256279562236e-27,
+        0.5746328181606565
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.6620000000000013,
+      "position_m": [
+        5.896586209299302e-06,
+        3.95246003679221e-27,
+        0.5746328181511061
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.6820000000000013,
+      "position_m": [
+        5.629827581764266e-06,
+        4.299969639816327e-27,
+        0.5746328181415088
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.7020000000000013,
+      "position_m": [
+        5.337033661277011e-06,
+        4.6826394626553686e-27,
+        0.5746328181344067
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.7220000000000013,
+      "position_m": [
+        5.0239210479200625e-06,
+        5.1134174960785924e-27,
+        0.5746328181294575
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.7420000000000013,
+      "position_m": [
+        4.696448551610125e-06,
+        5.606694707366739e-27,
+        0.5746328181262185
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.7620000000000013,
+      "position_m": [
+        4.360717693222801e-06,
+        6.177535876074048e-27,
+        0.5746328181244817
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.7820000000000014,
+      "position_m": [
+        4.022872484215876e-06,
+        6.8408322600879e-27,
+        0.5746328181241476
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.8020000000000014,
+      "position_m": [
+        3.6890001063073975e-06,
+        7.610462175050026e-27,
+        0.5746328181251107
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.8220000000000014,
+      "position_m": [
+        3.365034072704678e-06,
+        8.498553295876417e-27,
+        0.5746328181272138
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.8420000000000014,
+      "position_m": [
+        3.056661387544548e-06,
+        9.514939413197144e-27,
+        0.5746328181302414
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.8620000000000014,
+      "position_m": [
+        2.7692351320273232e-06,
+        1.0666893818001736e-26,
+        0.5746328181339295
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    },
+    {
+      "time_s": 1.8820000000000014,
+      "position_m": [
+        2.5076937959902474e-06,
+        1.1959201670175938e-26,
+        0.5746328181379852
+      ],
+      "target_m": [
+        0.5,
+        0.0,
+        1.05
+      ],
+      "holding": false,
+      "contact_so_far": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "phase": "scripted contact calibration",
+  "created": "post-run audit of supplied fixed deterministic cells",
+  "specification": "supplied_package.zip",
+  "scenarios": [
+    "A_standard",
+    "B_standard",
+    "C_standard",
+    "C_paused"
+  ],
+  "offsets_m": [
+    -0.02,
+    0,
+    0.02
+  ],
+  "actions": [
+    "reference",
+    "challenge"
+  ],
+  "trials": 24,
+  "dt_s": 0.002,
+  "steps": 950,
+  "failure_count": 0,
+  "model_calls": 0,
+  "source_files": {
+    "audit.py": "57db00c7ca1803dfb829389fb59103528946d56c2ece1ac2c2d7767e47f9212e",
+    "calibrate.py": "d63599a85d86a0ef1e076b2d87bb5bcea88814539939f690602700ed13d22632",
+    "README.md": "d3bf83b143b6335737c371864c955a1b9ccde554185afb5d26133baedeb7d717",
+    "render.py": "022def194481c7262973d315a67a3bd9c89d07c4ba0c14079097d01429eb9a1d",
+    "requirements.txt": "cb234fcaaf06984e9824175334446098510d6b8a1ae172b5f835589d8a52131b"
+  }
+}

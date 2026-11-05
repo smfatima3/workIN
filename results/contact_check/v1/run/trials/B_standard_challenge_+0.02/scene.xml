@@ -1,0 +1,17 @@
+<mujoco model="MuJoCo Model">
+  <compiler angle="radian"/>
+
+  <worldbody>
+    <geom name="floor" size="3 3 0.1" type="plane"/>
+    <geom name="person" size="0.1 0.15" pos="0.02 0 0.26" type="capsule"/>
+    <body name="target" pos="-0.7 0 0.21" mocap="true"/>
+    <body name="load" pos="-0.7 0 0.21">
+      <joint type="free"/>
+      <geom name="moving" size="0.095 0.075 0.065" type="box" mass="1"/>
+    </body>
+  </worldbody>
+
+  <equality>
+    <weld body1="target" body2="load" solref="0.015"/>
+  </equality>
+</mujoco>

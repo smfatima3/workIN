@@ -1,5 +1,7 @@
 # Persistent Memory and Residual Robot Safety Risk
 
+**5 November 2026 · Contact calibration reproduced.** All 24 supplied PhysHarm-inspired scripted trials matched. [Results and four scenario videos](results/contact_check/v1/run/REPORT.md) include all offsets, named contact traces and the unchanged original Qwen event rows.
+
 **5 November 2026 · F1–F6 and the Phi-4 warehouse replication are complete.** The two main cohorts completed 1,839/1,840 planned continuations. One Qwen response reached the output limit. The [final report](results/Final_Experiment_Report.md) includes paired comparisons, recovery costs, the MAPLE-Guard baseline, replays and verified evidence.
 
 **Historical E1 result · 4 November 2026.** Qwen3-8B on
