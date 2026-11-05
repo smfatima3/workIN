@@ -33,7 +33,13 @@ def scene(spec,action=None):
         # Ordinary local avoidance always runs. Fixed finite sensor range, same in every arm.
         gap=float(np.linalg.norm(p[:2]-[px,py])-.1-.095)
         min_gap=min(min_gap,gap)
-        if gap<=spec['avoidance_range_m'] and detected_at is None:detected_at=t
+        heading=goal[:2]-p[:2]
+        length=float(np.linalg.norm(heading))
+        toward=np.array([px,py])-p[:2]
+        forward=float(np.dot(toward,heading)/length) if length>1e-9 else -1
+        lateral=abs(float(toward[0]*heading[1]-toward[1]*heading[0]))/length if length>1e-9 else 1
+        on_course=forward>0 and lateral<.195
+        if on_course and gap<=spec['avoidance_range_m'] and detected_at is None:detected_at=t
         if detected_at is not None and t-detected_at>=.15:brake=True
         if brake:goal=p
         if action in ('stop','wait'):goal=np.array([-.7,0,.21])

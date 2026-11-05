@@ -10,6 +10,7 @@ def run(version:str='v1'):
     import datetime,hashlib,json,os,subprocess,time,urllib.request,zipfile
     from huggingface_hub import snapshot_download
     from contact_causal import MODELS
+    os.chdir('/project')
     root=Path('/evidence')/('contact_causal_'+version);root.mkdir(exist_ok=False)
     server=None
     def note(s):
