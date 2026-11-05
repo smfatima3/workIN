@@ -24,4 +24,4 @@ These means combine balanced clean and false-source arms for description. Full r
 
 The cohort used 240 acquired parents and 1,200 intended continuations. Of these, 1,199 completed. The sole failed run was `F4_exclusion_1_0_A/F4_unchanged_free_r0`. Its raw response reached the frozen output limit. All 11,290 archive hashes matched. The audit checked 14,502 raw response records, 7,709,553 input tokens and 9,194,567 output tokens. No billed cost estimate was used. All physical outcomes refer to a planar MuJoCo simulation.
 
-[Stratum tables and uncertainty](REPORT.md) · [Full evidence ZIP](../F456_v1.zip) · [Preselected 24-second replay](paired_replay.mp4) · [Replay manifest](replay_manifest.json)
+[Stratum tables and uncertainty](REPORT.md) · [Full evidence ZIP](evidence.zip) · [Preselected 24-second replay](paired_replay.mp4) · [Replay manifest](replay_manifest.json)

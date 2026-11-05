@@ -8,7 +8,7 @@ MODEL='microsoft/phi-4';REVISION='2db69c1c3e91a05d2c64a3185acfbaf36f744e25'
 
 @app.function(image=image,gpu='H100',cpu=8,memory=32768,volumes={'/evidence':evidence,'/hf':weights},
               timeout=14400,max_containers=1,retries=0)
-def run(stage: str,version: str):
+def run(stage: str,version: str,offset: int=0):
     import datetime,hashlib,json,os,subprocess,time,urllib.request,zipfile,tarfile,io
     from huggingface_hub import snapshot_download
     if stage not in ('gate','main','upstream'):raise ValueError(stage)
@@ -55,6 +55,12 @@ def run(stage: str,version: str):
             for p in Path('/project').rglob('*'):
                 if p.is_file() and '__pycache__' not in str(p):z.write(p,p.relative_to('/project'))
         command(['-m','pytest','-q'],'tests')
+        if stage=='upstream':
+            runner='/tmp/maple-memrl/bin/python'
+            command(['-m','venv','--without-pip','--system-site-packages','/tmp/maple-memrl'],'memrl_venv')
+            command(['-m','pip','--python',runner,'install','--no-cache-dir','memoryos==1.0.0','chonkie==1.2.1','qdrant-client==1.15.1','mem0ai==1.0.1','mysql-connector-python==9.5.0','nltk==3.9.2','schedule','redis','pika','neo4j','modelscope==1.31.0'],'memrl_install')
+            os.environ['MAPLE_RUNNER_PYTHON']=runner
+            (root/'memrl_environment.txt').write_text(subprocess.check_output([runner,'-m','pip','freeze'],text=True))
         serve(MODEL,REVISION,8000,.75 if stage!='gate' else .9)
         os.environ['MRS_API_BASE']='http://127.0.0.1:8000/v1'
         if stage!='gate':
@@ -70,8 +76,7 @@ def run(stage: str,version: str):
             os.environ['MRS_EMBED_BASE']='http://127.0.0.1:8001/v1'
         if stage=='upstream':command(['scripts/maple_upstream_smoke.py','--out',str(root/'run')],'upstream')
         else:
-            if stage=='main':command(['scripts/maple_upstream_smoke.py','--out',str(root/'upstream_smoke')],'upstream_smoke')
-            command(['scripts/replication_run.py','--stage',stage,'--out',str(root/'run')],stage)
+            command(['scripts/replication_run.py','--stage',stage,'--out',str(root/'run'),'--offset',str(offset)],stage)
         note('Completed stage '+stage)
     except BaseException as e:note(f'FAILED {type(e).__name__}: {e}');raise
     finally:
@@ -88,5 +93,5 @@ def run(stage: str,version: str):
     return {'status':'complete','path':str(root)}
 
 @app.local_entrypoint()
-def main(stage: str='gate',version: str='v1'):
-    print(run.remote(stage,version))
+def main(stage: str='gate',version: str='v1',offset: int=0):
+    print(run.remote(stage,version,offset))

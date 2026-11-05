@@ -19,9 +19,9 @@ def setup():
     return f
 
 
-def probes(root):
+def probes(root,offset=0):
     from foundation_f1 import evaluate,gate
-    specs=[dict(configuration='phi',scenario=s,observation=o,wording=w,seed=50000+h*100+i,heldout=bool(h))
+    specs=[dict(configuration='phi',scenario=s,observation=o,wording=w,seed=50000+offset+h*100+i,heldout=bool(h))
         for h in range(2) for i,(s,o,w) in enumerate(itertools.product(['exclusion','speed'],['restricted','unrestricted','unknown'],range(4)))]
     root.mkdir(parents=True)
     write_json(root/'manifest.json',specs)
@@ -42,13 +42,13 @@ def probes(root):
     return result['screen_gate'] and result['heldout_gate']
 
 
-def cohort(root,stage,f):
+def cohort(root,stage,f,offset=0):
     from foundation_run import specifications,branches
     from foundation_analyze import analyze
     from mrs.foundation_hooks import ACTIVE_GUARD
     from mrs.maple_adapter import MapleGuard,UPSTREAM,EMBED_MODEL,EMBED_REVISION
     root.mkdir(parents=True,exist_ok=False)
-    specs=specifications('f23',development_offset=40000) if stage=='f23' else [s for s in specifications('f456') if s['variant']<5]
+    specs=specifications('f23',development_offset=40000+offset) if stage=='f23' else [s for s in specifications('f456') if s['variant']<5]
     if stage!='f23':
         for s in specs:s['seed']+=40000
         extra=[]
@@ -90,11 +90,11 @@ def cohort(root,stage,f):
     return result
 
 
-def main(stage,out,gate_path):
+def main(stage,out,gate_path,offset=0):
     root=Path(out);root.mkdir(parents=True,exist_ok=False);f=setup()
     if stage=='gate':
-        if not probes(root/'f1'):raise RuntimeError('Independent model F1 gate failed; no attack run')
-        cohort(root/'data','f23',f)
+        if not probes(root/'f1',offset):raise RuntimeError('Independent model F1 gate failed; no attack run')
+        cohort(root/'data','f23',f,offset)
     else:
         gate=read_json(Path(gate_path)/'data/analysis/summary.json')
         if not gate['gates']['F2']['passed'] or not gate['gates']['F3_clean']['passed']:raise RuntimeError('Independent model clean memory gate failed')
@@ -103,5 +103,5 @@ def main(stage,out,gate_path):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--stage',choices=['gate','main'],required=True);p.add_argument('--out',required=True)
-    p.add_argument('--gate-path',default='/evidence/replication_phi4_gate_v1/run')
-    a=p.parse_args();main(a.stage,a.out,a.gate_path)
+    p.add_argument('--gate-path',default='/evidence/replication_phi4_gate_v2/run');p.add_argument('--offset',type=int,default=0)
+    a=p.parse_args();main(a.stage,a.out,a.gate_path,a.offset)

@@ -25,6 +25,15 @@ remain enforced. No zone enforcement is credited to the model.
 continuations. F1 seeds 50000--50023 / 50100--50123; F2 61000--61011;
 F3 62000--62011. Same clean competence and useful-memory thresholds as Qwen.
 
+Development v1 completed all 48 probes and 72 continuations: action gates passed,
+24/24 observations stored, F3 clean passed, but F2 had 0/12 beneficial pairs.
+The model interpreted the explicit current UNKNOWN observation label as an unknown
+rule despite retained local observations. V2 replaces that field for every
+no-new-read request (with or without memory) with NOT TAKEN, explaining that absence
+of a new sample is not a statement about the rule. Reliance remains model-chosen;
+no peer claim is declared true. Fresh development offset 1000 applies to all
+development seeds. Earlier outcomes remain separate; no main outcome is used.
+
 ## Frozen exploratory main cohort
 
 Five paired seeds per rule/context stratum: 71000--71004, 71050--71054,

@@ -42,7 +42,7 @@ def main(out):
     try:
         for method in ['no_defense_memrl','maple_guard']:
             active['method']=method
-            args=[sys.executable,'-m','maple_guard.run_mmlu','--config',str(upstream/'configs/mmlu_star.yaml'),
+            args=[os.environ.get('MAPLE_RUNNER_PYTHON',sys.executable),'-m','maple_guard.run_mmlu','--config',str(upstream/'configs/mmlu_star.yaml'),
                 '--dataset',str(root/'mmlu20.jsonl'),'--out',str(root/(method+'.jsonl')),
                 '--tasks','20','--agents','3','--rounds','2','--warmup-tasks','2',
                 '--stream-builder','sequential','--activation-schedule','even','--malicious-activation-rate','.2',
@@ -51,6 +51,7 @@ def main(out):
                 '--lookahead-target-max-tokens','128','--no-enable-pattern-judge',
                 '--chat-base-url','http://127.0.0.1:8002/v1','--chat-model',MODEL,
                 '--embed-base-url','http://127.0.0.1:8002/v1','--embed-model',EMBED_MODEL,
+                '--baseline-state-path',str(root/(method+'_state.json')),
                 '--memory-store-dir',str(root/(method+'_memory'))]
             write_json(root/(method+'_command.json'),args)
             with (root/(method+'.log')).open('w') as log:
