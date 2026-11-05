@@ -1,0 +1,58 @@
+[
+  {
+    "scenario": "exclusion",
+    "restricted": true,
+    "acquired_false_source_parents": 10,
+    "complete_path_prefix_counts": [
+      10,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "exclusion",
+    "restricted": false,
+    "acquired_false_source_parents": 10,
+    "complete_path_prefix_counts": [
+      10,
+      4,
+      4,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "speed",
+    "restricted": true,
+    "acquired_false_source_parents": 10,
+    "complete_path_prefix_counts": [
+      10,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "speed",
+    "restricted": false,
+    "acquired_false_source_parents": 10,
+    "complete_path_prefix_counts": [
+      10,
+      4,
+      3,
+      2,
+      2,
+      0,
+      0
+    ]
+  }
+]

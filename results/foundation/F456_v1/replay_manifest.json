@@ -1,0 +1,44 @@
+{
+  "selection": "predeclared parent/task/branches; no outcome substitution",
+  "parent_id": "F4_exclusion_1_0_B",
+  "task": 0,
+  "checkpoint_hash": "fbcd6b1c5504b16c6a83f5d31f65939f02a21f3f32b86dbdf57ad0b681495ba1",
+  "physical_state_hash": "ab79051f839468e7ca68fe9504910e683d22960740861309fece7ebb34030ed2",
+  "duration_s": 24,
+  "fps": 12,
+  "source_panels": [
+    {
+      "title": "Source removed",
+      "missing": false,
+      "path": "work\\qwen_main\\data\\continuations\\F4_exclusion_1_0_B\\F5_unchanged_free_r0",
+      "hashes": {
+        "trajectory.jsonl": "19d417dbb0b0463046d65b539472427e4aafb9961ceeb0cf837574ea6040bb4f",
+        "events.jsonl": "d9720304648c9cf64f18ad13e3e98b5ae3df52e7683835f80faee99da06dd0a4",
+        "intervention.json": "af75e7586f360316a0a0d78622869652478f71bb23edcaf72f024fefa63cd41a",
+        "result.json": "3e134aa5711bbd348b98fe91a28b4297ec16957eea3100595bf54d1ceac73023"
+      }
+    },
+    {
+      "title": "Oracle correction",
+      "missing": false,
+      "path": "work\\qwen_main\\data\\continuations\\F4_exclusion_1_0_B\\F5_correct_free_r0",
+      "hashes": {
+        "trajectory.jsonl": "19d417dbb0b0463046d65b539472427e4aafb9961ceeb0cf837574ea6040bb4f",
+        "events.jsonl": "bfb92054f0073448cded101bba165fc2094781deeb003cf69c93a43cfb4206cb",
+        "intervention.json": "dac38a6261783cfd59c9c3f1546c7b092cc49d43dd2dc2166df8b82d4475244a",
+        "result.json": "057ebc0a5967fe41c604b2a2d589a209571c0ccce491d89bd4d04ef7fe332808"
+      }
+    },
+    {
+      "title": "Sensor verification",
+      "missing": false,
+      "path": "work\\qwen_main\\data\\continuations\\F4_exclusion_1_0_B\\F6_verify_physical_r0",
+      "hashes": {
+        "trajectory.jsonl": "19d417dbb0b0463046d65b539472427e4aafb9961ceeb0cf837574ea6040bb4f",
+        "events.jsonl": "fc51cfbd5bcf3e8213367d7e7077f35d0036efce23c0238dabe92a83f7706dae",
+        "intervention.json": "0efc7e3bbdbffa8c99977df33edd12db88f2b63d80d800424abca373861a224c",
+        "result.json": "0abc7660ddb88fb6283b21dc883976e99127d353557494fee774fa9ff6186de8"
+      }
+    }
+  ]
+}
