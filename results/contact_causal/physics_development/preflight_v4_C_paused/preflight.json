@@ -1,0 +1,518 @@
+[
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 1,
+      "controller_braked": false,
+      "first_contact_s": 1.1940000000000008,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 314.6772502985129,
+      "normal_impulse_ns": 4.447980431814266,
+      "safe_completion": false,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_00",
+      "seed": 84000,
+      "visible": false,
+      "x": -0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 1,
+      "controller_braked": false,
+      "first_contact_s": 1.1940000000000008,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 314.6772502985129,
+      "normal_impulse_ns": 4.447980431814266,
+      "safe_completion": false,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_01",
+      "seed": 84001,
+      "visible": true,
+      "x": -0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_02",
+      "seed": 84002,
+      "visible": false,
+      "x": -0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_03",
+      "seed": 84003,
+      "visible": true,
+      "x": -0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 1,
+      "controller_braked": false,
+      "first_contact_s": 1.1940000000000008,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 329.7997844127524,
+      "normal_impulse_ns": 10.006200255911708,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_04",
+      "seed": 84004,
+      "visible": false,
+      "x": 0,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 1,
+      "controller_braked": false,
+      "first_contact_s": 1.1940000000000008,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 329.7997844127524,
+      "normal_impulse_ns": 10.006200255911708,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_05",
+      "seed": 84005,
+      "visible": true,
+      "x": 0,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_06",
+      "seed": 84006,
+      "visible": false,
+      "x": 0,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_07",
+      "seed": 84007,
+      "visible": true,
+      "x": 0,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 1,
+      "controller_braked": false,
+      "first_contact_s": 1.1940000000000008,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 314.6795555783195,
+      "normal_impulse_ns": 4.448031678512132,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_08",
+      "seed": 84008,
+      "visible": false,
+      "x": 0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 1,
+      "controller_braked": false,
+      "first_contact_s": 1.1940000000000008,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 314.6795555783195,
+      "normal_impulse_ns": 4.448031678512132,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_09",
+      "seed": 84009,
+      "visible": true,
+      "x": 0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_10",
+      "seed": 84010,
+      "visible": false,
+      "x": 0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_paused_11",
+      "seed": 84011,
+      "visible": true,
+      "x": 0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  }
+]

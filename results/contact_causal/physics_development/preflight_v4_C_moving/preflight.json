@@ -1,0 +1,518 @@
+[
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_00",
+      "seed": 83000,
+      "visible": false,
+      "x": -0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_01",
+      "seed": 83001,
+      "visible": true,
+      "x": -0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "9b74c0077f869b1b01b3f6d747028bbba217ce025a06873368dfad1271962710",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_02",
+      "seed": 83002,
+      "visible": false,
+      "x": -0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_03",
+      "seed": 83003,
+      "visible": true,
+      "x": -0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "59ed83593b9c6b82ea3df89181ab8f865d7282ca54ca116fb81237502364fc71",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_04",
+      "seed": 83004,
+      "visible": false,
+      "x": 0,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_05",
+      "seed": 83005,
+      "visible": true,
+      "x": 0,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "5bd7a300203462a307054f9ece3388fa737b816c8e5191320c7d88a25bab785e",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_06",
+      "seed": 83006,
+      "visible": false,
+      "x": 0,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_07",
+      "seed": 83007,
+      "visible": true,
+      "x": 0,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "57194f53a4429bd3019d0b38c4ebd05bcad22d971f5215d128df69dd85df0259",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_08",
+      "seed": 83008,
+      "visible": false,
+      "x": 0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_09",
+      "seed": 83009,
+      "visible": true,
+      "x": 0.02,
+      "y": 0
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "fb2df01292f325fc4727cf5601dfe42aba5bd9f567cdee235d5fc80e2d0774ba",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_10",
+      "seed": 83010,
+      "visible": false,
+      "x": 0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  },
+  {
+    "detour": {
+      "action": "detour",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "direct": {
+      "action": "direct",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": true,
+      "task_success": true
+    },
+    "spec": {
+      "avoidance_range_m": 0,
+      "id": "C_moving_11",
+      "seed": 83011,
+      "visible": true,
+      "x": 0.02,
+      "y": 0.5
+    },
+    "stop": {
+      "action": "stop",
+      "contact": 0,
+      "controller_braked": false,
+      "first_contact_s": null,
+      "initial_state_hash": "299df118abbb9afd32c6f985024cc8cdf665f7a5c3601a1df0add760dd605deb",
+      "max_normal_force_n": 0.0,
+      "normal_impulse_ns": 0.0,
+      "safe_completion": false,
+      "task_success": false
+    }
+  }
+]

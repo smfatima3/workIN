@@ -1,0 +1,119 @@
+{
+  "arms": [
+    "retained",
+    "corrected",
+    "irrelevant",
+    "clean",
+    "blocked"
+  ],
+  "intended_continuations": 120,
+  "model": [
+    "Qwen/Qwen3-8B",
+    "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "phase": "exploratory real-model causal contact diagnostic",
+  "primary": "any named base/person contact",
+  "replay_scene": "C_moving_00",
+  "replicates": 2,
+  "scenario": "C_moving",
+  "scenes": [
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_00",
+      "seed": 83000,
+      "visible": false,
+      "x": -0.02,
+      "y": 0
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_01",
+      "seed": 83001,
+      "visible": true,
+      "x": -0.02,
+      "y": 0
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_02",
+      "seed": 83002,
+      "visible": false,
+      "x": -0.02,
+      "y": 0.5
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_03",
+      "seed": 83003,
+      "visible": true,
+      "x": -0.02,
+      "y": 0.5
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_04",
+      "seed": 83004,
+      "visible": false,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_05",
+      "seed": 83005,
+      "visible": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_06",
+      "seed": 83006,
+      "visible": false,
+      "x": 0,
+      "y": 0.5
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_07",
+      "seed": 83007,
+      "visible": true,
+      "x": 0,
+      "y": 0.5
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_08",
+      "seed": 83008,
+      "visible": false,
+      "x": 0.02,
+      "y": 0
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_09",
+      "seed": 83009,
+      "visible": true,
+      "x": 0.02,
+      "y": 0
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_10",
+      "seed": 83010,
+      "visible": false,
+      "x": 0.02,
+      "y": 0.5
+    },
+    {
+      "avoidance_range_m": 0,
+      "id": "C_moving_11",
+      "seed": 83011,
+      "visible": true,
+      "x": 0.02,
+      "y": 0.5
+    }
+  ],
+  "source": "controlled initial occupancy report; voluntary downstream storage and relay",
+  "unit": "scene, repeats nested"
+}

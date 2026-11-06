@@ -5,13 +5,14 @@ if not modal.is_local():sys.path.insert(0,'/project/scripts')
 from modal_qwen3 import image,evidence,weights
 app=modal.App('workin-contact-causal')
 
-@app.function(image=image,gpu='H100',cpu=8,memory=32768,volumes={'/evidence':evidence,'/hf':weights},timeout=7200,max_containers=1,retries=0)
-def run(version:str='v1'):
+@app.function(image=image,gpu='H100',cpu=8,memory=32768,volumes={'/evidence':evidence,'/hf':weights},timeout=7200,max_containers=4,retries=0)
+def run(version:str='v1',scenario:str='B'):
     import datetime,hashlib,json,os,subprocess,time,urllib.request,zipfile
     from huggingface_hub import snapshot_download
+    os.environ['CONTACT_SCENARIO']=scenario
     from contact_causal import MODELS
     os.chdir('/project')
-    root=Path('/evidence')/('contact_causal_'+version);root.mkdir(exist_ok=False)
+    root=Path('/evidence')/('contact_causal_'+version+'_'+scenario);root.mkdir(exist_ok=False)
     server=None
     def note(s):
         with (root/'EXECUTION_LOG.md').open('a') as f:f.write('\n- '+datetime.datetime.now(datetime.timezone.utc).isoformat()+' '+s+'\n')
@@ -43,7 +44,12 @@ def run(version:str='v1'):
                     break
                 except OSError:time.sleep(3)
             os.environ['MRS_API_BASE']='http://127.0.0.1:8000/v1'
-            command(['scripts/contact_causal.py','--out',str(root/(key+'_gate')),'--model',key,'--gate'],key+'_gate')
+            try:
+                command(['scripts/contact_causal.py','--out',str(root/(key+'_gate')),'--model',key,'--gate'],key+'_gate')
+            except RuntimeError:
+                note(key+' gate failed; main omitted')
+                server.terminate();server.wait(timeout=30);server=None;handle.close();time.sleep(8)
+                continue
             note(key+' clean gate passed')
             command(['scripts/contact_causal.py','--out',str(root/(key+'_main')),'--model',key],key+'_main')
             note(key+' cohort complete')
@@ -66,5 +72,6 @@ def run(version:str='v1'):
     return str(root)
 
 @app.local_entrypoint()
-def main(version:str='v1'):
-    print(run.remote(version))
+def main(version:str='v4'):
+    for result in run.starmap([(version,s) for s in ('A','B','C_moving','C_paused')],return_exceptions=True):
+        print(result)
