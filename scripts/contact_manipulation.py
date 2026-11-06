@@ -1,7 +1,8 @@
 """Model-selected placement/release primitives using supplied contact geometry."""
-import json,tempfile
+import json,tempfile,threading
 from pathlib import Path
 from contact_fixture import trial
+PHYSICS_EXPORT_LOCK=threading.Lock()
 from mrs.common import digest
 
 
@@ -10,7 +11,7 @@ def configure(scenario,call):
     paused=scenario=='C_paused'
     target='desk edge drop area' if code=='A' else 'early release drop area'
     def scene(spec,action=None):
-        with tempfile.TemporaryDirectory() as folder:
+        with PHYSICS_EXPORT_LOCK, tempfile.TemporaryDirectory() as folder:
             p=Path(folder)
             row,_=trial(code,'hold' if action in ('wait','stop') else 'challenge' if action=='direct' else 'reference',spec['x'],False,pause=paused,evidence_dir=p,person_y=spec['y'])
             d=json.loads((p/'evidence.json').read_text());xml=(p/'scene.xml').read_text()
