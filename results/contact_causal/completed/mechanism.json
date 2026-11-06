@@ -1,0 +1,722 @@
+[
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_00",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_03",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_05",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_06",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_07",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_08",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_10",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "scene": "A_11",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_00",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_03",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_05",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_06",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_07",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_08",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_10",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "scene": "A_11",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_00",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_03",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_05",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_06",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_07",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_08",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_10",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_11",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_12",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_13",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_14",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_15",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_16",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_17",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_18",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_19",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_20",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_21",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_22",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "scene": "B_23",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_00",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_01",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_02",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_03",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_04",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_05",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_06",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_07",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_08",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_09",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_10",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_11",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_12",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_13",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_14",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_15",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_16",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_17",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_18",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_19",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_20",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_21",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_22",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "scene": "B_23",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_00",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_03",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_05",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_06",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_07",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_08",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_10",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "scene": "C_moving_11",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_00",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_03",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_05",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_06",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_07",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_08",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_10",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "scene": "C_moving_11",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_00",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_03",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_05",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_06",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_07",
+    "receiver_false_retained": false
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_08",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_10",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "scene": "C_paused_11",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_00",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_01",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_02",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_03",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_04",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_05",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_06",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_07",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_08",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_09",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_10",
+    "receiver_false_retained": true
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "scene": "C_paused_11",
+    "receiver_false_retained": true
+  }
+]

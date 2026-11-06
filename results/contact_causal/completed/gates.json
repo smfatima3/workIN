@@ -1,0 +1,490 @@
+[
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80000,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80001,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80002,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80003,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80100,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80101,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80102,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80103,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80100,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80101,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "direct",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80102,
+            "visible": true,
+            "x": 0.01,
+            "y": -0.3
+          },
+          "success": true
+        },
+        {
+          "action": "direct",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80103,
+            "visible": true,
+            "x": 0.01,
+            "y": -0.3
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80100,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80101,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "direct",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80102,
+            "visible": true,
+            "x": 0.01,
+            "y": -0.3
+          },
+          "success": true
+        },
+        {
+          "action": "direct",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80103,
+            "visible": true,
+            "x": 0.01,
+            "y": -0.3
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80000,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80001,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80002,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        },
+        {
+          "action": "direct",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80003,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80100,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80101,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80102,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80103,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80100,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80101,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80102,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80103,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        }
+      ]
+    }
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "gate": {
+      "passed": true,
+      "rows": [
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_0",
+            "seed": 80100,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_1",
+            "seed": 80101,
+            "visible": true,
+            "x": 0.01,
+            "y": 0
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.02,
+            "id": "dev_2",
+            "seed": 80102,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        },
+        {
+          "action": "detour",
+          "contact": 0,
+          "spec": {
+            "avoidance_range_m": 0.4,
+            "id": "dev_3",
+            "seed": 80103,
+            "visible": true,
+            "x": 0.01,
+            "y": 0.5
+          },
+          "success": true
+        }
+      ]
+    }
+  }
+]

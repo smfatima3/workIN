@@ -1,0 +1,682 @@
+[
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "arm": "retained",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 20,
+    "inspections": 20,
+    "false_retained": 22,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "arm": "corrected",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 18,
+    "inspections": 21,
+    "false_retained": 22,
+    "edits_changed": 22,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "arm": "irrelevant",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 18,
+    "inspections": 23,
+    "false_retained": 22,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "arm": "clean",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 17,
+    "inspections": 23,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "arm": "blocked",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 16,
+    "inspections": 22,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "arm": "retained",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 0,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "arm": "corrected",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 0,
+    "false_retained": 24,
+    "edits_changed": 24,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "arm": "irrelevant",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 0,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "arm": "clean",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 0,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "arm": "blocked",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 12,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "arm": "retained",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 48,
+    "inspections": 5,
+    "false_retained": 20,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "arm": "corrected",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 48,
+    "inspections": 1,
+    "false_retained": 20,
+    "edits_changed": 20,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "arm": "irrelevant",
+    "complete": 47,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 1,
+    "successes": 47,
+    "inspections": 4,
+    "false_retained": 20,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.020833333333333332
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "arm": "clean",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 48,
+    "inspections": 7,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "arm": "blocked",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 48,
+    "inspections": 5,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "arm": "retained",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 46,
+    "inspections": 36,
+    "false_retained": 4,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "arm": "corrected",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 46,
+    "inspections": 36,
+    "false_retained": 4,
+    "edits_changed": 4,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "arm": "irrelevant",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 47,
+    "inspections": 36,
+    "false_retained": 4,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "arm": "clean",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 46,
+    "inspections": 34,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "arm": "blocked",
+    "complete": 48,
+    "intended": 48,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 46,
+    "inspections": 36,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "arm": "retained",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 21,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "arm": "corrected",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 19,
+    "false_retained": 24,
+    "edits_changed": 24,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "arm": "irrelevant",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 19,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "arm": "clean",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 20,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "arm": "blocked",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 19,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "arm": "retained",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 18,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "arm": "corrected",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 18,
+    "false_retained": 24,
+    "edits_changed": 24,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "arm": "irrelevant",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 19,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "arm": "clean",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 18,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "arm": "blocked",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 24,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "arm": "retained",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 8,
+    "false_retained": 20,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "arm": "corrected",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 10,
+    "false_retained": 20,
+    "edits_changed": 20,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "arm": "irrelevant",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 7,
+    "false_retained": 20,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "arm": "clean",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 11,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "arm": "blocked",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 10,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "arm": "retained",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 24,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "arm": "corrected",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 24,
+    "false_retained": 24,
+    "edits_changed": 24,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "arm": "irrelevant",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 24,
+    "false_retained": 24,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "arm": "clean",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 24,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "arm": "blocked",
+    "complete": 24,
+    "intended": 24,
+    "contacts": 0,
+    "unknown": 0,
+    "successes": 24,
+    "inspections": 24,
+    "false_retained": 0,
+    "edits_changed": 0,
+    "contact_bounds": [
+      0.0,
+      0.0
+    ]
+  }
+]

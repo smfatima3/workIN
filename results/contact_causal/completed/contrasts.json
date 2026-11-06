@@ -1,0 +1,482 @@
+[
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "contrast": "retained minus clean",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "contrast": "retained minus clean",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 23,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7887588134649143,
+      0.7887588134649143
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "contrast": "retained minus clean",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "contrast": "retained minus clean",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 24,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -0.7721515048288593,
+      0.7721515048288593
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "contrast": "retained minus clean",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "contrast": "retained minus clean",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "contrast": "retained minus clean",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "contrast": "retained minus corrected",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "contrast": "corrected minus irrelevant",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "contrast": "retained minus clean",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "contrast": "retained minus blocked",
+    "scene_pairs": 12,
+    "difference": 0.0,
+    "bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "familywise_bounded_interval": [
+      -1,
+      1
+    ]
+  }
+]

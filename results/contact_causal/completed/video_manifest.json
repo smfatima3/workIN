@@ -1,0 +1,74 @@
+[
+  {
+    "file": "phi_A.mp4",
+    "sha256": "0addb1585ab42170c2adec45acb2d1156076f4bd111444aa0297505133a42ef4",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "phi_B.mp4",
+    "sha256": "c74593e1cf731c973875960b4d4de4349ee341a1abd19e4d1f58a8e631b9b1da",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "phi_C_moving.mp4",
+    "sha256": "42c1edb9a06ca58a9eaae7adbf96213835ebafd8fa639f6cfc5bd965db0f695a",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "phi_C_paused.mp4",
+    "sha256": "40b26e5adb12fa2a12b692f09ddbf39301ff310c6dffe6d3819b5bfa06936041",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "qwen_A.mp4",
+    "sha256": "96700f1a39b42c809c05e181008251ed92f141dc1b76cfeb6ff3db5dce5687f0",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "qwen_B.mp4",
+    "sha256": "f2e0d722f4b244c97bffc3d5c08d18d54bfa414cef9e1f84ceadba4e6ddc3146",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "qwen_C_moving.mp4",
+    "sha256": "dade20b66ea534d764089ca9a30a31dc4887314cf7895ff210308709344918b0",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  },
+  {
+    "file": "qwen_C_paused.mp4",
+    "sha256": "6dbf13ffd2083038c1038bab0790cab2ed431938621525bd16ad121492a3ff36",
+    "frames": 96,
+    "fps": 12,
+    "duration_s": 8,
+    "selection": "first scene, replicate 0, all five arms, fixed before main outcomes",
+    "missing_outcome": "Qwen B irrelevant r0 stays blank"
+  }
+]

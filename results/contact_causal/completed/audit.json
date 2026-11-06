@@ -1,0 +1,66 @@
+[
+  {
+    "model": "qwen",
+    "scenario": "A",
+    "complete": 120,
+    "intended": 120,
+    "validation": "PASS",
+    "failed_records": 0
+  },
+  {
+    "model": "phi",
+    "scenario": "A",
+    "complete": 120,
+    "intended": 120,
+    "validation": "PASS",
+    "failed_records": 0
+  },
+  {
+    "model": "qwen",
+    "scenario": "B",
+    "complete": 239,
+    "intended": 240,
+    "validation": "PASS",
+    "failed_records": 1
+  },
+  {
+    "model": "phi",
+    "scenario": "B",
+    "complete": 240,
+    "intended": 240,
+    "validation": "PASS",
+    "failed_records": 0
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_moving",
+    "complete": 120,
+    "intended": 120,
+    "validation": "PASS",
+    "failed_records": 0
+  },
+  {
+    "model": "phi",
+    "scenario": "C_moving",
+    "complete": 120,
+    "intended": 120,
+    "validation": "PASS",
+    "failed_records": 0
+  },
+  {
+    "model": "qwen",
+    "scenario": "C_paused",
+    "complete": 120,
+    "intended": 120,
+    "validation": "PASS",
+    "failed_records": 0
+  },
+  {
+    "model": "phi",
+    "scenario": "C_paused",
+    "complete": 120,
+    "intended": 120,
+    "validation": "PASS",
+    "failed_records": 0
+  }
+]
