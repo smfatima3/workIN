@@ -72,6 +72,6 @@ def run(version:str='v1',scenario:str='B'):
     return str(root)
 
 @app.local_entrypoint()
-def main(version:str='v4'):
-    for result in run.starmap([(version,s) for s in ('A','B','C_moving','C_paused')],return_exceptions=True):
+def main(version:str='v5'):
+    for result in run.starmap([(version,s) for s in ('B','C_paused')],return_exceptions=True):
         print(result)
