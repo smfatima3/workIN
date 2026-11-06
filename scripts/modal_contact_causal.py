@@ -6,7 +6,7 @@ from modal_qwen3 import image,evidence,weights
 app=modal.App('workin-contact-causal')
 
 @app.function(image=image,gpu='H100',cpu=8,memory=32768,volumes={'/evidence':evidence,'/hf':weights},timeout=7200,max_containers=4,retries=0)
-def run(version:str='v1',scenario:str='B'):
+def run(version:str='v1',scenario:str='B',models:str='both'):
     import datetime,hashlib,json,os,subprocess,time,urllib.request,zipfile
     from huggingface_hub import snapshot_download
     os.environ['CONTACT_SCENARIO']=scenario
@@ -32,6 +32,7 @@ def run(version:str='v1',scenario:str='B'):
             for p in Path('/project').rglob('*'):
                 if p.is_file() and '__pycache__' not in str(p):z.write(p,p.relative_to('/project'))
         for key,(model,revision) in MODELS.items():
+            if models!='both' and key!=models:continue
             note('Starting '+key)
             snapshot_download(model,revision=revision,allow_patterns=['*.json','*.safetensors','*.jinja','*.txt','*.model']);weights.commit()
             handle=(root/(key+'_server.log')).open('w')
@@ -72,6 +73,5 @@ def run(version:str='v1',scenario:str='B'):
     return str(root)
 
 @app.local_entrypoint()
-def main(version:str='v5'):
-    for result in run.starmap([(version,s) for s in ('B','C_paused')],return_exceptions=True):
-        print(result)
+def main(version:str='v6',scenario:str='A',models:str='phi'):
+    print(run.remote(version,scenario,models))
