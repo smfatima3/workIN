@@ -1,0 +1,3 @@
+first,second,shared_enrolled,complete,missing,difference_of_differences_pp,first_effect_larger,equal,second_effect_larger
+qwen3:14b,qwen3:8b,64,64,0,1.562,3,59,2
+qwen3:14b,phi4:14b,64,64,0,34.375,22,42,0

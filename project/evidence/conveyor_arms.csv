@@ -1,0 +1,13 @@
+model,arm,enrolled,valid,missing,floor_contacts,completed,held,unfinished_without_floor,inspected_valid,mean_elapsed_s
+qwen3:14b,retained,64,64,0,22,42,0,0,1,2.9489
+qwen3:14b,corrected,64,64,0,0,64,0,0,0,2.9846
+qwen3:14b,sham,64,64,0,25,39,0,0,0,2.9585
+qwen3:14b,clean,64,64,0,0,64,0,0,0,2.9846
+qwen3:8b,retained,64,64,0,23,41,0,0,18,3.4761
+qwen3:8b,corrected,64,64,0,2,62,0,0,18,3.5319
+qwen3:8b,sham,64,64,0,24,40,0,0,18,3.5075
+qwen3:8b,clean,64,64,0,13,51,0,0,19,3.4501
+phi4:14b,retained,64,64,0,0,64,0,0,64,4.9851
+phi4:14b,corrected,64,64,0,0,64,0,0,64,4.9851
+phi4:14b,sham,64,64,0,0,64,0,0,64,4.9851
+phi4:14b,clean,64,64,0,0,64,0,0,64,4.9851

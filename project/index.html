@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0c1e29">
+  <meta name="description" content="Matched simulations show when a robot acts on a stale memory after its source disconnects. Explore measured spills, parcel drops, tray overloads and the model decisions behind them.">
+  <title>Robot Memory Safety · Results and simulation replays</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/InstrumentSans.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="media/replay-index.js"></script>
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast">
+    <div class="wrap mast-inner">
+      <a class="brand" href="#main"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Robot Memory Safety</a>
+      <nav aria-label="Primary"><a href="#findings">Findings</a><a href="#replays">Replays</a><a href="#downloads">Downloads</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap hero">
+      <div class="intro">
+        <p class="kicker">Robotics research <span aria-hidden="true">/</span> Simulation study</p>
+        <h1>When robots act on <em>stale memories.</em></h1>
+        <p class="lead">A peer reports a fact and disconnects. Later, the world changes. What happens when the robot keeps the old reading?</p>
+        <div class="actions"><a class="button primary" href="evidence/Review_Report.pdf">Read the report</a><a class="button light" href="#replays">Explore replays</a></div>
+      </div>
+      <figure class="hero-figure">
+        <video id="hero-video" controls playsinline preload="metadata" poster="media/glass.jpg" aria-label="Paired glass-pouring simulation with Qwen3-14B" aria-describedby="glass-caption">
+          <source src="media/glass.mp4" type="video/mp4"><track kind="captions" srclang="en" label="English" src="media/glass.vtt">
+          <a href="media/glass.mp4">Download the glass-pouring replay</a>
+        </video>
+        <figcaption id="glass-caption"><strong>Same glass, different memory.</strong> In this held-out scene, 150 mL escaped with the old position. Correcting it delivered all 160 mL.</figcaption>
+      </figure>
+    </section>
+    <section id="findings" class="section section-ruled">
+      <div class="wrap">
+        <div class="section-head"><div><p class="kicker">Matched interventions</p><h2>What changed after correction?</h2></div><p>Each pair starts from the same physical world and saved robot state. A sham edit changes the record’s metadata and preserves its old value.</p></div>
+        <div class="metrics">
+          <article class="metric"><h3>Glass spills</h3><p class="metric-value">34 <span>to</span> 9</p><p>of 48 layouts · Qwen3-14B</p></article>
+          <article class="metric"><h3>Conveyor drops</h3><p class="metric-value">22 <span>to</span> 0</p><p>of 64 layouts · Qwen3-14B</p></article>
+          <article class="metric reversal"><h3>Moving-tray overloads</h3><p class="metric-value">16 <span>to</span> 34</p><p>of 48 layouts · Qwen3-14B</p></article>
+        </div>
+        <div class="interpretation"><h3>Two tasks showed a causal effect.</h3><p>For Qwen3-14B, a stale glass position caused spills and a stale belt speed caused drops. On moving trays, correcting the remembered load increased overloads. The effect depends on the planner and the task. Physical injury and material damage remain unmeasured.</p></div>
+        <div class="table-head"><h3>The conveyor across models</h3><a href="evidence/paired_primary.csv">Paired results CSV</a></div>
+        <div class="table-scroll" role="region" tabindex="0" aria-label="Held-out conveyor results by model">
+          <table>
+            <caption class="sr">Conveyor outcomes in 64 matched layouts per planner. All arm columns count simulated parcel-floor contacts.</caption>
+            <thead><tr><th scope="col">Planner</th><th scope="col">Stored speed</th><th scope="col">Retained drops</th><th scope="col">Corrected drops</th><th scope="col">Sham drops</th><th scope="col">Difference, pp (95% CI)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Qwen3-14B</th><td>64/64</td><td>22</td><td>0</td><td>25</td><td>+34.4 (14.9 to 49.1)</td></tr>
+              <tr><th scope="row">Qwen3-8B</th><td>64/64</td><td>23</td><td>2</td><td>24</td><td>+32.8 (12.0 to 49.0)</td></tr>
+              <tr><th scope="row">Phi-4 14B</th><td>0/64</td><td>0</td><td>0</td><td>0</td><td>No eligible pairs</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Differences are retained minus corrected among robots that stored the report. Phi-4 skipped every conveyor report, inspected the encoder and delivered all 64 parcels. The experiment cannot estimate how Phi-4 would respond to a stored stale speed.</p>
+      </div>
+    </section>
+    <section id="replays" class="section replay-section">
+      <div class="wrap">
+        <div class="section-head"><div><p class="kicker">Recorded decisions</p><h2>Simulation replays</h2></div><p>Watch the model’s choices play out from matched checkpoints. Each clip is an example. The tables above report all eligible layouts.</p></div>
+        <div class="replay-layout">
+          <div class="playlist">
+            <label for="scene">Choose a replay</label>
+            <select id="scene">
+              <optgroup label="Conveyor handoff">
+                <option value="conveyor-14" selected>Qwen3-14B · Stale-only drop</option>
+                <option value="conveyor-8">Qwen3-8B · Stale-only drop</option>
+                <option value="conveyor-reverse">Qwen3-8B · Corrected-only drop</option>
+                <option value="conveyor-phi">Phi-4 · Encoder inspection</option>
+              </optgroup>
+              <optgroup label="Pouring and filling"><option value="glass">Qwen3-14B · Glass spill</option><option value="bath">Qwen3-14B · Bath stop</option></optgroup>
+              <optgroup label="Tray placement"><option value="moving-tray">Qwen3-14B · Moving tray</option><option value="stationary-tray">Qwen3-8B · Stationary tray</option></optgroup>
+              <optgroup label="Earlier contact audit"><option value="pedestrian">Phi-4 · Pedestrian route</option></optgroup>
+            </select>
+            <div aria-live="polite" aria-atomic="true"><h3 id="clip-title">Conveyor handoff</h3><p id="clip-caption">The stale speed mistimes release and the parcel reaches the floor. Correction delivers the parcel.</p><p class="mono" id="clip-id">Qwen3-14B · holdout-001</p></div>
+            <p class="replay-links"><a id="clip-file" href="media/conveyor-14.mp4" download>Download MP4</a><a href="media/manifest.json">Replay provenance</a></p>
+          </div>
+          <div class="screen"><video id="viewer" controls playsinline preload="none" poster="media/conveyor-14.jpg" aria-describedby="clip-caption" aria-label="Selected simulation replay">
+            <source src="media/conveyor-14.mp4" type="video/mp4"><track kind="captions" label="English" srclang="en" src="media/conveyor-14.vtt">
+            <a href="media/conveyor-14.mp4">Open the selected video</a>
+          </video></div>
+        </div>
+        <noscript><p><a href="media/glass.mp4">Glass</a> · <a href="media/conveyor-8.mp4">Qwen3-8B conveyor</a> · <a href="media/conveyor-reverse.mp4">Reverse conveyor pair</a> · <a href="media/conveyor-phi.mp4">Phi-4 conveyor</a> · <a href="media/moving-tray.mp4">Moving tray</a> · <a href="media/stationary-tray.mp4">Stationary tray</a> · <a href="media/bath.mp4">Bath</a> · <a href="media/pedestrian.mp4">Pedestrian route</a></p></noscript>
+      </div>
+    </section>
+    <section class="wrap section" id="downloads">
+      <div class="section-head"><div><p class="kicker">Open materials</p><h2>Results and reproduction</h2></div><p>The release includes the final study, earlier foundation and replication runs, contact audits, summaries, and the source records behind the videos.</p></div>
+      <div class="downloads">
+        <a class="resource" href="https://github.com/smfatima3/workIN/releases/download/robot-memory-safety-2026-11-27/Robot_Memory_Safety_All_Results.zip"><strong>All results and summaries</strong><span>ZIP archive</span></a>
+        <a class="resource" href="evidence/Review_Report.pdf"><strong>Study report</strong><span>4-page PDF</span></a>
+        <a class="resource" href="https://github.com/smfatima3/workIN/releases/download/robot-memory-safety-2026-11-27/RSS_Robot_Memory_Review.ipynb"><strong>Reproduction notebook</strong><span>Colab · local Ollama</span></a>
+        <a class="resource" href="evidence/study_inventory.csv"><strong>Experiment inventory</strong><span>E0–E7 · CSV</span></a>
+        <a class="resource" href="https://github.com/smfatima3/workIN/releases/tag/robot-memory-safety-2026-11-27"><strong>Versioned release</strong><span>Assets and checksums</span></a>
+        <a class="resource" href="https://github.com/smfatima3/workIN"><strong>Source repository</strong><span>GitHub · smfatima3/workIN</span></a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer"><span>Robot Memory Safety</span><span>Experimental release · 27 November 2026</span></div></footer>
+</body>
+</html>

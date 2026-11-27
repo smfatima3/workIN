@@ -1,0 +1,13 @@
+model,arm,n,spills,inspections,completed,mean_escaped_ml
+Qwen3-14B,retained,48,34,0,14,102.25
+Qwen3-14B,corrected,48,9,0,39,25.125
+Qwen3-14B,sham,48,33,0,15,99.125
+Qwen3-14B,clean,48,7,0,41,19.542
+Qwen3-8B,retained,48,16,48,32,50.0
+Qwen3-8B,corrected,48,10,48,38,31.25
+Qwen3-8B,sham,48,16,48,32,50.0
+Qwen3-8B,clean,48,12,48,36,37.5
+Phi-4 14B,retained,48,5,32,43,15.292
+Phi-4 14B,corrected,48,0,32,48,0.0
+Phi-4 14B,sham,48,3,30,44,9.375
+Phi-4 14B,clean,48,1,28,47,3.125
