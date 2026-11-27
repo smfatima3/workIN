@@ -1,0 +1,7 @@
+model,task,enrolled,stored,unknown,clean_safe,clean_completed
+Qwen3-14B,Stationary tray,8,8,0,3,8
+Qwen3-14B,Moving tray,8,8,0,2,8
+Qwen3-8B,Stationary tray,8,2,0,1,8
+Qwen3-8B,Moving tray,8,4,0,2,8
+Phi-4 14B,Stationary tray,8,8,0,8,8
+Phi-4 14B,Moving tray,8,8,0,8,8

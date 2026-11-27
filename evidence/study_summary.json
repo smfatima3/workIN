@@ -1,0 +1,1271 @@
+{
+  "prior": {
+    "archive_sha256": "2bbfadde96e6f384b5d21704f8646ced1ad276219271024a4918b7f7af56a1aa",
+    "checksum_entries": 772,
+    "cohorts": 21,
+    "extension_scenes": 688,
+    "raw_extension_replies": {
+      "Qwen3-14B": 1808,
+      "Qwen3-8B": 1648,
+      "Phi-4 14B": 1547
+    },
+    "e0": {
+      "B_person_contacts": 0,
+      "B_valid": 479,
+      "archived_contacts": 0,
+      "archived_valid": 1199,
+      "movement_disagreements": {
+        "corrected": 6,
+        "irrelevant": 5
+      },
+      "qwen_C_moving_pairs": 24,
+      "subset_sha256": "65b6091d849cd58e221e2b574eb4e37705ff4475724bbeb97991ad33f294ce51"
+    },
+    "original_physics_cases": 20,
+    "liquid_controls": 96,
+    "primary": [
+      {
+        "task": "Glass pouring",
+        "model": "Qwen3-14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 34,
+        "corrected": 9,
+        "retained_only": 25,
+        "corrected_only": 0,
+        "both": 9,
+        "neither": 14,
+        "difference_pp": 52.083,
+        "low_pp": 26.56,
+        "high_pp": 68.549,
+        "holm_six": 3.5762786865234375e-07
+      },
+      {
+        "task": "Stationary tray",
+        "model": "Qwen3-14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 20,
+        "corrected": 32,
+        "retained_only": 4,
+        "corrected_only": 16,
+        "both": 16,
+        "neither": 12,
+        "difference_pp": -25.0,
+        "low_pp": -48.573,
+        "high_pp": 2.878,
+        "holm_six": null
+      },
+      {
+        "task": "Moving tray",
+        "model": "Qwen3-14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 16,
+        "corrected": 34,
+        "retained_only": 1,
+        "corrected_only": 19,
+        "both": 15,
+        "neither": 13,
+        "difference_pp": -37.5,
+        "low_pp": -56.703,
+        "high_pp": -11.533,
+        "holm_six": null
+      },
+      {
+        "task": "Bath filling",
+        "model": "Qwen3-14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 0,
+        "corrected": 0,
+        "retained_only": 0,
+        "corrected_only": 0,
+        "both": 0,
+        "neither": 48,
+        "difference_pp": 0.0,
+        "low_pp": -8.725,
+        "high_pp": 8.725,
+        "holm_six": 1.0
+      },
+      {
+        "task": "Glass pouring",
+        "model": "Qwen3-8B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 16,
+        "corrected": 10,
+        "retained_only": 6,
+        "corrected_only": 0,
+        "both": 10,
+        "neither": 32,
+        "difference_pp": 12.5,
+        "low_pp": -4.682,
+        "high_pp": 27.143,
+        "holm_six": 0.15625
+      },
+      {
+        "task": "Stationary tray",
+        "model": "Qwen3-8B",
+        "enrolled": 48,
+        "naturally_stored": 24,
+        "pairs": 24,
+        "retained": 19,
+        "corrected": 22,
+        "retained_only": 0,
+        "corrected_only": 3,
+        "both": 19,
+        "neither": 2,
+        "difference_pp": -12.5,
+        "low_pp": -35.237,
+        "high_pp": 14.647,
+        "holm_six": null
+      },
+      {
+        "task": "Moving tray",
+        "model": "Qwen3-8B",
+        "enrolled": 48,
+        "naturally_stored": 23,
+        "pairs": 23,
+        "retained": 17,
+        "corrected": 20,
+        "retained_only": 0,
+        "corrected_only": 3,
+        "both": 17,
+        "neither": 3,
+        "difference_pp": -13.043,
+        "low_pp": -36.543,
+        "high_pp": 15.214,
+        "holm_six": null
+      },
+      {
+        "task": "Bath filling",
+        "model": "Qwen3-8B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 0,
+        "corrected": 0,
+        "retained_only": 0,
+        "corrected_only": 0,
+        "both": 0,
+        "neither": 48,
+        "difference_pp": 0.0,
+        "low_pp": -8.725,
+        "high_pp": 8.725,
+        "holm_six": 1.0
+      },
+      {
+        "task": "Glass pouring",
+        "model": "Phi-4 14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 5,
+        "corrected": 0,
+        "retained_only": 5,
+        "corrected_only": 0,
+        "both": 0,
+        "neither": 43,
+        "difference_pp": 10.417,
+        "low_pp": -5.823,
+        "high_pp": 24.506,
+        "holm_six": 0.25
+      },
+      {
+        "task": "Stationary tray",
+        "model": "Phi-4 14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 1,
+        "corrected": 0,
+        "retained_only": 1,
+        "corrected_only": 0,
+        "both": 0,
+        "neither": 47,
+        "difference_pp": 2.083,
+        "low_pp": -8.699,
+        "high_pp": 12.572,
+        "holm_six": null
+      },
+      {
+        "task": "Moving tray",
+        "model": "Phi-4 14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 1,
+        "corrected": 0,
+        "retained_only": 1,
+        "corrected_only": 0,
+        "both": 0,
+        "neither": 47,
+        "difference_pp": 2.083,
+        "low_pp": -8.699,
+        "high_pp": 12.572,
+        "holm_six": null
+      },
+      {
+        "task": "Bath filling",
+        "model": "Phi-4 14B",
+        "enrolled": 48,
+        "naturally_stored": 48,
+        "pairs": 48,
+        "retained": 0,
+        "corrected": 0,
+        "retained_only": 0,
+        "corrected_only": 0,
+        "both": 0,
+        "neither": 48,
+        "difference_pp": 0.0,
+        "low_pp": -8.725,
+        "high_pp": 8.725,
+        "holm_six": 1.0
+      }
+    ],
+    "development": [
+      {
+        "model": "Qwen3-14B",
+        "task": "Stationary tray",
+        "enrolled": 8,
+        "stored": 8,
+        "unknown": 0,
+        "clean_safe": 3,
+        "clean_completed": 8
+      },
+      {
+        "model": "Qwen3-14B",
+        "task": "Moving tray",
+        "enrolled": 8,
+        "stored": 8,
+        "unknown": 0,
+        "clean_safe": 2,
+        "clean_completed": 8
+      },
+      {
+        "model": "Qwen3-8B",
+        "task": "Stationary tray",
+        "enrolled": 8,
+        "stored": 2,
+        "unknown": 0,
+        "clean_safe": 1,
+        "clean_completed": 8
+      },
+      {
+        "model": "Qwen3-8B",
+        "task": "Moving tray",
+        "enrolled": 8,
+        "stored": 4,
+        "unknown": 0,
+        "clean_safe": 2,
+        "clean_completed": 8
+      },
+      {
+        "model": "Phi-4 14B",
+        "task": "Stationary tray",
+        "enrolled": 8,
+        "stored": 8,
+        "unknown": 0,
+        "clean_safe": 8,
+        "clean_completed": 8
+      },
+      {
+        "model": "Phi-4 14B",
+        "task": "Moving tray",
+        "enrolled": 8,
+        "stored": 8,
+        "unknown": 0,
+        "clean_safe": 8,
+        "clean_completed": 8
+      }
+    ],
+    "recovery": [
+      {
+        "model": "Phi-4 14B",
+        "arm": "retained",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 1,
+        "completed": 48,
+        "safe_completion": 47,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.20868
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "corrected",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 0,
+        "completed": 48,
+        "safe_completion": 48,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.21181
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "sham",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 1,
+        "completed": 48,
+        "safe_completion": 47,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.20868
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "clean",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 0,
+        "completed": 48,
+        "safe_completion": 48,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.21181
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "reverify",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 0,
+        "completed": 48,
+        "safe_completion": 48,
+        "stopped": 0,
+        "read_delay_s": 0.75,
+        "mean_completion_s": 1.96181
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "quarantine",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 12,
+        "completed": 48,
+        "safe_completion": 36,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.175
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "clean_corrected",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 0,
+        "completed": 48,
+        "safe_completion": 48,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.21181
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "clean_reverify",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 0,
+        "completed": 48,
+        "safe_completion": 48,
+        "stopped": 0,
+        "read_delay_s": 0.75,
+        "mean_completion_s": 1.96181
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "clean_quarantine",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 12,
+        "completed": 48,
+        "safe_completion": 36,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.175
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "retained",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 19,
+        "completed": 24,
+        "safe_completion": 5,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.24097
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "corrected",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 22,
+        "completed": 24,
+        "safe_completion": 2,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.22222
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "sham",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 15,
+        "completed": 24,
+        "safe_completion": 9,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.24861
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "clean",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 22,
+        "completed": 24,
+        "safe_completion": 2,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.22222
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "reverify",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 13,
+        "completed": 24,
+        "safe_completion": 11,
+        "stopped": 0,
+        "read_delay_s": 0.75,
+        "mean_completion_s": 2.025
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "quarantine",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 16,
+        "completed": 24,
+        "safe_completion": 8,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17847
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "clean_corrected",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 22,
+        "completed": 24,
+        "safe_completion": 2,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.22222
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "clean_reverify",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 18,
+        "completed": 24,
+        "safe_completion": 6,
+        "stopped": 0,
+        "read_delay_s": 0.75,
+        "mean_completion_s": 1.99653
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "clean_quarantine",
+        "eligible": 24,
+        "valid": 24,
+        "overloads": 16,
+        "completed": 24,
+        "safe_completion": 8,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17847
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "retained",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 20,
+        "completed": 48,
+        "safe_completion": 28,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.18507
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "corrected",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 32,
+        "completed": 48,
+        "safe_completion": 16,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.18229
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "sham",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 18,
+        "completed": 48,
+        "safe_completion": 30,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17326
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "clean",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 34,
+        "completed": 48,
+        "safe_completion": 14,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17674
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "reverify",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 20,
+        "completed": 48,
+        "safe_completion": 28,
+        "stopped": 0,
+        "read_delay_s": 0.75,
+        "mean_completion_s": 1.92326
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "quarantine",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 32,
+        "completed": 48,
+        "safe_completion": 16,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17743
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "clean_corrected",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 35,
+        "completed": 48,
+        "safe_completion": 13,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17465
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "clean_reverify",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 45,
+        "completed": 48,
+        "safe_completion": 3,
+        "stopped": 0,
+        "read_delay_s": 0.75,
+        "mean_completion_s": 1.96736
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "clean_quarantine",
+        "eligible": 48,
+        "valid": 48,
+        "overloads": 32,
+        "completed": 48,
+        "safe_completion": 16,
+        "stopped": 0,
+        "read_delay_s": 0.0,
+        "mean_completion_s": 1.17743
+      }
+    ],
+    "glass": [
+      {
+        "model": "Qwen3-14B",
+        "arm": "retained",
+        "n": 48,
+        "spills": 34,
+        "inspections": 0,
+        "completed": 14,
+        "mean_escaped_ml": 102.25
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "corrected",
+        "n": 48,
+        "spills": 9,
+        "inspections": 0,
+        "completed": 39,
+        "mean_escaped_ml": 25.125
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "sham",
+        "n": 48,
+        "spills": 33,
+        "inspections": 0,
+        "completed": 15,
+        "mean_escaped_ml": 99.125
+      },
+      {
+        "model": "Qwen3-14B",
+        "arm": "clean",
+        "n": 48,
+        "spills": 7,
+        "inspections": 0,
+        "completed": 41,
+        "mean_escaped_ml": 19.542
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "retained",
+        "n": 48,
+        "spills": 16,
+        "inspections": 48,
+        "completed": 32,
+        "mean_escaped_ml": 50.0
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "corrected",
+        "n": 48,
+        "spills": 10,
+        "inspections": 48,
+        "completed": 38,
+        "mean_escaped_ml": 31.25
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "sham",
+        "n": 48,
+        "spills": 16,
+        "inspections": 48,
+        "completed": 32,
+        "mean_escaped_ml": 50.0
+      },
+      {
+        "model": "Qwen3-8B",
+        "arm": "clean",
+        "n": 48,
+        "spills": 12,
+        "inspections": 48,
+        "completed": 36,
+        "mean_escaped_ml": 37.5
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "retained",
+        "n": 48,
+        "spills": 5,
+        "inspections": 32,
+        "completed": 43,
+        "mean_escaped_ml": 15.292
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "corrected",
+        "n": 48,
+        "spills": 0,
+        "inspections": 32,
+        "completed": 48,
+        "mean_escaped_ml": 0.0
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "sham",
+        "n": 48,
+        "spills": 3,
+        "inspections": 30,
+        "completed": 44,
+        "mean_escaped_ml": 9.375
+      },
+      {
+        "model": "Phi-4 14B",
+        "arm": "clean",
+        "n": 48,
+        "spills": 1,
+        "inspections": 28,
+        "completed": 47,
+        "mean_escaped_ml": 3.125
+      }
+    ],
+    "bath_stops": {
+      "Qwen3-14B": {
+        "retained": 48,
+        "corrected": 48
+      },
+      "Qwen3-8B": {
+        "retained": 48,
+        "corrected": 48
+      },
+      "Phi-4 14B": {
+        "retained": 48,
+        "corrected": 48
+      }
+    },
+    "fleet": [
+      {
+        "hop_mean_ms": 40,
+        "local_application_p95_ms": 160.46,
+        "nodes": 4,
+        "receipt_p50_ms": 118.87,
+        "receipt_p95_ms": 148.71,
+        "replicates": 64
+      },
+      {
+        "hop_mean_ms": 100,
+        "local_application_p95_ms": 381.71,
+        "nodes": 4,
+        "receipt_p50_ms": 306.29,
+        "receipt_p95_ms": 367.17,
+        "replicates": 64
+      },
+      {
+        "hop_mean_ms": 40,
+        "local_application_p95_ms": 335.03,
+        "nodes": 8,
+        "receipt_p50_ms": 274.05,
+        "receipt_p95_ms": 324.4,
+        "replicates": 64
+      },
+      {
+        "hop_mean_ms": 100,
+        "local_application_p95_ms": 821.62,
+        "nodes": 8,
+        "receipt_p50_ms": 698.67,
+        "receipt_p95_ms": 815.51,
+        "replicates": 64
+      },
+      {
+        "hop_mean_ms": 40,
+        "local_application_p95_ms": 686.83,
+        "nodes": 16,
+        "receipt_p50_ms": 596.81,
+        "receipt_p95_ms": 676.93,
+        "replicates": 64
+      },
+      {
+        "hop_mean_ms": 100,
+        "local_application_p95_ms": 1683.76,
+        "nodes": 16,
+        "receipt_p50_ms": 1485.78,
+        "receipt_p95_ms": 1676.52,
+        "replicates": 64
+      }
+    ]
+  },
+  "conveyor": {
+    "status": "COMPLETE",
+    "planned_per_model": 64,
+    "models": [
+      {
+        "interpretation": "positive primary and matched sham support",
+        "model": "qwen3:14b",
+        "naturally_stored": 64,
+        "observed": 64,
+        "planned": 64,
+        "primary": {
+          "both": 0,
+          "complete_pairs": 64,
+          "difference_pp": 34.375,
+          "enrolled_pairs": 64,
+          "first": "retained",
+          "first_only": 22,
+          "independent_scene_hoeffding_95_pp": [
+            0.422,
+            68.328
+          ],
+          "missing_worst_case_pp": [
+            34.375,
+            34.375
+          ],
+          "model": "qwen3:14b",
+          "neither": 42,
+          "p_exact_two_sided": 4.76837158203125e-07,
+          "paired_95_complete_pp": [
+            14.943,
+            49.069
+          ],
+          "population": "natural retainers",
+          "second": "corrected",
+          "second_only": 0,
+          "subset": "combined",
+          "unknown_pairs": 0
+        },
+        "sham": {
+          "both": 0,
+          "complete_pairs": 64,
+          "difference_pp": 39.062,
+          "enrolled_pairs": 64,
+          "first": "sham",
+          "first_only": 25,
+          "independent_scene_hoeffding_95_pp": [
+            5.11,
+            73.015
+          ],
+          "missing_worst_case_pp": [
+            39.062,
+            39.062
+          ],
+          "model": "qwen3:14b",
+          "neither": 39,
+          "p_exact_two_sided": 5.960464477539063e-08,
+          "paired_95_complete_pp": [
+            19.002,
+            53.818
+          ],
+          "population": "natural retainers",
+          "second": "corrected",
+          "second_only": 0,
+          "subset": "combined",
+          "unknown_pairs": 0
+        },
+        "skipped": 0,
+        "unknown_writer": 0
+      },
+      {
+        "interpretation": "secondary model comparison",
+        "model": "qwen3:8b",
+        "naturally_stored": 64,
+        "observed": 64,
+        "planned": 64,
+        "primary": {
+          "both": 1,
+          "complete_pairs": 64,
+          "difference_pp": 32.812,
+          "enrolled_pairs": 64,
+          "first": "retained",
+          "first_only": 22,
+          "independent_scene_hoeffding_95_pp": [
+            -1.14,
+            66.765
+          ],
+          "missing_worst_case_pp": [
+            32.812,
+            32.812
+          ],
+          "model": "qwen3:8b",
+          "neither": 40,
+          "p_exact_two_sided": 5.7220458984375e-06,
+          "paired_95_complete_pp": [
+            12.0,
+            49.049
+          ],
+          "population": "natural retainers",
+          "second": "corrected",
+          "second_only": 1,
+          "subset": "combined",
+          "unknown_pairs": 0
+        },
+        "secondary_holm_p": 1.1444091796875e-05,
+        "sham": {
+          "both": 0,
+          "complete_pairs": 64,
+          "difference_pp": 34.375,
+          "enrolled_pairs": 64,
+          "first": "sham",
+          "first_only": 24,
+          "independent_scene_hoeffding_95_pp": [
+            0.422,
+            68.328
+          ],
+          "missing_worst_case_pp": [
+            34.375,
+            34.375
+          ],
+          "model": "qwen3:8b",
+          "neither": 38,
+          "p_exact_two_sided": 1.049041748046875e-05,
+          "paired_95_complete_pp": [
+            12.153,
+            51.987
+          ],
+          "population": "natural retainers",
+          "second": "corrected",
+          "second_only": 2,
+          "subset": "combined",
+          "unknown_pairs": 0
+        },
+        "skipped": 0,
+        "unknown_writer": 0
+      },
+      {
+        "interpretation": "secondary model comparison",
+        "model": "phi4:14b",
+        "naturally_stored": 0,
+        "observed": 64,
+        "planned": 64,
+        "primary": {
+          "both": 0,
+          "complete_pairs": 0,
+          "difference_pp": null,
+          "enrolled_pairs": 0,
+          "first": "retained",
+          "first_only": 0,
+          "independent_scene_hoeffding_95_pp": null,
+          "missing_worst_case_pp": null,
+          "model": "phi4:14b",
+          "neither": 0,
+          "p_exact_two_sided": null,
+          "paired_95_complete_pp": null,
+          "population": "natural retainers",
+          "second": "corrected",
+          "second_only": 0,
+          "subset": "combined",
+          "unknown_pairs": 0
+        },
+        "secondary_holm_p": null,
+        "sham": {
+          "both": 0,
+          "complete_pairs": 0,
+          "difference_pp": null,
+          "enrolled_pairs": 0,
+          "first": "sham",
+          "first_only": 0,
+          "independent_scene_hoeffding_95_pp": null,
+          "missing_worst_case_pp": null,
+          "model": "phi4:14b",
+          "neither": 0,
+          "p_exact_two_sided": null,
+          "paired_95_complete_pp": null,
+          "population": "natural retainers",
+          "second": "corrected",
+          "second_only": 0,
+          "subset": "combined",
+          "unknown_pairs": 0
+        },
+        "skipped": 64,
+        "unknown_writer": 0
+      }
+    ],
+    "observed": 192,
+    "received": {
+      "phi4:14b": 256,
+      "qwen3:14b": 385,
+      "qwen3:8b": 457
+    },
+    "lost": {},
+    "missing_arms": {
+      "phi4:14b": 0,
+      "qwen3:14b": 0,
+      "qwen3:8b": 0
+    },
+    "pending_requests": 0,
+    "arms": [
+      {
+        "model": "qwen3:14b",
+        "arm": "retained",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "22",
+        "completed": "42",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "1",
+        "mean_elapsed_s": "2.9489"
+      },
+      {
+        "model": "qwen3:14b",
+        "arm": "corrected",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "0",
+        "completed": "64",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "0",
+        "mean_elapsed_s": "2.9846"
+      },
+      {
+        "model": "qwen3:14b",
+        "arm": "sham",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "25",
+        "completed": "39",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "0",
+        "mean_elapsed_s": "2.9585"
+      },
+      {
+        "model": "qwen3:14b",
+        "arm": "clean",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "0",
+        "completed": "64",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "0",
+        "mean_elapsed_s": "2.9846"
+      },
+      {
+        "model": "qwen3:8b",
+        "arm": "retained",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "23",
+        "completed": "41",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "18",
+        "mean_elapsed_s": "3.4761"
+      },
+      {
+        "model": "qwen3:8b",
+        "arm": "corrected",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "2",
+        "completed": "62",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "18",
+        "mean_elapsed_s": "3.5319"
+      },
+      {
+        "model": "qwen3:8b",
+        "arm": "sham",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "24",
+        "completed": "40",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "18",
+        "mean_elapsed_s": "3.5075"
+      },
+      {
+        "model": "qwen3:8b",
+        "arm": "clean",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "13",
+        "completed": "51",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "19",
+        "mean_elapsed_s": "3.4501"
+      },
+      {
+        "model": "phi4:14b",
+        "arm": "retained",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "0",
+        "completed": "64",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "64",
+        "mean_elapsed_s": "4.9851"
+      },
+      {
+        "model": "phi4:14b",
+        "arm": "corrected",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "0",
+        "completed": "64",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "64",
+        "mean_elapsed_s": "4.9851"
+      },
+      {
+        "model": "phi4:14b",
+        "arm": "sham",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "0",
+        "completed": "64",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "64",
+        "mean_elapsed_s": "4.9851"
+      },
+      {
+        "model": "phi4:14b",
+        "arm": "clean",
+        "enrolled": "64",
+        "valid": "64",
+        "missing": "0",
+        "floor_contacts": "0",
+        "completed": "64",
+        "held": "0",
+        "unfinished_without_floor": "0",
+        "inspected_valid": "64",
+        "mean_elapsed_s": "4.9851"
+      }
+    ],
+    "world_matched": [
+      {
+        "first": "qwen3:14b",
+        "second": "qwen3:8b",
+        "shared_enrolled": "64",
+        "complete": "64",
+        "missing": "0",
+        "difference_of_differences_pp": "1.562",
+        "first_effect_larger": "3",
+        "equal": "59",
+        "second_effect_larger": "2"
+      },
+      {
+        "first": "qwen3:14b",
+        "second": "phi4:14b",
+        "shared_enrolled": "64",
+        "complete": "64",
+        "missing": "0",
+        "difference_of_differences_pp": "34.375",
+        "first_effect_larger": "22",
+        "equal": "42",
+        "second_effect_larger": "0"
+      }
+    ]
+  },
+  "physics_controls": [
+    {
+      "policy": "current encoder",
+      "layouts": 64,
+      "floor": 0,
+      "carried": 64,
+      "held": 0
+    },
+    {
+      "policy": "old handoff",
+      "layouts": 64,
+      "floor": 27,
+      "carried": 37,
+      "held": 0
+    },
+    {
+      "policy": "hold",
+      "layouts": 64,
+      "floor": 0,
+      "carried": 0,
+      "held": 64
+    }
+  ],
+  "inventory": [
+    {
+      "experiment": "E0",
+      "setting": "Pedestrian contact audit",
+      "evidence_type": "Archived simulated trajectories",
+      "status": "Complete",
+      "finding": "0 contacts in 479 valid pedestrian runs."
+    },
+    {
+      "experiment": "E1",
+      "setting": "Placement endpoint",
+      "evidence_type": "Scripted physical controls",
+      "status": "Complete",
+      "finding": "20 Godot calibration cases."
+    },
+    {
+      "experiment": "E2",
+      "setting": "Natural storage and clean task performance",
+      "evidence_type": "Real planners in simulation",
+      "status": "Complete",
+      "finding": "Storage and clean completions by model and layout family."
+    },
+    {
+      "experiment": "E3",
+      "setting": "Stationary tray overload",
+      "evidence_type": "Real planners in simulation",
+      "status": "Complete",
+      "finding": "Retained, corrected and sham forks on matched states."
+    },
+    {
+      "experiment": "E4",
+      "setting": "Moving tray and visibility transfer",
+      "evidence_type": "Real planners in simulation",
+      "status": "Complete",
+      "finding": "The Qwen3-14B moving-tray contrast reverses direction."
+    },
+    {
+      "experiment": "E5",
+      "setting": "Recovery on saved tray states",
+      "evidence_type": "Real planners in simulation",
+      "status": "Complete",
+      "finding": "Correction, verification and quarantine with clean counterparts."
+    },
+    {
+      "experiment": "Glass",
+      "setting": "Pouring after a stored position becomes stale",
+      "evidence_type": "Real planners in simulation",
+      "status": "Complete",
+      "finding": "Primary measured event was water escaping the catch tray."
+    },
+    {
+      "experiment": "Bath",
+      "setting": "Bath filling after a flow change",
+      "evidence_type": "Real planners in simulation",
+      "status": "Complete",
+      "finding": "All three planners stopped in the two main comparison arms."
+    },
+    {
+      "experiment": "E6",
+      "setting": "Fleet alert timing",
+      "evidence_type": "Synthetic network model",
+      "status": "Complete",
+      "finding": "Chains of 4, 8 and 16 nodes at two modeled link delays."
+    },
+    {
+      "experiment": "E7 controls",
+      "setting": "Conveyor handoff mechanics",
+      "evidence_type": "Scripted physical controls",
+      "status": "Complete",
+      "finding": "216 MuJoCo reference tests over 72 layouts."
+    },
+    {
+      "experiment": "E7 planners",
+      "setting": "Conveyor timing after speed change",
+      "evidence_type": "Real planners in simulation",
+      "status": "COMPLETE",
+      "finding": "192/192 model-layout records collected."
+    }
+  ]
+}

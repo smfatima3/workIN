@@ -1,0 +1,12 @@
+experiment,setting,evidence_type,status,finding
+E0,Pedestrian contact audit,Archived simulated trajectories,Complete,0 contacts in 479 valid pedestrian runs.
+E1,Placement endpoint,Scripted physical controls,Complete,20 Godot calibration cases.
+E2,Natural storage and clean task performance,Real planners in simulation,Complete,Storage and clean completions by model and layout family.
+E3,Stationary tray overload,Real planners in simulation,Complete,"Retained, corrected and sham forks on matched states."
+E4,Moving tray and visibility transfer,Real planners in simulation,Complete,The Qwen3-14B moving-tray contrast reverses direction.
+E5,Recovery on saved tray states,Real planners in simulation,Complete,"Correction, verification and quarantine with clean counterparts."
+Glass,Pouring after a stored position becomes stale,Real planners in simulation,Complete,Primary measured event was water escaping the catch tray.
+Bath,Bath filling after a flow change,Real planners in simulation,Complete,All three planners stopped in the two main comparison arms.
+E6,Fleet alert timing,Synthetic network model,Complete,"Chains of 4, 8 and 16 nodes at two modeled link delays."
+E7 controls,Conveyor handoff mechanics,Scripted physical controls,Complete,216 MuJoCo reference tests over 72 layouts.
+E7 planners,Conveyor timing after speed change,Real planners in simulation,COMPLETE,192/192 model-layout records collected.
