@@ -1,0 +1,192 @@
+[
+  {
+    "id": "conveyor-14",
+    "title": "Conveyor handoff",
+    "model": "Qwen3-14B",
+    "scene": "holdout-001",
+    "engine": "MuJoCo 3.17.0",
+    "xml_sha256": "c57fa0a161ced29f726d4f8fb7d57dc080a1d889c2562a921f10b0aea34da007",
+    "source_sha256": "bf5e9bdc54cf51914c518b9684bc629a4d7a1acd3e90d43454a7457ff913045a",
+    "archive": "evidence/conveyor_evidence.zip",
+    "geometries": [
+      "floor",
+      "deck",
+      "box"
+    ],
+    "render_changes": "Camera, lighting, per-geometry colors, panel labels and playback speed only.",
+    "checkpoint": "2202508790f36f9ad15aa6599e5593780c07d002382e955d07fc10eb725c0e18",
+    "mp4": "conveyor-14-native.mp4",
+    "poster": "conveyor-14-native.jpg",
+    "sha256": "8b86efbee8eb630c71a2c2ce5a97cb326e4d86bb5e9fbe9f91e829dcabff3a82",
+    "seconds": 6.208,
+    "caption": "Conveyor handoff. Original MuJoCo geometry. Retained memory: Floor contact. Corrected memory: Delivered. Amber parcel. Teal carrier. The fixed grasp is a simulated weld.",
+    "branches": [
+      {
+        "arm": "retained",
+        "record": "cohorts/qwen3_14b/001/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Floor contact",
+        "simulation_seconds": 2.388
+      },
+      {
+        "arm": "corrected",
+        "record": "cohorts/qwen3_14b/001/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Delivered",
+        "simulation_seconds": 3.408
+      }
+    ]
+  },
+  {
+    "id": "conveyor-8",
+    "title": "Conveyor handoff",
+    "model": "Qwen3-8B",
+    "scene": "holdout-001",
+    "engine": "MuJoCo 3.17.0",
+    "xml_sha256": "c57fa0a161ced29f726d4f8fb7d57dc080a1d889c2562a921f10b0aea34da007",
+    "source_sha256": "bf5e9bdc54cf51914c518b9684bc629a4d7a1acd3e90d43454a7457ff913045a",
+    "archive": "evidence/conveyor_evidence.zip",
+    "geometries": [
+      "floor",
+      "deck",
+      "box"
+    ],
+    "render_changes": "Camera, lighting, per-geometry colors, panel labels and playback speed only.",
+    "checkpoint": "f0588fef981723147ba43a0a22d632a8f1717f765dd59aa8f4a6003aebceb86c",
+    "mp4": "conveyor-8-native.mp4",
+    "poster": "conveyor-8-native.jpg",
+    "sha256": "dc7f1804ee07deb3f670158298b86e4197330153da8bff2646f33f9d12aa1a07",
+    "seconds": 6.208,
+    "caption": "Conveyor handoff. Original MuJoCo geometry. Retained memory: Floor contact. Corrected memory: Delivered. Amber parcel. Teal carrier. The fixed grasp is a simulated weld.",
+    "branches": [
+      {
+        "arm": "retained",
+        "record": "cohorts/qwen3_8b/001/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Floor contact",
+        "simulation_seconds": 2.388
+      },
+      {
+        "arm": "corrected",
+        "record": "cohorts/qwen3_8b/001/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Delivered",
+        "simulation_seconds": 3.408
+      }
+    ]
+  },
+  {
+    "id": "conveyor-reverse",
+    "title": "Conveyor handoff",
+    "model": "Qwen3-8B",
+    "scene": "holdout-041",
+    "engine": "MuJoCo 3.17.0",
+    "xml_sha256": "907f2b8a1fcbadf108f7b65a40c836eb3873efc9b3c7a3499ed756920edde950",
+    "source_sha256": "bf5e9bdc54cf51914c518b9684bc629a4d7a1acd3e90d43454a7457ff913045a",
+    "archive": "evidence/conveyor_evidence.zip",
+    "geometries": [
+      "floor",
+      "deck",
+      "box"
+    ],
+    "render_changes": "Camera, lighting, per-geometry colors, panel labels and playback speed only.",
+    "checkpoint": "60d9441524857cc5a34ef23937ce390cd7f9f44a18908861b99ade315d3ddff8",
+    "mp4": "conveyor-reverse-native.mp4",
+    "poster": "conveyor-reverse-native.jpg",
+    "sha256": "e2a50452239301a3c1987131f935ba417094fcbf999155097c386a97ba7c54ae",
+    "seconds": 5.5,
+    "caption": "Conveyor handoff. Original MuJoCo geometry. Retained memory: Delivered. Corrected memory: Floor contact. Amber parcel. Teal carrier. The fixed grasp is a simulated weld.",
+    "branches": [
+      {
+        "arm": "retained",
+        "record": "cohorts/qwen3_8b/041/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Delivered",
+        "simulation_seconds": 2.94
+      },
+      {
+        "arm": "corrected",
+        "record": "cohorts/qwen3_8b/041/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Floor contact",
+        "simulation_seconds": 2.52
+      }
+    ]
+  },
+  {
+    "id": "conveyor-phi",
+    "title": "Conveyor handoff",
+    "model": "Phi-4 14B",
+    "scene": "holdout-000",
+    "engine": "MuJoCo 3.17.0",
+    "xml_sha256": "b13bc969857b9b064225b55894f2d247262a5a1b8a2aac7193cbbd458acbb157",
+    "source_sha256": "bf5e9bdc54cf51914c518b9684bc629a4d7a1acd3e90d43454a7457ff913045a",
+    "archive": "evidence/conveyor_evidence.zip",
+    "geometries": [
+      "floor",
+      "deck",
+      "box"
+    ],
+    "render_changes": "Camera, lighting, per-geometry colors, panel labels and playback speed only.",
+    "checkpoint": "b30882826b35f6d6b78d176c11bbcc62f50dce41f51319e6efa11e31938c8116",
+    "mp4": "conveyor-phi-native.mp4",
+    "poster": "conveyor-phi-native.jpg",
+    "sha256": "081664d310ec4fa3bbf5f31c0e1411fba191f0c8a13d6588580b44d5f201cd12",
+    "seconds": 6.375,
+    "caption": "Conveyor handoff. Original MuJoCo geometry. Retained memory: Delivered. Corrected memory: Delivered. Amber parcel. Teal carrier. The fixed grasp is a simulated weld.",
+    "branches": [
+      {
+        "arm": "retained",
+        "record": "cohorts/phi4_14b/000/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Delivered",
+        "simulation_seconds": 3.524
+      },
+      {
+        "arm": "corrected",
+        "record": "cohorts/phi4_14b/000/scene.json",
+        "trace_samples_verified": 37,
+        "result": "Delivered",
+        "simulation_seconds": 3.524
+      }
+    ]
+  },
+  {
+    "id": "pedestrian",
+    "title": "Pedestrian route",
+    "model": "Phi-4 14B",
+    "scene": "B_00 \u00b7 replicate 0",
+    "engine": "MuJoCo 3.17.0",
+    "xml_sha256": "ccbfbe847ffa3e440a754c1c5bd467b662a161daa617bd97d4c80cc0e0ca3a30",
+    "source_sha256": "604161ecbec05931d08a3d9f3f6ff159934751e02f79a4daece2b2dc66ca378e",
+    "archive": "historical/results/contact_causal/completed/evidence/v5_B.zip",
+    "geometries": [
+      "floor",
+      "person",
+      "base"
+    ],
+    "render_changes": "Camera, lighting, per-geometry colors, panel labels and playback speed only.",
+    "checkpoint": "4ec7888bc9ea8c30b83fd9ef4172ef4499851b198013fec96c2545a389cfbc75",
+    "mp4": "pedestrian-native.mp4",
+    "poster": "pedestrian-native.jpg",
+    "sha256": "d53a56f3dfdc08fbf1f33457d359d8fe023dcb9845190d99024495e94a146063",
+    "seconds": 6.417,
+    "caption": "Pedestrian route. Original MuJoCo geometry. Retained memory: Route completed. Corrected memory: Route completed. Teal box: mobile base. Capsule: pedestrian collision geometry.",
+    "branches": [
+      {
+        "arm": "retained",
+        "record": "phi_main/blocks/B_00/retained_r0/trajectory.json",
+        "trace_samples_verified": 95,
+        "result": "Route completed",
+        "simulation_seconds": 1.9000000000000001
+      },
+      {
+        "arm": "corrected",
+        "record": "phi_main/blocks/B_00/corrected_r0/trajectory.json",
+        "trace_samples_verified": 95,
+        "result": "Route completed",
+        "simulation_seconds": 1.9000000000000001
+      }
+    ]
+  }
+]

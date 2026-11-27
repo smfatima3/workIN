@@ -17,7 +17,8 @@ On the conveyor, Qwen3-14B also dropped 25/64 parcels under the sham edit. Phi-4
 
 ## Materials
 
-- [Project page with nine replays](https://smfatima3.github.io/workIN/) and [video provenance manifest](../../project/media/manifest.json).
+- [Project page with nine paired examples](https://smfatima3.github.io/workIN/), [native 3D video provenance](../../project/media/native-manifest.json), and [2D trace provenance](../../project/media/manifest.json). Four conveyor pairs and one pedestrian pair are rendered from the original MuJoCo geometry.
+- [Simulator methods and limits](../../project/evidence/Simulation_scope.md) describes the fixed-weld conveyor grasp, mobile-base and pedestrian collision shapes, 2D gantry, and analytical water tasks.
 - [Review report (PDF)](../../project/evidence/Review_Report.pdf), [editable results summary](../../project/evidence/Results_for_manuscript.md) and [experiment inventory](../../project/evidence/study_inventory.csv).
 - [Full results archive](https://github.com/smfatima3/workIN/releases/download/robot-memory-safety-2026-11-27/Robot_Memory_Safety_All_Results.zip), including the intact final study archive, historical results, source decisions, protocols, incomplete historical attempts and simulation videos. The ZIP includes a SHA-256 inventory.
 - [Standalone Colab notebook](https://github.com/smfatima3/workIN/releases/download/robot-memory-safety-2026-11-27/RSS_Robot_Memory_Review.ipynb) and [release checksums](https://github.com/smfatima3/workIN/releases/download/robot-memory-safety-2026-11-27/SHA256SUMS.txt).
