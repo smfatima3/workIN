@@ -2,7 +2,7 @@
 *.css text eol=lf
 *.js text eol=lf
 *.vtt text eol=lf
-media/manifest.json text eol=lf
+media/*.json text eol=lf
 assets/InstrumentSans-OFL.txt -text whitespace=-trailing-space
 evidence/** -text whitespace=cr-at-eol
 *.pdf binary
