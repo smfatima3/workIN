@@ -2,6 +2,8 @@
 
 **27 November 2026 · The E0–E7 simulation study is complete.** Qwen3-14B spilled in 34/48 glass scenes with stale memory and 9/48 after correction. On the conveyor it dropped 22/64 parcels with stale memory and 0/64 after correction. The same planner overloaded moving trays more often after correction. All 192 conveyor model–layout runs completed. [Project page and videos](https://smfatima3.github.io/workIN/) · [Study findings](results/rss-2027/README.md) · [All results, reports and raw evidence](https://github.com/smfatima3/workIN/releases/tag/robot-memory-safety-2026-11-27).
 
+The project page includes five [native MuJoCo 3D replays](https://smfatima3.github.io/workIN/?replay=conveyor-14&view=3d#replays). The conveyor uses a fixed weld for grasping. The tray and liquid tasks use their original 2D and analytical representations. [Simulator methods and scope](project/evidence/Simulation_scope.md).
+
 **5 November 2026 · F1–F6 and the Phi-4 warehouse replication are complete.** The two main cohorts completed 1,839/1,840 planned continuations. One Qwen response reached the output limit. The [final report](results/Final_Experiment_Report.md) includes paired comparisons, recovery costs, the MAPLE-Guard baseline, replays and verified evidence.
 
 **Historical E1 result · 4 November 2026.** Qwen3-8B on

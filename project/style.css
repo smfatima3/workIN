@@ -623,3 +623,33 @@ footer {
     gap: .6rem;
   }
 }
+
+.view-choice {
+  border: 0;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1rem;
+}
+.view-choice legend {
+  font-size: .9rem;
+  font-weight: 650;
+  padding: 0 0 .28rem;
+}
+.playlist .view-choice label {
+  font-weight: 500;
+  font-size: .96rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+}
+.view-choice input {
+  accent-color: var(--teal);
+  margin: 0;
+}
+.playlist .geometry-note {
+  font-size: .93rem;
+  line-height: 1.45;
+  margin-top: .8rem;
+}
